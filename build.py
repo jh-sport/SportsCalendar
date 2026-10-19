@@ -59,11 +59,13 @@ for i, e in enumerate(data['events']):
     if e.get('st') == 'p': desc.append('Provisional')
     if e.get('st') == 'r': desc.append('Rights TBC')
     if e.get('note'): desc.append(e['note'])
+    desc.append('From World Sports Calendar')
     uid = re.sub(r'[^a-z0-9]+', '-', (e['d'] + '-' + e['t']).lower()).strip('-')
     L += ['BEGIN:VEVENT', f'UID:{uid}@sports-planning-diary', f'DTSTAMP:{stamp}',
           f"DTSTART;VALUE=DATE:{s:%Y%m%d}", f"DTEND;VALUE=DATE:{en:%Y%m%d}",
           fold('SUMMARY:' + esc(('★ ' if e.get('k') else '') + ('[BBC] ' if live else '') + (e['time'] + ' ' if e.get('time') else '') + e['t'])),
-          fold('DESCRIPTION:' + esc('\n'.join(desc))), 'TRANSP:TRANSPARENT']
+          fold('DESCRIPTION:' + esc('\n'.join(desc))), 'CATEGORIES:World Sports Calendar', 'TRANSP:TRANSPARENT',
+          'X-MICROSOFT-CDO-BUSYSTATUS:FREE', 'X-MICROSOFT-CDO-ALLDAYEVENT:TRUE']
     if e.get('loc'): L.append(fold('LOCATION:' + esc(e['loc'])))
     L.append('END:VEVENT')
 L.append('END:VCALENDAR')

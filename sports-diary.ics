@@ -9,237 +9,313 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:2026-10-23-bundesliga-stuttgart-v-borussia-m-nchengladbach@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:[BBC] 19:30 Bundesliga: Stuttgart v Borussia Mönchengladbach
 DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK\nBBC's Friday-
- night Bundesliga game\, live on iPlayer and the BBC Sport website.
+ night Bundesliga game\, live on iPlayer and the BBC Sport website.\nFrom 
+ World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-wsl-tottenham-v-arsenal@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:[BBC] 12:45 WSL: Tottenham v Arsenal
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 12:45 UK\nNort
- h London derby\, live on BBC One.
+ h London derby\, live on BBC One.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01-wsl-charlton-v-chelsea@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:[BBC] 14:30 WSL: Charlton v Chelsea
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 14:30 UK\nLive
-  on BBC Two.
+  on BBC Two.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07-fa-cup-first-round@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:[BBC] FA Cup first round
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nTies spread
   across the weekend. BBC picks live games each round\; 5 Live commentary.
+ \nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-05-fa-cup-second-round@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:[BBC] FA Cup second round
-DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nFrom World 
+ Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-06-euro-2028-qualifying-draw@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Euro 2028 qualifying draw
 DESCRIPTION:Football\nBBC: Online\nSets the 2027 qualifying groups for Sco
- tland\, Wales\, Northern Ireland and England.
+ tland\, Wales\, Northern Ireland and England.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Belfast
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-09-fa-cup-third-round@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270111
 SUMMARY:★ [BBC] FA Cup third round
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nPremier Lea
- gue and Championship clubs enter.
+ gue and Championship clubs enter.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-13-fa-cup-fourth-round@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:[BBC] FA Cup fourth round
-DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nFrom World 
+ Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-06-fa-cup-fifth-round@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:[BBC] FA Cup fifth round
-DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nFrom World 
+ Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-25-euro-2028-qualifiers-begin@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270325
 DTEND;VALUE=DATE:20270331
 SUMMARY:★ [BBC] Euro 2028 qualifiers begin
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: ITV (
  England)\, S4C (Wales)\nProvisional\nInternational window (Premier League
   off on 27 Mar). Scotland and Northern Ireland live on BBC\; Wales on S4C
-  with BBC\; England on ITV. Exact match days follow the 6 Dec draw.
+  with BBC\; England on ITV. Exact match days follow the 6 Dec draw.\nFrom
+  World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-03-fa-cup-quarter-finals@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:[BBC] FA Cup quarter-finals
-DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nFrom World 
+ Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-24-fa-cup-semi-finals@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270426
 SUMMARY:[BBC] FA Cup semi-finals
-DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nFrom World 
+ Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Wembley
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-15-women-s-fa-cup-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:Women's FA Cup final
 DESCRIPTION:Football\nBBC: 5 Live\, Online\nAlso: Channel 4\nLive TV on Ch
- annel 4\; 5 Live commentary.
+ annel 4\; 5 Live commentary.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Wembley
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-22-fa-cup-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:★ [BBC] FA Cup final
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: TNT S
- ports
+ ports\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Wembley
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-05-champions-league-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:★ [BBC] Champions League final
 DESCRIPTION:Football\nBBC: BBC TV\, 5 Live\, Online\nAlso: TNT Sports / Pr
  ime Video\nBBC has Champions League highlights\; live rights sit elsewher
- e.
+ e.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Metropolitano\, Madrid
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-24-women-s-world-cup@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270624
 DTEND;VALUE=DATE:20270726
 SUMMARY:★ [BBC] Women's World Cup
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: ITV\n
  Rights shared equally with ITV. Opener at the Maracanã on 24 June\; semi
- -final in Rio on 21 July.
+ -final in Rio on 21 July.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Brazil
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-25-women-s-world-cup-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270725
 DTEND;VALUE=DATE:20270726
 SUMMARY:★ [BBC] Women's World Cup final
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: ITV\n
- Live on both BBC and ITV.
+ Live on both BBC and ITV.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Maracanã\, Rio
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-15-rugby-league-world-cup@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261116
 SUMMARY:Rugby League World Cup
 DESCRIPTION:Rugby league\nBBC: Online\nAlso: Premier Sports\nNo BBC TV cov
- erage this time: Premier Sports holds exclusive UK rights.
+ erage this time: Premier Sports holds exclusive UK rights.\nFrom World Sp
+ orts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Australia & PNG
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-rlwc-england-v-france@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:07:35 RLWC: England v France
 DESCRIPTION:Rugby league\nBBC: Online\nTime: 07:35 UK\nAlso: Premier Sport
- s
+ s\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07-rlwc-semi-finals@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261109
 SUMMARY:09:05 RLWC semi-finals
 DESCRIPTION:Rugby league\nBBC: Online\nTime: 09:05 UK\nAlso: Premier Sport
- s
+ s\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-rlwc-finals-men-s-women-s@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:08:35 RLWC finals (men's & women's)
 DESCRIPTION:Rugby league\nBBC: Online\nTime: 08:35 UK\nAlso: Premier Sport
  s\nWomen's final 05:15\, men's final 08:35 UK time. Wheelchair final 13 N
- ovember.
+ ovember.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Brisbane
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-10-02-super-league-grand-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271002
 DTEND;VALUE=DATE:20271003
 SUMMARY:Super League Grand Final
 DESCRIPTION:Rugby league\nBBC: Online\nRights TBC\nBBC's 2024–26 Super L
- eague deal has ended. 2027 TV rights not yet announced.
+ eague deal has ended. 2027 TV rights not yet announced.\nFrom World Sport
+ s Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Old Trafford
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06-nations-championship-november-tests@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261122
 SUMMARY:[BBC] Nations Championship: November Tests
@@ -247,1225 +323,1657 @@ DESCRIPTION:Rugby union\nBBC: iPlayer\, Online\nAlso: ITV\nLive on ITV. Wa
  les home Tests (v Japan 7 Nov\, v New Zealand 14 Nov) also listed on BBC 
  iPlayer. Other fixtures: Scotland v NZ (7 Nov)\, England v Australia (8 N
  ov)\, England v Japan (14 Nov)\, Scotland v Australia (15 Nov)\, England 
- v NZ\, Scotland v Japan & Wales v Australia (21 Nov).
+ v NZ\, Scotland v Japan & Wales v Australia (21 Nov).\nFrom World Sports 
+ Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-england-v-new-zealand@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:England v New Zealand
-DESCRIPTION:Rugby union\nBBC: Online\nAlso: ITV
+DESCRIPTION:Rugby union\nBBC: Online\nAlso: ITV\nFrom World Sports Calenda
+ r
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Twickenham
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-nations-championship-finals-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:★ Nations Championship Finals Weekend
 DESCRIPTION:Rugby union\nBBC: Online\nAlso: ITV\nSix Tests over three days
- \, including the first Nations Championship final on Sunday 29 November.
+ \, including the first Nations Championship final on Sunday 29 November.\
+ nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Twickenham
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-05-men-s-six-nations@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270314
 SUMMARY:★ [BBC] Men's Six Nations
 DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: IT
  V\nBBC shows five of the 15 matches\, all involving Scotland or Wales (in
  cluding Scotland v Wales). ITV has the other ten\, including every Englan
- d game. Every match on 5 Live.
+ d game. Every match on 5 Live.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-05-six-nations-ireland-v-england@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:20:10 Six Nations: Ireland v England
-DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 20:10 UK\nAlso: ITV
+DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 20:10 UK\nAlso: ITV\n
+ From World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Aviva Stadium
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-06-six-nations-scotland-v-italy@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:14:10 Six Nations: Scotland v Italy
 DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 14:10 UK\nProvisional
- \nScotland match\, so a likely BBC TV pick. Confirm the BBC/ITV split.
+ \nScotland match\, so a likely BBC TV pick. Confirm the BBC/ITV split.\nF
+ rom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Murrayfield
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-06-six-nations-france-v-wales@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:16:40 Six Nations: France v Wales
 DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 16:40 UK\nProvisional
- \nWales match\, so a possible BBC TV pick. Confirm the BBC/ITV split.
+ \nWales match\, so a possible BBC TV pick. Confirm the BBC/ITV split.\nFr
+ om World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Stade de France
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-13-six-nations-scotland-v-wales@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:[BBC] 16:40 Six Nations: Scotland v Wales
 DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nTime: 16
- :40 UK\nNamed in the BBC's package.
+ :40 UK\nNamed in the BBC's package.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Murrayfield
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-14-six-nations-england-v-france@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:15:10 Six Nations: England v France
-DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 15:10 UK\nAlso: ITV
+DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 15:10 UK\nAlso: ITV\n
+ From World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Allianz Stadium
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-20-six-nations-wales-v-ireland@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:14:10 Six Nations: Wales v Ireland
 DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 14:10 UK\nProvisional
- \nWales match\, so a likely BBC TV pick. Confirm the BBC/ITV split.
+ \nWales match\, so a likely BBC TV pick. Confirm the BBC/ITV split.\nFrom
+  World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Principality Stadium
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-21-six-nations-france-v-scotland@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:15:10 Six Nations: France v Scotland
 DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 15:10 UK\nProvisional
- \nScotland match\, so a possible BBC TV pick. Confirm the BBC/ITV split.
+ \nScotland match\, so a possible BBC TV pick. Confirm the BBC/ITV split.\
+ nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Stade de France
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-05-six-nations-scotland-v-ireland@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:20:10 Six Nations: Scotland v Ireland
 DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 20:10 UK\nProvisional
- \nFriday night. Scotland match\, so a possible BBC TV pick.
+ \nFriday night. Scotland match\, so a possible BBC TV pick.\nFrom World S
+ ports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Murrayfield
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-13-six-nations-super-saturday@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:★ [BBC] Six Nations Super Saturday
 DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: IT
  V\nThree matches including England v Scotland (Calcutta Cup) and Ireland 
- v France.
+ v France.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-10-women-s-six-nations@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270516
 SUMMARY:★ [BBC] Women's Six Nations
 DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: S4
  C (Wales)\nEvery match on the BBC in the UK. All five rounds are Saturday
-  triple-headers.
+  triple-headers.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-10-w6n-wales-v-england@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:[BBC] 14:45 W6N: Wales v England
-DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 14:45 UK
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 14:45 UK\nF
+ rom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-17-w6n-england-v-scotland@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:[BBC] 16:45 W6N: England v Scotland
-DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 16:45 UK
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 16:45 UK\nF
+ rom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-24-w6n-england-v-italy@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:[BBC] 17:00 W6N: England v Italy
-DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 17:00 UK
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 17:00 UK\nF
+ rom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-08-w6n-ireland-v-england@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:[BBC] 14:45 W6N: Ireland v England
-DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 14:45 UK
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 14:45 UK\nF
+ rom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Aviva Stadium
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-15-w6n-england-v-france@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:★ [BBC] 16:45 W6N: England v France
 DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 16:45 UK\nF
- inal-round match between the two strongest sides.
+ inal-round match between the two strongest sides.\nFrom World Sports Cale
+ ndar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-10-01-men-s-rugby-world-cup@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271001
 DTEND;VALUE=DATE:20271114
 SUMMARY:★ Men's Rugby World Cup
 DESCRIPTION:Rugby union\nBBC: Online\nAlso: ITV\nLive on ITV. BBC radio ri
  ghts for 2027 not yet confirmed. Pool stage ends with five games on 17 Oc
- t\; quarter-finals 30–31 Oct.
+ t\; quarter-finals 30–31 Oct.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-11-13-rugby-world-cup-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271113
 DTEND;VALUE=DATE:20271114
 SUMMARY:★ Rugby World Cup final
-DESCRIPTION:Rugby union\nBBC: Online\nAlso: ITV
+DESCRIPTION:Rugby union\nBBC: Online\nAlso: ITV\nFrom World Sports Calenda
+ r
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Stadium Australia\, Sydney
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-15-england-v-pakistan-odis@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270527
 SUMMARY:[BBC] England v Pakistan ODIs
 DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nFive
-  ODIs. BBC TV highlights\; Test Match Special live.
+  ODIs. BBC TV highlights\; Test Match Special live.\nFrom World Sports Ca
+ lendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-09-world-test-championship-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270609
 DTEND;VALUE=DATE:20270614
 SUMMARY:World Test Championship final
-DESCRIPTION:Cricket\nBBC: Online\nAlso: Sky Sports
+DESCRIPTION:Cricket\nBBC: Online\nAlso: Sky Sports\nFrom World Sports Cale
+ ndar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:The Oval
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-18-men-s-ashes-1st-test@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270623
 SUMMARY:★ [BBC] Men's Ashes: 1st Test
 DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nFive
  -Test series: Trent Bridge\, Lord's\, Edgbaston\, Rose Bowl\, The Oval. B
- BC daily TV highlights\; TMS live.
+ BC daily TV highlights\; TMS live.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Trent Bridge
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-24-women-s-ashes-test@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270624
 DTEND;VALUE=DATE:20270628
 SUMMARY:[BBC] Women's Ashes Test
-DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports
+DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nFrom
+  World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Headingley
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-03-women-s-ashes-white-ball-series@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270721
 SUMMARY:[BBC] Women's Ashes white-ball series
 DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nT20I
- s on 3\, 6\, 9 July\; ODIs on 13\, 16\, 20 July.
+ s on 3\, 6\, 9 July\; ODIs on 13\, 16\, 20 July.\nFrom World Sports Calen
+ dar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-08-men-s-ashes-3rd-test@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270708
 DTEND;VALUE=DATE:20270713
 SUMMARY:[BBC] Men's Ashes: 3rd Test
-DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports
+DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nFrom
+  World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Edgbaston
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-29-men-s-ashes-5th-test@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270729
 DTEND;VALUE=DATE:20270803
 SUMMARY:[BBC] Men's Ashes: 5th Test
 DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nProv
- isional\nSeries ends 2 August\; start date estimated.
+ isional\nSeries ends 2 August\; start date estimated.\nFrom World Sports 
+ Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:The Oval
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-09-07-england-v-new-zealand-white-ball-series@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270907
 DTEND;VALUE=DATE:20270926
 SUMMARY:[BBC] England v New Zealand white-ball series
 DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nThre
- e T20Is then five ODIs\, ending at Headingley on 25 Sept.
+ e T20Is then five ODIs\, ending at Headingley on 25 Sept.\nFrom World Spo
+ rts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-10-02-men-s-cricket-world-cup@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271002
 DTEND;VALUE=DATE:20271122
 SUMMARY:★ Men's Cricket World Cup
 DESCRIPTION:Cricket\nBBC: 5 Live\, Online\nAlso: Sky Sports\nTest Match Sp
- ecial commentary (BBC radio rights run to 2027).
+ ecial commentary (BBC radio rights run to 2027).\nFrom World Sports Calen
+ dar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:South Africa\, Zimbabwe\, Namibia
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-10-16-cwc-south-africa-v-england@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271016
 DTEND;VALUE=DATE:20271017
 SUMMARY:CWC: South Africa v England
-DESCRIPTION:Cricket\nBBC: 5 Live\, Online\nAlso: Sky Sports
+DESCRIPTION:Cricket\nBBC: 5 Live\, Online\nAlso: Sky Sports\nFrom World Sp
+ orts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Gqeberha
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-17-australian-open@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270201
 SUMMARY:Australian Open
 DESCRIPTION:Tennis\nBBC: 5 Live\, Online\nAlso: TNT Sports\nProvisional\nD
- ates estimated. 5 Live commentary.
+ ates estimated. 5 Live commentary.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Melbourne
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-23-french-open@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270607
 SUMMARY:French Open
 DESCRIPTION:Tennis\nBBC: 5 Live\, Online\nAlso: TNT Sports\nProvisional\nD
- ates estimated.
+ ates estimated.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Paris
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-07-nottingham-open@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270607
 DTEND;VALUE=DATE:20270614
 SUMMARY:[BBC] Nottingham Open
 DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nProvision
- al\nDates estimated. BBC deal runs to 2027.
+ al\nDates estimated. BBC deal runs to 2027.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-14-queen-s-club-championships@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270614
 DTEND;VALUE=DATE:20270621
 SUMMARY:[BBC] Queen's Club Championships
 DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, Red Button\, 5 Live\, Online\n
- Provisional\nDates estimated. BBC deal runs to 2027.
+ Provisional\nDates estimated. BBC deal runs to 2027.\nFrom World Sports C
+ alendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:London
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-20-eastbourne-international@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270620
 DTEND;VALUE=DATE:20270627
 SUMMARY:[BBC] Eastbourne International
 DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nProvision
- al\nDates estimated. BBC deal runs to 2027.
+ al\nDates estimated. BBC deal runs to 2027.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-28-wimbledon@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270712
 SUMMARY:★ [BBC] Wimbledon
 DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, Red Button\, 5 Live\, Online\n
- 150 years since the first Championships (1877). BBC rights run to 2033.
+ 150 years since the first Championships (1877). BBC rights run to 2033.\n
+ From World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-10-wimbledon-ladies-singles-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270711
 SUMMARY:★ [BBC] Wimbledon: ladies' singles final
-DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nFrom World Sp
+ orts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-11-wimbledon-gentlemen-s-singles-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270711
 DTEND;VALUE=DATE:20270712
 SUMMARY:★ [BBC] Wimbledon: gentlemen's singles final
-DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nFrom World Sp
+ orts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-08-30-us-open@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270830
 DTEND;VALUE=DATE:20270913
 SUMMARY:US Open
 DESCRIPTION:Tennis\nBBC: 5 Live\, Online\nAlso: Sky Sports\nProvisional\nD
- ates estimated.
+ ates estimated.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:New York
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-08-the-masters@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270412
 SUMMARY:The Masters
-DESCRIPTION:Golf\nBBC: 5 Live\, Online\nAlso: Sky Sports
+DESCRIPTION:Golf\nBBC: 5 Live\, Online\nAlso: Sky Sports\nFrom World Sport
+ s Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Augusta
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-20-pga-championship@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270520
 DTEND;VALUE=DATE:20270524
 SUMMARY:PGA Championship
-DESCRIPTION:Golf\nBBC: 5 Live\, Online\nAlso: Sky Sports
+DESCRIPTION:Golf\nBBC: 5 Live\, Online\nAlso: Sky Sports\nFrom World Sport
+ s Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:PGA Frisco\, Texas
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-17-us-open-golf@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270617
 DTEND;VALUE=DATE:20270621
 SUMMARY:US Open (golf)
-DESCRIPTION:Golf\nBBC: 5 Live\, Online\nAlso: Sky Sports
+DESCRIPTION:Golf\nBBC: 5 Live\, Online\nAlso: Sky Sports\nFrom World Sport
+ s Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Pebble Beach
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-15-the-open@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270715
 DTEND;VALUE=DATE:20270719
 SUMMARY:★ [BBC] The Open
 DESCRIPTION:Golf\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky Sport
- s\nBBC daily highlights (deal runs to 2027) and 5 Live commentary.
+ s\nBBC daily highlights (deal runs to 2027) and 5 Live commentary.\nFrom 
+ World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:St Andrews
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-09-17-ryder-cup@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270917
 DTEND;VALUE=DATE:20270920
 SUMMARY:★ [BBC] Ryder Cup
 DESCRIPTION:Golf\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nBBC hig
- hlights and 5 Live commentary.
+ hlights and 5 Live commentary.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Adare Manor\, Ireland
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-09-23-bmw-pga-championship@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270923
 DTEND;VALUE=DATE:20270927
 SUMMARY:[BBC] BMW PGA Championship
-DESCRIPTION:Golf\nBBC: BBC TV\, Online\nAlso: Sky Sports\nBBC highlights.
+DESCRIPTION:Golf\nBBC: BBC TV\, Online\nAlso: Sky Sports\nBBC highlights.\
+ nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Wentworth
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-united-states-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261026
 SUMMARY:United States GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Austin
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-30-mexico-city-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261102
 SUMMARY:Mexico City GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06-s-o-paulo-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261109
 SUMMARY:São Paulo GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19-las-vegas-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261122
 SUMMARY:Las Vegas GP
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSaturday
- -night race (early Sunday UK time).
+ -night race (early Sunday UK time).\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-qatar-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261130
 SUMMARY:Qatar GP
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nF1 has c
- ontingency plans for the Gulf races because of the regional conflict.
+ ontingency plans for the Gulf races because of the regional conflict.\nFr
+ om World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04-abu-dhabi-gp-season-finale@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261207
 SUMMARY:★ Abu Dhabi GP (season finale)
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nF1 has c
- ontingency plans for the Gulf races because of the regional conflict.
+ ontingency plans for the Gulf races because of the regional conflict.\nFr
+ om World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-12-bahrain-gp-season-opener@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270315
 SUMMARY:★ Bahrain GP (season opener)
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
- eekend. Testing in Bahrain 24–27 Feb.
+ eekend. Testing in Bahrain 24–27 Feb.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-19-saudi-arabian-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270319
 DTEND;VALUE=DATE:20270322
 SUMMARY:Saudi Arabian GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-02-australian-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270405
 SUMMARY:Australian GP
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
- eekend.
+ eekend.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-09-japanese-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270409
 DTEND;VALUE=DATE:20270412
 SUMMARY:Japanese GP
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
- eekend.
+ eekend.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-16-chinese-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270419
 SUMMARY:Chinese GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-30-miami-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270503
 SUMMARY:Miami GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-21-canadian-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270524
 SUMMARY:Canadian GP
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
- eekend.
+ eekend.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-04-monaco-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270604
 DTEND;VALUE=DATE:20270607
 SUMMARY:Monaco GP
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
- eekend.
+ eekend.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-18-portuguese-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270618
 DTEND;VALUE=DATE:20270621
 SUMMARY:Portuguese GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Portimão
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-02-british-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270702
 DTEND;VALUE=DATE:20270705
 SUMMARY:★ British GP
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
- eekend. 5 Live commentary.
+ eekend. 5 Live commentary.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Silverstone
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-09-austrian-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270712
 SUMMARY:Austrian GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-23-belgian-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270723
 DTEND;VALUE=DATE:20270726
 SUMMARY:Belgian GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-30-hungarian-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270802
 SUMMARY:Hungarian GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-09-03-italian-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270903
 DTEND;VALUE=DATE:20270906
 SUMMARY:Italian GP
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
- eekend.
+ eekend.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Monza
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-09-10-spanish-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20270913
 SUMMARY:Spanish GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Madrid
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-09-24-azerbaijan-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270924
 DTEND;VALUE=DATE:20270927
 SUMMARY:Azerbaijan GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-10-01-turkish-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271001
 DTEND;VALUE=DATE:20271004
 SUMMARY:Turkish GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-10-08-singapore-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271008
 DTEND;VALUE=DATE:20271011
 SUMMARY:Singapore GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-10-22-united-states-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271022
 DTEND;VALUE=DATE:20271025
 SUMMARY:United States GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Austin
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-10-29-mexico-city-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271029
 DTEND;VALUE=DATE:20271101
 SUMMARY:Mexico City GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-11-05-s-o-paulo-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271105
 DTEND;VALUE=DATE:20271108
 SUMMARY:São Paulo GP
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
- eekend.
+ eekend.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-11-18-las-vegas-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271118
 DTEND;VALUE=DATE:20271121
 SUMMARY:Las Vegas GP
-DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nFrom Wor
+ ld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-12-03-qatar-gp@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271203
 DTEND;VALUE=DATE:20271206
 SUMMARY:Qatar GP
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
- eekend.
+ eekend.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-12-10-abu-dhabi-gp-season-finale@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20271210
 DTEND;VALUE=DATE:20271213
 SUMMARY:★ Abu Dhabi GP (season finale)
 DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
- eekend.
+ eekend.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01-new-york-city-marathon@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:[BBC] New York City Marathon
-DESCRIPTION:Athletics\nBBC: Red Button\, Online\nAlso: TNT Sports
+DESCRIPTION:Athletics\nBBC: Red Button\, Online\nAlso: TNT Sports\nFrom Wo
+ rld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-04-european-athletics-indoor-championships@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270308
 SUMMARY:[BBC] European Athletics Indoor Championships
 DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, 5 Live\, Onlin
- e\nBBC deal runs to 2027.
+ e\nBBC deal runs to 2027.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Valencia
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-24-london-marathon-two-day-double@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270426
 SUMMARY:★ [BBC] London Marathon (two-day 'Double')
 DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nOne-off tw
- o-day event with 100\,000 runners.
+ o-day event with 100\,000 runners.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:London
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-09-10-world-athletics-championships@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270910
 DTEND;VALUE=DATE:20270920
 SUMMARY:★ [BBC] World Athletics Championships
 DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, 5 Live\, Onlin
- e\nMorning UK time sessions likely\; Beijing is 7 hours ahead.
+ e\nMorning UK time sessions likely\; Beijing is 7 hours ahead.\nFrom Worl
+ d Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Beijing
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-uk-championship@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261207
 SUMMARY:★ [BBC] UK Championship
 DESCRIPTION:Snooker\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nAlso: TN
- T Sports
+ T Sports\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:York Barbican
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-10-the-masters@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270118
 SUMMARY:★ [BBC] The Masters
 DESCRIPTION:Snooker\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nAlso: TN
- T Sports
+ T Sports\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Alexandra Palace
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-17-world-snooker-championship@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270504
 SUMMARY:★ [BBC] World Snooker Championship
 DESCRIPTION:Snooker\nBBC: BBC TV\, iPlayer\, Red Button\, 5 Live\, Online\
- nAlso: TNT Sports
+ nAlso: TNT Sports\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Crucible\, Sheffield
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-11-pdc-world-darts-championship@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20270104
 SUMMARY:PDC World Darts Championship
 DESCRIPTION:Darts\nBBC: Online\nAlso: Sky Sports\nLive on Sky\; reports on
-  5 Live.
+  5 Live.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Alexandra Palace
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-16-cheltenham-festival@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270320
 SUMMARY:Cheltenham Festival
 DESCRIPTION:Horse racing\nBBC: 5 Live\, Online\nAlso: ITV\n5 Live commenta
- ry. ITV's racing deal runs to 2030.
+ ry. ITV's racing deal runs to 2030.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-10-grand-national@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:★ 16:00 Grand National
 DESCRIPTION:Horse racing\nBBC: 5 Live\, Online\nTime: 16:00 UK\nAlso: ITV\
- nFestival 8–10 April. 5 Live commentary.
+ nFestival 8–10 April. 5 Live commentary.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Aintree
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-05-the-derby@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
 SUMMARY:The Derby
-DESCRIPTION:Horse racing\nBBC: 5 Live\, Online\nAlso: ITV
+DESCRIPTION:Horse racing\nBBC: 5 Live\, Online\nAlso: ITV\nFrom World Spor
+ ts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Epsom
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-26-world-aquatics-championships@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270719
 SUMMARY:[BBC] World Aquatics Championships
 DESCRIPTION:Swimming\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nPool sw
- imming 10–18 July\; diving 26 June–4 July.
+ imming 10–18 July\; diving 26 June–4 July.\nFrom World Sports Calenda
+ r
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Budapest
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-02-tour-de-france-grand-d-part@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270702
 DTEND;VALUE=DATE:20270705
 SUMMARY:★ Tour de France Grand Départ
 DESCRIPTION:Cycling\nBBC: Online\nAlso: Channel 5 (free-to-air) / TNT Spor
  ts\nEdinburgh–Carlisle\, Keswick–Liverpool\, Welshpool–Cardiff. Not
-  on the BBC.
+  on the BBC.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Edinburgh to Cardiff
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-30-tour-de-france-femmes-grand-d-part@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270802
 SUMMARY:Tour de France Femmes Grand Départ
-DESCRIPTION:Cycling\nBBC: Online\nAlso: Channel 5 / TNT Sports
+DESCRIPTION:Cycling\nBBC: Online\nAlso: Channel 5 / TNT Sports\nFrom World
+  Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Leeds\, Manchester\, London
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-10-invictus-games@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270718
 SUMMARY:[BBC] Invictus Games
 DESCRIPTION:Multi-sport\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nBBC 
- has covered recent Games\; 2027 plans not yet confirmed.
+ has covered recent Games\; 2027 plans not yet confirmed.\nFrom World Spor
+ ts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:NEC Birmingham
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-14-super-bowl-lxi@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:Super Bowl LXI
 DESCRIPTION:American football\nBBC: Online\nAlso: Channel 5 / Sky Sports\n
  Kick-off around 23:30 UK on Sunday 14 Feb. Live on Channel 5 and Sky\; no
-  BBC TV coverage.
+  BBC TV coverage.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:SoFi Stadium
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-08-27-fiba-basketball-world-cup@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270827
 DTEND;VALUE=DATE:20270913
 SUMMARY:FIBA Basketball World Cup
-DESCRIPTION:Basketball\nBBC: Online\nAlso: DAZN
+DESCRIPTION:Basketball\nBBC: Online\nAlso: DAZN\nFrom World Sports Calenda
+ r
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Qatar
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-17-world-gymnastics-championships@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261026
 SUMMARY:★ [BBC] World Gymnastics Championships
 DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nArtistic worlds. E
- very final live on BBC Two and iPlayer\, 20–25 Oct.
+ very final live on BBC Two and iPlayer\, 20–25 Oct.\nFrom World Sports 
+ Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Rotterdam
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-20-gymnastics-worlds-men-s-team-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:[BBC] 19:00 Gymnastics Worlds: men's team final
 DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:00 UK\nBB
- C Two.
+ C Two.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-21-gymnastics-worlds-women-s-team-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:[BBC] 19:00 Gymnastics Worlds: women's team final
 DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:00 UK\nBB
- C Two.
+ C Two.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-22-gymnastics-worlds-men-s-all-around-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:[BBC] 19:00 Gymnastics Worlds: men's all-around final
 DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:00 UK\nBB
- C Two.
+ C Two.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-gymnastics-worlds-women-s-all-around-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:[BBC] 20:00 Gymnastics Worlds: women's all-around final
 DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nTime: 20:00 UK\nBB
- C Two.
+ C Two.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-gymnastics-worlds-apparatus-finals@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261026
 SUMMARY:[BBC] 19:00 Gymnastics Worlds: apparatus finals
 DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:00 UK\nBB
- C Two\, both evenings.
+ C Two\, both evenings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-09-29-world-gymnastics-championships-2027@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270929
 DTEND;VALUE=DATE:20271009
 SUMMARY:World Gymnastics Championships 2027
 DESCRIPTION:Gymnastics\nBBC: Online\nProvisional\nBBC showed the 2026 worl
  ds live\; 2027 coverage not yet announced. Dates from listings\, confirm 
- with FIG.
+ with FIG.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Chengdu
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-19-serie-a-parma-v-torino@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:[BBC] 19:45 Serie A: Parma v Torino
 DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:45 UK\nBBC Alba and 
- iPlayer.
+ iPlayer.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-27-serie-a-torino-v-como@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:[BBC] 19:45 Serie A: Torino v Como
 DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:45 UK\nBBC Alba and 
- iPlayer.
+ iPlayer.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-wxv-australia-v-scotland-women@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:[BBC] 09:45 WXV: Australia v Scotland Women
-DESCRIPTION:Rugby union\nBBC: iPlayer\, Online\nTime: 09:45 UK
+DESCRIPTION:Rugby union\nBBC: iPlayer\, Online\nTime: 09:45 UK\nFrom World
+  Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-wxv-canada-v-england-women@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:[BBC] 00:00 WXV: Canada v England Women
 DESCRIPTION:Rugby union\nBBC: iPlayer\, Online\nTime: 00:00 UK\nMidnight U
- K time (late Friday night).
+ K time (late Friday night).\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-30-wxv-usa-v-england-women@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:[BBC] 21:15 WXV: USA v England Women
-DESCRIPTION:Rugby union\nBBC: iPlayer\, Online\nTime: 21:15 UK
+DESCRIPTION:Rugby union\nBBC: iPlayer\, Online\nTime: 21:15 UK\nFrom World
+  Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-29-women-s-champions-league-man-city-v-psg@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:[BBC] 20:00 Women's Champions League: Man City v PSG
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 20:00 UK\nLeag
- ue phase\, BBC Two.
+ ue phase\, BBC Two.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-30-bundesliga-elversberg-v-mainz@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:[BBC] 19:30 Bundesliga: Elversberg v Mainz
-DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK\nFrom World Sp
+ orts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06-bundesliga-hamburg-v-borussia-m-nchengladbach@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:[BBC] 19:30 Bundesliga: Hamburg v Borussia Mönchengladbach
-DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK\nFrom World Sp
+ orts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08-wsl-london-city-lionesses-v-birmingham@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:[BBC] 14:30 WSL: London City Lionesses v Birmingham
-DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 14:30 UK
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 14:30 UK\nFrom World Sp
+ orts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14-wsl-chelsea-v-manchester-city@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:[BBC] 13:30 WSL: Chelsea v Manchester City
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 13:30 UK\nBBC 
- One.
+ One.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13-nations-league-scotland-v-north-macedonia@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:[BBC] 19:45 Nations League: Scotland v North Macedonia
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nTime: 19:45
-  UK\nBBC channel to be confirmed\; on iPlayer.
+  UK\nBBC channel to be confirmed\; on iPlayer.\nFrom World Sports Calenda
+ r
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14-nations-league-norway-v-wales@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:[BBC] 17:00 Nations League: Norway v Wales
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 17:00 UK\nAlso
- : S4C\nBBC channel to be confirmed\; on iPlayer.
+ : S4C\nBBC channel to be confirmed\; on iPlayer.\nFrom World Sports Calen
+ dar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-14-nations-league-northern-ireland-v-ukraine@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:[BBC] 19:45 Nations League: Northern Ireland v Ukraine
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:45 UK\nBBC 
- channel to be confirmed\; on iPlayer.
+ channel to be confirmed\; on iPlayer.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16-nations-league-switzerland-v-scotland@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:[BBC] 19:45 Nations League: Switzerland v Scotland
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nTime: 19:45
-  UK\nBBC channel to be confirmed\; on iPlayer.
+  UK\nBBC channel to be confirmed\; on iPlayer.\nFrom World Sports Calenda
+ r
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17-nations-league-wales-v-portugal@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:[BBC] 19:45 Nations League: Wales v Portugal
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:45 UK\nAlso
- : S4C\nBBC channel to be confirmed\; on iPlayer.
+ : S4C\nBBC channel to be confirmed\; on iPlayer.\nFrom World Sports Calen
+ dar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17-nations-league-hungary-v-northern-ireland@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:[BBC] 19:45 Nations League: Hungary v Northern Ireland
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:45 UK\nProv
- isional\nBBC holds Northern Ireland rights\; listing not yet confirmed.
+ isional\nBBC holds Northern Ireland rights\; listing not yet confirmed.\n
+ From World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-05-badminton-horse-trials@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270505
 DTEND;VALUE=DATE:20270510
 SUMMARY:[BBC] Badminton Horse Trials
 DESCRIPTION:Equestrian\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nDates
-  from listings\; confirm with organisers.
+  from listings\; confirm with organisers.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-28-eurohockey-championships@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270728
 DTEND;VALUE=DATE:20270809
 SUMMARY:EuroHockey Championships
 DESCRIPTION:Hockey\nBBC: Online\nRights TBC\nMen's and women's Euros on ho
  me soil. BBC has shown EuroHockey before\; 2027 broadcaster not yet named
- .
+ .\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Lee Valley & Twickenham Stoop\, London
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-08-25-netball-world-cup@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270906
 SUMMARY:★ Netball World Cup
 DESCRIPTION:Netball\nBBC: Online\nRights TBC\nUK broadcaster not yet annou
- nced (2023 was shared by Sky and the BBC).
+ nced (2023 was shared by Sky and the BBC).\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Sydney
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-08-25-uci-road-world-championships@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270906
 SUMMARY:[BBC] UCI Road World Championships
 DESCRIPTION:Cycling\nBBC: BBC TV\, iPlayer\, Online\nAlso: TNT Sports\nPro
  visional\nMen's road race 29 Aug\, time trials 1 Sep\, women's road race 
- 5 Sep. BBC has shown the Worlds\; 2027 plans TBC.
+ 5 Sep. BBC has shown the Worlds\; 2027 plans TBC.\nFrom World Sports Cale
+ ndar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Haute-Savoie\, France
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-20-champions-league-md3-man-city-v-aek-athens-liverpool-v-villarreal@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:20:00 Champions League MD3: Man City v AEK Athens\, Liverpool v Vi
@@ -1474,12 +1982,16 @@ DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
  ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
  eeds the BBC One highlights show. Also tonight: Stuttgart v Atlético\, P
  SG v Barcelona\, Napoli v Bodø/Glimt\, Porto v PSV\, Roma v Slovan Brati
- slava (8pm)\; Sabah v Dortmund\, Fenerbahçe v Slavia Praha (5.45pm).
+ slava (8pm)\; Sabah v Dortmund\, Fenerbahçe v Slavia Praha (5.45pm).\nFr
+ om World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-21-champions-league-md3-bayern-v-arsenal-aston-villa-v-viking-como-v-man-utd-5-45pm@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:20:00 Champions League MD3: Bayern v Arsenal\, Aston Villa v Vikin
@@ -1488,23 +2000,29 @@ DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
  ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
  eeds the BBC One highlights show. Also tonight: Club Brugge v Lens\, Real
   Madrid v Leipzig\, Real Betis v Feyenoord\, Sporting v LASK\, Inter v Sh
- akhtar (8pm)\; Lille v Galatasaray (5.45pm).
+ akhtar (8pm)\; Lille v Galatasaray (5.45pm).\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-21-motd-champions-league-highlights@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
  One and iPlayer\, matchday 3. Covers every game from the round\, so all f
- ixtures need ingesting.
+ ixtures need ingesting.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03-champions-league-md4-barcelona-v-aston-villa-man-utd-v-roma@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:20:00 Champions League MD4: Barcelona v Aston Villa\, Man Utd v Ro
@@ -1514,11 +2032,15 @@ DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
  eeds the BBC One highlights show. Also tonight: Atlético v Bayern\, Bod
  ø/Glimt v Lille\, Feyenoord v Inter\, LASK v Slovan Bratislava\, Villarr
  eal v PSG (8pm)\; Galatasaray v Stuttgart\, Shakhtar v Sporting (5.45pm).
+ \nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-04-champions-league-md4-slavia-praha-v-arsenal-leipzig-v-man-city-fenerbah-e-v-liverpool-5-45pm@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:20:00 Champions League MD4: Slavia Praha v Arsenal\, Leipzig v Man
@@ -1527,23 +2049,29 @@ DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
  ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
  eeds the BBC One highlights show. Also tonight: Dortmund v Betis\, PSV v 
  Club Brugge\, Lens v Como\, Porto v Napoli\, Viking v Sabah (8pm)\; AEK v
-  Real Madrid (5.45pm).
+  Real Madrid (5.45pm).\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-04-motd-champions-league-highlights@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
  One and iPlayer\, matchday 4. Covers every game from the round\, so all f
- ixtures need ingesting.
+ ixtures need ingesting.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-24-champions-league-md5-arsenal-v-dortmund-man-city-v-napoli-galatasaray-v-aston-villa-5-45pm@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:20:00 Champions League MD5: Arsenal v Dortmund\, Man City v Napoli
@@ -1552,12 +2080,15 @@ DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
  ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
  eeds the BBC One highlights show. Also tonight: Como v AEK\, Feyenoord v 
  Porto\, Leipzig v Lens\, Real Madrid v PSV\, Slovan Bratislava v Betis (8
- pm)\; Bodø/Glimt v LASK (5.45pm).
+ pm)\; Bodø/Glimt v LASK (5.45pm).\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-champions-league-md5-club-brugge-v-liverpool-sporting-v-man-utd@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:20:00 Champions League MD5: Club Brugge v Liverpool\, Sporting v M
@@ -1566,23 +2097,30 @@ DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
  ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
  eeds the BBC One highlights show. Also tonight: Atlético v Viking\, Lill
  e v Bayern\, Inter v Stuttgart\, Shakhtar v Fenerbahçe\, PSG v Roma (8pm
- )\; Sabah v Barcelona\, Slavia Praha v Villarreal (5.45pm).
+ )\; Sabah v Barcelona\, Slavia Praha v Villarreal (5.45pm).\nFrom World S
+ ports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25-motd-champions-league-highlights@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
  One and iPlayer\, matchday 5. Covers every game from the round\, so all f
- ixtures need ingesting.
+ ixtures need ingesting.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08-champions-league-md6-aston-villa-v-psg-barcelona-v-man-city-man-utd-v-leipzig@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:20:00 Champions League MD6: Aston Villa v PSG\, Barcelona v Man Ci
@@ -1591,12 +2129,15 @@ DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
  ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
  eeds the BBC One highlights show. Also tonight: AEK v Galatasaray\, Bayer
  n v Slavia Praha\, Napoli v Club Brugge\, Roma v Sporting (8pm)\; Villarr
- eal v Sabah\, Viking v Feyenoord (5.45pm).
+ eal v Sabah\, Viking v Feyenoord (5.45pm).\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09-champions-league-md6-arsenal-v-real-madrid-liverpool-v-porto@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:20:00 Champions League MD6: Arsenal v Real Madrid\, Liverpool v Po
@@ -1605,23 +2146,30 @@ DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
  ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
  eeds the BBC One highlights show. Also tonight: Dortmund v Inter\, Lens v
   Bodø/Glimt\, LASK v Fenerbahçe\, PSV v Atlético\, Stuttgart v Lille (
- 8pm)\; Betis v Como\, Slovan Bratislava v Shakhtar (5.45pm).
+ 8pm)\; Betis v Como\, Slovan Bratislava v Shakhtar (5.45pm).\nFrom World 
+ Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09-motd-champions-league-highlights@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
  One and iPlayer\, matchday 6. Covers every game from the round\, so all f
- ixtures need ingesting.
+ ixtures need ingesting.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-19-champions-league-md7-aston-villa-v-dortmund-inter-v-liverpool@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:20:00 Champions League MD7: Aston Villa v Dortmund\, Inter v Liver
@@ -1631,12 +2179,15 @@ DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
  eeds the BBC One highlights show. Also tonight: AEK v Roma\, Stuttgart v 
  Club Brugge\, Lille v Slovan Bratislava\, Porto v Slavia Praha\, Real Mad
  rid v LASK (8pm)\; Bodø/Glimt v Atlético\, Galatasaray v Feyenoord (5.4
- 5pm).
+ 5pm).\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-20-champions-league-md7-lens-v-man-city-man-utd-v-bayern-real-betis-v-arsenal@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:20:00 Champions League MD7: Lens v Man City\, Man Utd v Bayern\, R
@@ -1645,23 +2196,29 @@ DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
  ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
  eeds the BBC One highlights show. Also tonight: Como v PSG\, Leipzig v Sh
  akhtar\, Sporting v Barcelona\, Viking v PSV (8pm)\; Fenerbahçe v Villar
- real\, Sabah v Napoli (5.45pm).
+ real\, Sabah v Napoli (5.45pm).\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-20-motd-champions-league-highlights@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
  One and iPlayer\, matchday 7. Covers every game from the round\, so all f
- ixtures need ingesting.
+ ixtures need ingesting.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-27-champions-league-md8-arsenal-v-sabah-slavia-praha-v-aston-villa-man-city-v-sporting-liverpool-v-lens-villarreal-v-man-utd@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:★ 20:00 Champions League MD8: Arsenal v Sabah\, Slavia Praha v A
@@ -1671,51 +2228,69 @@ DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
  ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
  eeds the BBC One highlights show. Also tonight: all 18 games kick off at 
  the same time (8pm UK)\; Dortmund v AEK listed for 28 Jan in one UEFA lis
- t\, so confirm.
+ t\, so confirm.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-27-motd-champions-league-highlights@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
  One and iPlayer\, matchday 8. Covers every game from the round\, so all f
- ixtures need ingesting.
+ ixtures need ingesting.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-bundesliga-bayern-munich-v-fc-k-ln@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:[BBC] 19:30 Bundesliga: Bayern Munich v FC Köln
-DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK\nFrom World Sp
+ orts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-bundesliga-werder-bremen-v-borussia-m-nchengladbach@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:[BBC] 19:30 Bundesliga: Werder Bremen v Borussia Mönchengladbach
-DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK\nFrom World Sp
+ orts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-30-premier-league-final-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 SUMMARY:★ [BBC] 16:00 Premier League final day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nTime: 16:00
-  UK\nAlso: Sky Sports\nAll ten games kick off at 4pm. MOTD that evening.
+  UK\nAlso: Sky Sports\nAll ten games kick off at 4pm. MOTD that evening.\
+ nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-02-premier-league-midweek-round@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:[BBC] Premier League midweek round
@@ -1725,12 +2300,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  pswich\, Hull v Forest\, Liverpool v Sunderland\, Man City v Leeds\, Newc
  astle v Man Utd\, Spurs v Fulham. Kick-off times and TV picks due to be c
  onfirmed this week\; listed at 3pm for now. Match of the Day on BBC One t
- hat evening\; 5 Live commentaries.
+ hat evening\; 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-05-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:[BBC] Premier League weekend
@@ -1740,12 +2318,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
   v Ipswich\, Man Utd v Coventry\, Newcastle v Sunderland\, Forest v Brigh
  ton\, Spurs v Arsenal (north London derby). Kick-off times and TV picks d
  ue to be confirmed this week\; listed at 3pm for now. MOTD Sat\, MOTD2 Su
- n.
+ n.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-12-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:[BBC] Premier League weekend
@@ -1754,12 +2335,16 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  on\, Coventry v Aston Villa\, Palace v Man Utd\, Fulham v Brentford\, Hul
  l v Spurs\, Ipswich v Newcastle\, Liverpool v Leeds\, Man City v Chelsea\
  , Sunderland v Forest. Kick-off times and TV picks due to be confirmed th
- is week\; listed at 3pm for now. MOTD Sat\, MOTD2 Sun.
+ is week\; listed at 3pm for now. MOTD Sat\, MOTD2 Sun.\nFrom World Sports
+  Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-19-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:[BBC] Premier League weekend
@@ -1768,36 +2353,47 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  td\, Brentford v Newcastle\, Brighton v Ipswich\, Chelsea v Aston Villa\,
   Leeds v Fulham\, Liverpool v Spurs\, Man City v Hull\, Forest v Everton\
  , Sunderland v Palace. Kick-off times and TV picks due to be confirmed th
- is week\; listed at 3pm for now. MOTD Sat\, MOTD2 Sun.
+ is week\; listed at 3pm for now. MOTD Sat\, MOTD2 Sun.\nFrom World Sports
+  Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-27-scottish-premiership-hearts-v-hibs@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:[BBC] 12:00 Scottish Premiership: Hearts v Hibs
 DESCRIPTION:Football\nBBC: BBC TV\, Online\nTime: 12:00 UK\nAlso: Sky Spor
  ts\nEdinburgh derby. Highlights on BBC Scotland (Sportscene)\; BBC Radio 
- Scotland commentary.
+ Scotland commentary.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Tynecastle
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-03-scottish-premiership-rangers-v-celtic@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:★ [BBC] 12:00 Scottish Premiership: Rangers v Celtic
 DESCRIPTION:Football\nBBC: BBC TV\, 5 Live\, Online\nTime: 12:00 UK\nAlso:
   Sky Sports\nOld Firm derby. Highlights on BBC Scotland (Sportscene)\; li
- ve 5 Live and BBC Radio Scotland commentary on Old Firm games.
+ ve 5 Live and BBC Radio Scotland commentary on Old Firm games.\nFrom Worl
+ d Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Ibrox
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-16-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:[BBC] Premier League weekend
@@ -1807,12 +2403,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  , Hull v Arsenal\, Liverpool v Palace\, Man City v Forest\, Newcastle v F
  ulham\, Spurs v Leeds. Listed at 3pm until TV picks are announced (releas
  ed in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BB
- C One\; 5 Live commentaries.
+ C One\; 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-23-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:[BBC] Premier League weekend
@@ -1822,12 +2421,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
   v Hull\, Leeds v Chelsea\, Man Utd v Liverpool\, Forest v Bournemouth\, 
  Sunderland v Coventry. Listed at 3pm until TV picks are announced (releas
  ed in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BB
- C One\; 5 Live commentaries.
+ C One\; 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-30-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:[BBC] Premier League weekend
@@ -1837,12 +2439,16 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
   Palace\, Liverpool v Everton (Merseyside derby)\, Man City v Arsenal\, N
  ewcastle v Brighton\, Spurs v Sunderland. Listed at 3pm until TV picks ar
  e announced (released in blocks a few weeks ahead). MOTD Sat night and MO
- TD2 Sun night on BBC One\; 5 Live commentaries.
+ TD2 Sun night on BBC One\; 5 Live commentaries.\nFrom World Sports Calend
+ ar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-06-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:[BBC] Premier League weekend
@@ -1852,12 +2458,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  purs\, Leeds v Bournemouth\, Man Utd v Chelsea\, Forest v Brentford\, Sun
  derland v Aston Villa. Listed at 3pm until TV picks are announced (releas
  ed in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BB
- C One\; 5 Live commentaries.
+ C One\; 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-10-premier-league-midweek-round@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:[BBC] Premier League midweek round
@@ -1867,12 +2476,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  rest\, Hull v Sunderland\, Ipswich v Arsenal\, Man Utd v Brighton\, Newca
  stle v Chelsea\, Spurs v Man City. Listed at 8pm until TV picks are annou
  nced. Match of the Day highlights on BBC One that evening\; 5 Live commen
- taries.
+ taries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-20-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:[BBC] Premier League weekend
@@ -1882,12 +2494,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ston Villa\, Liverpool v Hull\, Man City v Newcastle\, Forest v Man Utd\,
   Sunderland v Everton. Listed at 3pm until TV picks are announced (releas
  ed in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BB
- C One\; 5 Live commentaries.
+ C One\; 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-27-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:[BBC] Premier League weekend
@@ -1897,12 +2512,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
   Man City\, Ipswich v Brighton\, Man Utd v Arsenal\, Newcastle v Brentfor
  d\, Spurs v Liverpool. Listed at 3pm until TV picks are announced (releas
  ed in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BB
- C One\; 5 Live commentaries.
+ C One\; 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-03-premier-league-midweek-round@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:[BBC] Premier League midweek round
@@ -1912,12 +2530,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  , Leeds v Hull\, Liverpool v Aston Villa\, Man City v Everton\, Forest v 
  Newcastle\, Sunderland v Man Utd. Listed at 8pm until TV picks are announ
  ced. Match of the Day highlights on BBC One that evening\; 5 Live comment
- aries.
+ aries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-13-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:[BBC] Premier League weekend
@@ -1927,12 +2548,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  v Brighton\, Liverpool v Ipswich\, Man Utd v Everton\, Sunderland v Brent
  ford\, Spurs v Forest. Listed at 3pm until TV picks are announced (releas
  ed in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BB
- C One\; 5 Live commentaries.
+ C One\; 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-20-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:[BBC] Premier League weekend
@@ -1942,12 +2566,16 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  l v Chelsea\, Ipswich v Palace\, Man City v Man Utd (Manchester derby)\, 
  Newcastle v Leeds\, Forest v Aston Villa. Listed at 3pm until TV picks ar
  e announced (released in blocks a few weeks ahead). MOTD Sat night and MO
- TD2 Sun night on BBC One\; 5 Live commentaries.
+ TD2 Sun night on BBC One\; 5 Live commentaries.\nFrom World Sports Calend
+ ar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-10-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:[BBC] Premier League weekend
@@ -1957,12 +2585,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  s v Forest\, Liverpool v Newcastle\, Man Utd v Hull\, Sunderland v Ipswic
  h\, Spurs v Brentford. Listed at 3pm until TV picks are announced (releas
  ed in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BB
- C One\; 5 Live commentaries.
+ C One\; 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-17-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:[BBC] Premier League weekend
@@ -1972,12 +2603,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ll v Coventry\, Ipswich v Man Utd\, Man City v Palace\, Newcastle v Spurs
  \, Forest v Liverpool. Listed at 3pm until TV picks are announced (releas
  ed in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BB
- C One\; 5 Live commentaries.
+ C One\; 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-24-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:[BBC] Premier League weekend
@@ -1987,12 +2621,16 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  eeds v Liverpool\, Man Utd v Palace\, Newcastle v Ipswich\, Forest v Sund
  erland\, Spurs v Hull. Same weekend as the FA Cup semi-finals. Listed at 
  3pm until TV picks are announced (released in blocks a few weeks ahead). 
- MOTD Sat night and MOTD2 Sun night on BBC One\; 5 Live commentaries.
+ MOTD Sat night and MOTD2 Sun night on BBC One\; 5 Live commentaries.\nFro
+ m World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-01-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:[BBC] Premier League weekend
@@ -2002,12 +2640,16 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  verton\, Hull v Bournemouth\, Ipswich v Leeds\, Liverpool v Chelsea\, Man
   City v Brentford\, Sunderland v Newcastle (Tyne-Wear derby). Listed at 3
  pm until TV picks are announced (released in blocks a few weeks ahead). M
- OTD Sat night and MOTD2 Sun night on BBC One\; 5 Live commentaries.
+ OTD Sat night and MOTD2 Sun night on BBC One\; 5 Live commentaries.\nFrom
+  World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-08-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:[BBC] Premier League weekend
@@ -2017,12 +2659,15 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ds v Arsenal\, Man City v Liverpool\, Newcastle v Coventry\, Forest v Pal
  ace\, Spurs v Chelsea. Listed at 3pm until TV picks are announced (releas
  ed in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BB
- C One\; 5 Live commentaries.
+ C One\; 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-15-premier-league-weekend@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:[BBC] Premier League weekend
@@ -2032,12 +2677,16 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  lham\, Ipswich v Man City\, Liverpool v Brentford\, Man Utd v Leeds\, Sun
  derland v Bournemouth. Same day as the Women's FA Cup final. Listed at 3p
  m until TV picks are announced (released in blocks a few weeks ahead). MO
- TD Sat night and MOTD2 Sun night on BBC One\; 5 Live commentaries.
+ TD Sat night and MOTD2 Sun night on BBC One\; 5 Live commentaries.\nFrom 
+ World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-23-premier-league-penultimate-round@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:[BBC] Premier League (penultimate round)
@@ -2046,306 +2695,414 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  tford v Hull\, Brighton v Liverpool\, Everton v Arsenal\, Fulham v Covent
  ry\, Leeds v Sunderland\, Man City v Aston Villa\, Newcastle v Palace\, F
  orest v Ipswich\, Spurs v Man Utd. Day after the FA Cup final. Listed at 
- 3pm until TV picks are announced (released in blocks a few weeks ahead).
+ 3pm until TV picks are announced (released in blocks a few weeks ahead).\
+ nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-26-women-s-world-cup-qualifying-play-offs-final-round@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261206
 SUMMARY:[BBC] Women's World Cup qualifying play-offs (final round)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nAlso: ITV (England)\
  nProvisional\nTwo-legged ties decide the last European places for Brazil 
  2027. Scotland\, Wales and Northern Ireland women's games are on the BBC 
- if involved\; England's are on ITV.
+ if involved\; England's are on ITV.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-13-scottish-league-cup-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Scottish League Cup final
 DESCRIPTION:Football\nBBC: Online\nAlso: Premier Sports\nLive on Premier S
- ports\; BBC Radio Scotland commentary and BBC Sport online.
+ ports\; BBC Radio Scotland commentary and BBC Sport online.\nFrom World S
+ ports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Hampden Park
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-21-carabao-cup-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:Carabao Cup final
 DESCRIPTION:Football\nBBC: 5 Live\, Online\nAlso: Sky Sports / ITV\nProvis
- ional\n5 Live commentary. Date from event listings\; confirm.
+ ional\n5 Live commentary. Date from event listings\; confirm.\nFrom World
+  Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Wembley
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-15-scottish-premiership-final-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270517
 SUMMARY:[BBC] Scottish Premiership final day
 DESCRIPTION:Football\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nRou
- nd 38. Highlights on BBC Scotland.
+ nd 38. Highlights on BBC Scotland.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-17-test-cricket-south-africa-v-england-1st-test@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261222
 SUMMARY:Test cricket: South Africa v England\, 1st Test
 DESCRIPTION:Cricket\nBBC: 5 Live\, Online\nAlso: UK TV broadcaster to be c
  onfirmed\nProvisional\nThree-Test series. Test Match Special commentary e
- xpected.
+ xpected.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Wanderers\, Johannesburg
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-26-test-cricket-south-africa-v-england-boxing-day-test@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261231
 SUMMARY:★ Test cricket: South Africa v England\, Boxing Day Test
 DESCRIPTION:Cricket\nBBC: 5 Live\, Online\nAlso: UK TV broadcaster to be c
- onfirmed\nProvisional\nTest Match Special commentary expected.
+ onfirmed\nProvisional\nTest Match Special commentary expected.\nFrom Worl
+ d Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:SuperSport Park\, Centurion
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-03-test-cricket-south-africa-v-england-new-year-test@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270108
 SUMMARY:Test cricket: South Africa v England\, New Year Test
 DESCRIPTION:Cricket\nBBC: 5 Live\, Online\nAlso: UK TV broadcaster to be c
- onfirmed\nProvisional
+ onfirmed\nProvisional\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Newlands\, Cape Town
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-10-south-africa-v-england-odis@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270116
 SUMMARY:South Africa v England ODIs
 DESCRIPTION:Cricket\nBBC: 5 Live\, Online\nAlso: UK TV broadcaster to be c
  onfirmed\nProvisional\n10 Jan Paarl\, 13 and 15 Jan Bloemfontein. The pla
- nned T20Is have been dropped.
+ nned T20Is have been dropped.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-atp-finals@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261123
 SUMMARY:ATP Finals
-DESCRIPTION:Tennis\nBBC: Online\nAlso: Sky Sports
+DESCRIPTION:Tennis\nBBC: Online\nAlso: Sky Sports\nFrom World Sports Calen
+ dar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Turin
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-21-champions-cup-challenge-cup-finals@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270523
 SUMMARY:Champions Cup & Challenge Cup finals
 DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nAlso: Premier Sports\nEurop
- ean club rugby finals weekend. 5 Live commentary.
+ ean club rugby finals weekend. 5 Live commentary.\nFrom World Sports Cale
+ ndar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Lyon
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-15-royal-ascot@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270615
 DTEND;VALUE=DATE:20270620
 SUMMARY:Royal Ascot
 DESCRIPTION:Horse racing\nBBC: 5 Live\, Online\nAlso: ITV\n5 Live commenta
- ry.
+ ry.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-02-tour-de-france@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270702
 DTEND;VALUE=DATE:20270726
 SUMMARY:Tour de France
 DESCRIPTION:Cycling\nBBC: Online\nAlso: TNT Sports\; Channel 5 highlights\
- nOpens with three UK stages (see Grand Départ). Not on the BBC.
+ nOpens with three UK stages (see Grand Départ). Not on the BBC.\nFrom Wo
+ rld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Edinburgh to Paris
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-28-aig-women-s-open@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270728
 DTEND;VALUE=DATE:20270802
 SUMMARY:[BBC] AIG Women's Open
 DESCRIPTION:Golf\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nFirst t
  ime at Royal St George's. BBC daily highlights\; 5 Sports Extra commentar
- y.
+ y.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Royal St George's
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-07-diamond-league-doha@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270508
 SUMMARY:[BBC] Diamond League: Doha
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Doha
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-15-diamond-league-shanghai-keqiao@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:[BBC] Diamond League: Shanghai/Keqiao
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Shanghai/Keqiao
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-22-diamond-league-xiamen@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 SUMMARY:[BBC] Diamond League: Xiamen
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Xiamen
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-27-diamond-league-rome@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270528
 SUMMARY:[BBC] Diamond League: Rome
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Rome
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-30-diamond-league-rabat@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 SUMMARY:[BBC] Diamond League: Rabat
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Rabat
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-03-diamond-league-oslo@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
 SUMMARY:[BBC] Diamond League: Oslo
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Oslo
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-06-diamond-league-stockholm@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:[BBC] Diamond League: Stockholm
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Stockholm
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-06-25-diamond-league-paris@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270626
 SUMMARY:[BBC] Diamond League: Paris
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Paris
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-03-diamond-league-eugene@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270703
 DTEND;VALUE=DATE:20270704
 SUMMARY:[BBC] Diamond League: Eugene
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Eugene
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-09-diamond-league-monaco@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270709
 DTEND;VALUE=DATE:20270710
 SUMMARY:[BBC] Diamond League: Monaco
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Monaco
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-13-diamond-league-lausanne@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270713
 DTEND;VALUE=DATE:20270714
 SUMMARY:[BBC] Diamond League: Lausanne
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Lausanne
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-17-diamond-league-london@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270717
 DTEND;VALUE=DATE:20270718
 SUMMARY:★ [BBC] Diamond League: London
 DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nLondon
-  Athletics Meet at the London Stadium.
+  Athletics Meet at the London Stadium.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:London
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-08-15-diamond-league-silesia@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270815
 DTEND;VALUE=DATE:20270816
 SUMMARY:[BBC] Diamond League: Silesia
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Silesia
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-08-20-diamond-league-brussels@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270820
 DTEND;VALUE=DATE:20270821
 SUMMARY:[BBC] Diamond League: Brussels
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Brussels
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-08-25-diamond-league-final@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270825
 DTEND;VALUE=DATE:20270827
 SUMMARY:★ [BBC] Diamond League Final
-DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nFrom W
+ orld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Zurich
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-mlb-world-series@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261101
 SUMMARY:★ MLB World Series
@@ -2353,123 +3110,158 @@ DESCRIPTION:Baseball\nBBC: Online\nAlso: TNT Sports\nBrewers v Rays or Gua
  rdians. Games 1–4 on 23\, 24\, 26\, 27 Oct\; games 5–7 (28\, 30\, 31 
  Oct) only if needed. First pitch about 00:00–01:00 UK. The BBC's 2026 M
  LB coverage ended with the wild-card games on iPlayer (30 Sep – 1 Oct).
+ \nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-25-nfl-paris-game-steelers-v-saints@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:13:30 NFL Paris Game: Steelers v Saints
 DESCRIPTION:American football\nBBC: Online\nTime: 13:30 UK\nAlso: Sky Spor
- ts / Channel 5
+ ts / Channel 5\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Stade de France
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08-nfl-madrid-game-bengals-v-falcons@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:14:30 NFL Madrid Game: Bengals v Falcons
 DESCRIPTION:American football\nBBC: Online\nTime: 14:30 UK\nAlso: Sky Spor
- ts / Channel 5
+ ts / Channel 5\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Bernabéu
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-15-nfl-munich-game-patriots-v-lions@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:14:30 NFL Munich Game: Patriots v Lions
 DESCRIPTION:American football\nBBC: Online\nTime: 14:30 UK\nAlso: Sky Spor
- ts / Channel 5
+ ts / Channel 5\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Munich
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23-nfl-mexico-city-game-vikings-v-49ers@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:01:20 NFL Mexico City Game: Vikings v 49ers
 DESCRIPTION:American football\nBBC: Online\nTime: 01:20 UK\nAlso: Sky Spor
- ts\nSunday night US time\, early Monday UK.
+ ts\nSunday night US time\, early Monday UK.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Estadio Azteca
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-14-nba-paris-game-san-antonio-spurs@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:NBA Paris Game: San Antonio Spurs
 DESCRIPTION:Basketball\nBBC: Online\nAlso: Prime Video\nOpponent to be con
- firmed.
+ firmed.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Paris
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-17-nba-manchester-game@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:★ NBA Manchester Game
 DESCRIPTION:Basketball\nBBC: Online\nAlso: Prime Video\nFirst NBA regular-
  season game in Manchester\; reported as Spurs v New Orleans Pelicans\, co
- nfirm teams.
+ nfirm teams.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Manchester
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-24-mlb-2027-season-opens@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270324
 DTEND;VALUE=DATE:20270326
 SUMMARY:MLB 2027 season opens
 DESCRIPTION:Baseball\nBBC: Online\nAlso: TNT Sports\nOpener 24 Mar (Netfli
- x in the US)\; traditional Opening Day 25 Mar with 14 games.
+ x in the US)\; traditional Opening Day 25 Mar with 14 games.\nFrom World 
+ Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-07-13-mlb-all-star-game@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270713
 DTEND;VALUE=DATE:20270714
 SUMMARY:MLB All-Star Game
 DESCRIPTION:Baseball\nBBC: Online\nAlso: TNT Sports\nHome Run Derby 12 Jul
- .
+ .\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 LOCATION:Wrigley Field\, Chicago
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:[BBC] Premier League
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nAston Villa v Man City 12:30 (TNT)\; Arsenal v Everto
  n\, Coventry v Fulham 15:00\; Chelsea v Spurs 17:30 (Sky). 5 Live comment
- aries.
+ aries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-25-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:[BBC] Premier League
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nPalace v Newcastle\, Hull v Brentford\, Liverpool v B
  righton\, Man Utd v Bournemouth 14:00\; Sunderland v Leeds 16:30 (all Sky
- ). 5 Live commentaries.
+ ). 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-31-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:[BBC] Premier League
@@ -2477,131 +3269,175 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nChelsea v Man Utd 12:30 (TNT)\; Bournemouth v Leeds\,
   Brentford v Forest\, Coventry v Sunderland\, Hull v Ipswich\, Man City v
   Brighton 15:00\; Spurs v Palace 17:30\, Aston Villa v Fulham 20:00 (Sky)
- . 5 Live commentaries.
+ . 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:[BBC] Premier League
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nLiverpool v Arsenal 16:30 (Sky). 5 Live commentaries.
+ \nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-02-premier-league-monday-night@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:[BBC] Premier League (Monday night)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nNewcastle v Everton 20:00 (Sky). 5 Live commentaries.
+ \nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06-premier-league-friday-night@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:[BBC] Premier League (Friday night)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
- ports / TNT Sports\nEverton v Coventry 20:00. 5 Live commentaries.
+ ports / TNT Sports\nEverton v Coventry 20:00. 5 Live commentaries.\nFrom 
+ World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:[BBC] Premier League
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nLeeds v Spurs 12:30\; Arsenal v Hull\, Fulham v Newca
- stle 15:00\; Forest v Man City 17:30. 5 Live commentaries.
+ stle 15:00\; Forest v Man City 17:30. 5 Live commentaries.\nFrom World Sp
+ orts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:[BBC] Premier League
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nBrighton v Brentford\, Palace v Liverpool\, Ipswich v
   Bournemouth\, Sunderland v Chelsea 14:00\; Man Utd v Aston Villa 16:30. 
- 5 Live commentaries.
+ 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:[BBC] Premier League
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nMan City v Fulham 12:30\; Bournemouth v Forest\, Asto
  n Villa v Sunderland\, Chelsea v Leeds\, Coventry v Palace\, Spurs v Ipsw
- ich 15:00\; Newcastle v Arsenal 17:30. 5 Live commentaries.
+ ich 15:00\; Newcastle v Arsenal 17:30. 5 Live commentaries.\nFrom World S
+ ports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:[BBC] Premier League
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nHull v Brighton 14:00\; Liverpool v Man Utd 16:30. 5 
- Live commentaries.
+ Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23-premier-league-monday-night@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:[BBC] Premier League (Monday night)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
- ports / TNT Sports\nBrentford v Everton 20:00. 5 Live commentaries.
+ ports / TNT Sports\nBrentford v Everton 20:00. 5 Live commentaries.\nFrom
+  World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-27-premier-league-friday-night@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:[BBC] Premier League (Friday night)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
- ports / TNT Sports\nForest v Chelsea 20:00. 5 Live commentaries.
+ ports / TNT Sports\nForest v Chelsea 20:00. 5 Live commentaries.\nFrom Wo
+ rld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:[BBC] Premier League
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nLeeds v Coventry\, Man Utd v Brentford 15:00\; Ipswic
- h v Aston Villa 17:30. 5 Live commentaries.
+ h v Aston Villa 17:30. 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:[BBC] Premier League
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nEverton v Liverpool 12:00 (Merseyside derby)\; Bright
  on v Newcastle\, Palace v Hull\, Fulham v Bournemouth\, Sunderland v Spur
- s 14:05\; Arsenal v Man City 16:30. 5 Live commentaries.
+ s 14:05\; Arsenal v Man City 16:30. 5 Live commentaries.\nFrom World Spor
+ ts Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-26-premier-league-boxing-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:★ [BBC] Premier League: Boxing Day
@@ -2609,56 +3445,74 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nAston Villa v Leeds 12:30 (TNT)\; Everton v Sunderlan
  d\, Fulham v Brighton\, Ipswich v Brentford\, Spurs v Bournemouth 15:00\;
   Hull v Liverpool 17:30 (Sky)\; Newcastle v Man City 20:00 (Sky). 5 Live 
- commentaries.
+ commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-27-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:[BBC] Premier League
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nCoventry v Chelsea 14:00\, Man Utd v Forest 16:30\, P
- alace v Arsenal 19:00 (all Sky). 5 Live commentaries.
+ alace v Arsenal 19:00 (all Sky). 5 Live commentaries.\nFrom World Sports 
+ Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-29-premier-league-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:[BBC] Premier League midweek
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nHull v Leeds\, Spurs v Brighton 19:30\; Everton v Man
-  City 20:15 (all Sky). 5 Live commentaries.
+  City 20:15 (all Sky). 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-30-premier-league-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:[BBC] Premier League midweek
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nCoventry v Brentford\, Palace v Bournemouth\, Fulham 
  v Arsenal\, Man Utd v Sunderland\, Newcastle v Forest 19:30\; Aston Villa
-  v Liverpool\, Ipswich v Chelsea 20:15 (all Sky). 5 Live commentaries.
+  v Liverpool\, Ipswich v Chelsea 20:15 (all Sky). 5 Live commentaries.\nF
+ rom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-01-premier-league-new-year-s-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:[BBC] Premier League: New Year's Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
- ports / TNT Sports\nLeeds v Everton 20:00 (Sky). 5 Live commentaries.
+ ports / TNT Sports\nLeeds v Everton 20:00 (Sky). 5 Live commentaries.\nFr
+ om World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-02-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
 SUMMARY:[BBC] Premier League
@@ -2666,689 +3520,880 @@ DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nBrighton v Man Utd 12:30 (TNT)\; Arsenal v Ipswich\, 
  Brentford v Palace\, Liverpool v Coventry\, Forest v Fulham\, Sunderland 
  v Hull 15:00\; Bournemouth v Aston Villa 17:30 (Sky). 5 Live commentaries
- .
+ .\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-03-premier-league@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:[BBC] Premier League
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nChelsea v Newcastle 14:00\, Man City v Spurs 16:30 (S
- ky). 5 Live commentaries.
+ ky). 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-05-premier-league-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:[BBC] Premier League midweek
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nArsenal v Brentford\, Brighton v Bournemouth\, Everto
  n v Aston Villa\, Forest v Hull 19:30\; Sunderland v Liverpool 20:15 (all
-  Sky). 5 Live commentaries.
+  Sky). 5 Live commentaries.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-06-premier-league-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:[BBC] Premier League midweek
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nPalace v Chelsea\, Fulham v Spurs\, Ipswich v Coventr
- y 19:30\; Leeds v Man City 20:15 (all Sky). 5 Live commentaries.
+ y 19:30\; Leeds v Man City 20:15 (all Sky). 5 Live commentaries.\nFrom Wo
+ rld Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-07-premier-league-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:[BBC] Premier League midweek
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
  ports / TNT Sports\nMan Utd v Newcastle 20:00 (Sky). 5 Live commentaries.
+ \nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-25-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-31-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-01-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-21-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-22-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-02-match-of-the-day-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:[BBC] Match of the Day (midweek)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nMidweek
   highlights on BBC One and iPlayer\, usually late evening\; check listing
- s for exact days.
+ s for exact days.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-05-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-06-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-12-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-13-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-19-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-20-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-26-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-27-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-29-match-of-the-day-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:[BBC] Match of the Day (midweek)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nMidweek
   highlights on BBC One and iPlayer\, usually late evening\; check listing
- s for exact days.
+ s for exact days.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-30-match-of-the-day-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:[BBC] Match of the Day (midweek)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nMidweek
   highlights on BBC One and iPlayer\, usually late evening\; check listing
- s for exact days.
+ s for exact days.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-02-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-03-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-05-match-of-the-day-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:[BBC] Match of the Day (midweek)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nMidweek
   highlights on BBC One and iPlayer\, usually late evening\; check listing
- s for exact days.
+ s for exact days.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-06-match-of-the-day-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:[BBC] Match of the Day (midweek)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nMidweek
   highlights on BBC One and iPlayer\, usually late evening\; check listing
- s for exact days.
+ s for exact days.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-07-match-of-the-day-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:[BBC] Match of the Day (midweek)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nMidweek
   highlights on BBC One and iPlayer\, usually late evening\; check listing
- s for exact days.
+ s for exact days.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-16-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-17-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-23-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-24-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-30-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-01-31-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-06-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-07-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-10-match-of-the-day-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:[BBC] Match of the Day (midweek)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nMidweek
   highlights on BBC One and iPlayer\, usually late evening\; check listing
- s for exact days.
+ s for exact days.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-20-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-21-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-27-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-02-28-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-03-match-of-the-day-midweek@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:[BBC] Match of the Day (midweek)
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nMidweek
   highlights on BBC One and iPlayer\, usually late evening\; check listing
- s for exact days.
+ s for exact days.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-13-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-14-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-20-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-03-21-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-10-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-11-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-17-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-18-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-24-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-04-25-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270425
 DTEND;VALUE=DATE:20270426
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-01-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-02-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-08-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-09-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-15-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-16-match-of-the-day-2@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:[BBC] Match of the Day 2
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nSunday 
  highlights on BBC One. Shown if the round has Sunday games once TV picks 
- are made.
+ are made.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-23-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nHighlig
  hts of the day's Premier League games on BBC One and iPlayer\, usually la
- te evening\; check listings.
+ te evening\; check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 BEGIN:VEVENT
 UID:2027-05-30-match-of-the-day@sports-planning-diary
-DTSTAMP:20261019T122758Z
+DTSTAMP:20261019T123447Z
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
 SUMMARY:[BBC] Match of the Day
 DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nHighlights of the da
  y's Premier League games on BBC One and iPlayer\, usually late evening\; 
- check listings.
+ check listings.\nFrom World Sports Calendar
+CATEGORIES:World Sports Calendar
 TRANSP:TRANSPARENT
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
 END:VEVENT
 END:VCALENDAR

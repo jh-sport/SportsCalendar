@@ -272,7 +272,7 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
       <button id="f-live" aria-pressed="false">BBC TV &amp; iPlayer</button>
     </div>
     <input class="search" id="q" type="search" placeholder="Search events, venues, teams" aria-label="Search">
-    <button class="btn" id="ics" hidden>Export to calendar (.ics)</button>
+    <button class="btn" id="ics" hidden title="Downloads a file. Opening it copies the events into your own calendar. For a separate calendar you can switch off or remove, use Outlook feed instead.">Export to calendar (.ics)</button>
     <a class="btn" id="subscribe" href="sports-diary.ics" hidden title="Copy this link and add it in Outlook: Add calendar > Subscribe from web">Outlook feed</a>
   </div>
   <div class="chips" id="chips" aria-label="Sports"></div>
@@ -624,10 +624,10 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
     const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Sports Planning Diary//EN','CALSCALE:GREGORIAN','X-WR-CALNAME:World Sports Calendar'];
     events.filter(e=>!e.tbc && pass(e)).forEach(e=>{
       const cov=(e.bbc||[]).map(p=>PL[p]).join(', ');
-      const desc=[e.s, cov?('BBC: '+cov):'', e.other?('Also: '+e.other):'', e.time?('Time: '+e.time+' UK'):'', e.note||''].filter(Boolean).join('\n');
+      const desc=[e.s, cov?('BBC: '+cov):'', e.other?('Also: '+e.other):'', e.time?('Time: '+e.time+' UK'):'', e.note||'', 'From World Sports Calendar'].filter(Boolean).join('\n');
       lines.push('BEGIN:VEVENT',`UID:spd-${e.s0}-${e.id}@sports-diary`,`DTSTAMP:${d8(TODAY)}T000000Z`,
         `DTSTART;VALUE=DATE:${d8(e.s0)}`,`DTEND;VALUE=DATE:${d8(e.s1+DAY)}`,
-        `SUMMARY:${fold((isLive(e)?'[BBC] ':'')+e.t)}`, e.loc?`LOCATION:${fold(e.loc)}`:null, `DESCRIPTION:${fold(desc)}`,'END:VEVENT');
+        `SUMMARY:${fold((isLive(e)?'[BBC] ':'')+e.t)}`, e.loc?`LOCATION:${fold(e.loc)}`:null, `DESCRIPTION:${fold(desc)}`,'CATEGORIES:World Sports Calendar','TRANSP:TRANSPARENT','X-MICROSOFT-CDO-BUSYSTATUS:FREE','X-MICROSOFT-CDO-ALLDAYEVENT:TRUE','END:VEVENT');
     });
     lines.push('END:VCALENDAR');
     return lines.filter(Boolean).join('\r\n');
