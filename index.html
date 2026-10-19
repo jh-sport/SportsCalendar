@@ -232,6 +232,19 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
 .mjump button.on{background:var(--hi);border-color:var(--hi);color:var(--hi-ink)}
 .mjump button.on small{color:var(--hi-ink)}
 .agenda .wk,.agenda [data-mon]{scroll-margin-top:58px}
+
+.filters{position:sticky;top:0;z-index:20;background:var(--bg);display:flex;flex-direction:column;gap:10px;padding:10px 0;margin:-10px 0}
+.filters.stuck{box-shadow:0 1px 0 var(--line),0 0 0 100vmax var(--bg);clip-path:inset(0 -100vmax -1px)}
+.mjump{top:var(--stick,0px)}
+.agenda .wk,.agenda [data-mon]{scroll-margin-top:calc(var(--stick,0px) + 49px)}
+@media (max-width:700px){
+  .filters .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+  .filters .chips::-webkit-scrollbar{display:none}
+  .filters .chips .chip{flex:0 0 auto}
+  .filters .bar{gap:8px}
+  .filters .search{flex:1 1 100%}
+  .filters.stuck #ics,.filters.stuck #subscribe{display:none}
+}
 </style>
 
 </head>
@@ -247,6 +260,7 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
 
   <section class="summary" id="summary" aria-label="Next seven days"></section>
 
+  <div class="filters" id="filters">
   <div class="bar">
     <div class="seg" role="group" aria-label="View">
       <button id="v-agenda" aria-pressed="true">Agenda</button>
@@ -262,6 +276,7 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
     <a class="btn" id="subscribe" href="sports-diary.ics" hidden title="Copy this link and add it in Outlook: Add calendar > Subscribe from web">Outlook feed</a>
   </div>
   <div class="chips" id="chips" aria-label="Sports"></div>
+  </div>
 
   <div class="main">
     <section class="panel" id="month-view">
@@ -541,6 +556,15 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
   }
   let mmRaf=0; addEventListener('scroll',()=>{ if(!mmRaf) mmRaf=requestAnimationFrame(()=>{ mmRaf=0; markMonth(); }); },{passive:true});
 
+  // keep the filters pinned; tell the month bar how far down to sit
+  (function(){
+    const f=document.getElementById('filters'); if(!f) return;
+    const set=()=>document.documentElement.style.setProperty('--stick',f.offsetHeight+'px');
+    if(window.ResizeObserver) new ResizeObserver(set).observe(f); set();
+    const chk=()=>f.classList.toggle('stuck',f.getBoundingClientRect().top<=0.5 && scrollY>0);
+    addEventListener('scroll',chk,{passive:true}); chk();
+  })();
+
   function watch(){
     document.getElementById('watch').innerHTML = (DATA.watch||[]).map(w=>`<div><b>${esc(w.t)}</b><p>${esc(w.b)}</p></div>`).join('');
   }
@@ -555,6 +579,10 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
     summary(); chips();
     if(S.view==='month'){ month(); day(); } else agenda();
     running();
+    // if the filters were changed while scrolled down the list, go back to the top of the results
+    const f=document.getElementById('filters'), main=document.querySelector('.main');
+    if(f && main && main.getBoundingClientRect().top < f.getBoundingClientRect().bottom - 1)
+      scrollTo({top: main.getBoundingClientRect().top + scrollY - f.offsetHeight - 8});
   }
 
   document.getElementById('stamp').textContent = `Last checked ${fmtY(pd(DATA.updated))} · updates every Monday`;
