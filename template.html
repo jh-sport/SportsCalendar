@@ -319,13 +319,16 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
   }
 
   // summary
+  // the summary strip follows the coverage switch (All sport / Any BBC / BBC TV & iPlayer)
+  // but ignores the sport buttons and search, so everyone sees the same overview
+  const passCov = e => S.cov==='all' || (S.cov==='bbc' ? hasBBC(e) : isLive(e));
   function summary(){
     const end = TODAY+7*DAY;
-    const wk = events.filter(e=>!e.tbc && e.s0<end && e.s1>=TODAY && pass(e));
+    const wk = events.filter(e=>!e.tbc && e.s0<end && e.s1>=TODAY && passCov(e));
     const live = wk.filter(isLive);
     // next event on BBC TV: starts today or later (today's only if its kick-off hasn't passed), any filter-visible sport
     const nowHM = String(now.getHours()).padStart(2,'0')+':'+String(now.getMinutes()).padStart(2,'0');
-    const nextKey = events.filter(e=>!e.tbc && pass(e) && (e.bbc||[]).includes('tv') && e.s0>=TODAY && !(e.s0===TODAY && e.time && e.time<nowHM))
+    const nextKey = events.filter(e=>!e.tbc && passCov(e) && (e.bbc||[]).includes('tv') && e.s0>=TODAY && !(e.s0===TODAY && e.time && e.time<nowHM))
       .sort((a,b)=>a.s0-b.s0 || (a.time||'99').localeCompare(b.time||'99') || (b.k||0)-(a.k||0))[0];
     const sports = [...new Set(wk.map(e=>e.s))];
     const days = nextKey ? Math.round((nextKey.s0-TODAY)/DAY) : null;
