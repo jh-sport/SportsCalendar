@@ -216,6 +216,16 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
 .watch div{border-top-color:var(--hi)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .agenda .wkh,:root:not([data-theme="light"]) .monhead{border-bottom:2px solid var(--hi)}}
 :root[data-theme="dark"] .agenda .wkh,:root[data-theme="dark"] .monhead{border-bottom:2px solid var(--hi)}
+
+.mjump{position:sticky;top:0;z-index:5;display:flex;gap:4px;align-items:center;padding:8px 10px;background:var(--panel);border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:thin}
+.mjump .lab{font-family:var(--f-cond,inherit);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:4px;white-space:nowrap}
+.mjump button{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:5px 10px;font:500 13px/1.2 inherit;cursor:pointer;border-radius:0;white-space:nowrap}
+.mjump button small{font-size:10px;color:var(--muted);margin-left:3px}
+.mjump button:hover{border-color:var(--ink)}
+.mjump button[disabled]{opacity:.35;cursor:default}
+.mjump button.on{background:var(--hi);border-color:var(--hi);color:var(--hi-ink)}
+.mjump button.on small{color:var(--hi-ink)}
+.agenda .wk,.agenda [data-mon]{scroll-margin-top:58px}
 </style>
 
 <div class="wrap">
@@ -479,20 +489,49 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
         <div class="meta"><span>${esc(r.e.s)}</span>${r.e.time?`<span>${esc(r.e.time)} UK</span>`:''}<span>Continues from ${esc(fmt(r.e.s0))}</span></div>
         <div class="row">${badges(r.e)}</div></div></li>`;
     let h='';
-    const weeks=[...groups.keys()].sort((a,b)=>a-b).slice(0,30);
+    const weeks=[...groups.keys()].sort((a,b)=>a-b);
+    // month jump bar: one button per month from now to the last listed event
+    const ymOf = d => { const x=new Date(d); return x.getUTCFullYear()*12+x.getUTCMonth(); };
+    const firstOfMonth = new Map(); // ym -> {w, idx} first row of that month
+    for(const w of weeks) groups.get(w).forEach((r,i)=>{ const k=ymOf(r.d); if(!firstOfMonth.has(k)) firstOfMonth.set(k,{w,i}); });
+    const m0 = ymOf(TODAY), m1 = rows.length ? ymOf(rows[rows.length-1].d) : m0;
+    let bar = '<nav class="mjump" aria-label="Jump to month"><span class="lab">Jump to</span>';
+    for(let k=m0;k<=m1;k++){
+      const y=Math.floor(k/12), m=k%12, has=firstOfMonth.has(k);
+      const yr = (k===m0 || m===0) ? `<small>${String(y).slice(2)}</small>` : '';
+      bar += `<button type="button" data-jump="m-${k}" ${has?'':'disabled title="Nothing listed with these filters"'}>${MON[m].slice(0,3)}${yr}</button>`;
+    }
+    bar += '</nav>';
     for(const w of weeks){
       const list=groups.get(w);
+      // anchor the month: the whole week if the month starts with it, else its first row
+      const marks = new Map(); let wkMark='';
+      for(const [k,v] of firstOfMonth) if(v.w===w){ if(v.i===0 && (k===m0 || ymOf(w)===k)) wkMark=`m-${k}`; else marks.set(v.i,`m-${k}`); }
       const lab = w===wk0?'This week':(w===wk0+7*DAY?'Next week':`Week of ${fmt(w)}`);
       // long events (8+ days) that started before this week and are still going
       const carry = vis.filter(e=>nd(e)>7 && Math.max(e.s0,TODAY)<w && e.s1>=w);
       const carryHTML = carry.length ? `<div class="sub-h">Still running this week</div><ul class="cont-list">${carry.map(e=>{
           const n=nd(e), a=Math.round((w-e.s0)/DAY)+1, b=Math.min(n,a+6);
           return `<li style="--c:${col(e.s)}"><span>${e.k?'<span class="key">★ </span>':''}<b>${esc(e.t)}</b> · ${esc(e.s)}</span><span class="r">day ${a}${b>a?'–'+b:''} of ${n} · ends ${esc(fmt(e.s1))}</span></li>`;}).join('')}</ul>` : '';
-      h += `<div class="wk"><div class="wkh"><h3>${lab}</h3><span>${fmtY(w)} – ${fmtY(w+6*DAY)}</span></div>${carryHTML}<ul class="list">${list.map(r=>r.kind==='start'?itemHTML(r.e,{agenda:true}):contRow(r)).join('')}</ul></div>`;
+      const li = list.map((r,i)=>{ let x=r.kind==='start'?itemHTML(r.e,{agenda:true}):contRow(r); const id=marks.get(i); return id?x.replace('<li ',`<li id="${id}" data-mon `):x; }).join('');
+      h += `<div class="wk"${wkMark?` id="${wkMark}" data-mon`:''}><div class="wkh"><h3>${lab}</h3><span>${fmtY(w)} – ${fmtY(w+6*DAY)}</span></div>${carryHTML}<ul class="list">${li}</ul></div>`;
     }
     if(!h) h = `<div class="empty">No upcoming events match these filters.</div>`;
-    document.getElementById('agenda-view').innerHTML = h;
+    const av = document.getElementById('agenda-view');
+    av.innerHTML = bar + h;
+    av.querySelectorAll('[data-jump]').forEach(b=>b.onclick=()=>{ const t=document.getElementById(b.dataset.jump); if(t) t.scrollIntoView({behavior:'smooth',block:'start'}); });
+    markMonth();
   }
+
+  function markMonth(){
+    const av=document.getElementById('agenda-view'); if(!av||av.hidden) return;
+    const nav=av.querySelector('.mjump'); if(!nav) return;
+    const lim = nav.getBoundingClientRect().bottom + 16;
+    let cur=null; for(const a of av.querySelectorAll('[data-mon]')){ if(a.getBoundingClientRect().top<=lim) cur=a.id; else break; }
+    if(!cur){ const f=av.querySelector('[data-mon]'); cur=f&&f.id; }
+    nav.querySelectorAll('button').forEach(b=>{ const on=b.dataset.jump===cur; if(on!==b.classList.contains('on')){ b.classList.toggle('on',on); if(on) nav.scrollTo({left:b.offsetLeft-nav.clientWidth/2+b.offsetWidth/2,behavior:'smooth'}); } });
+  }
+  let mmRaf=0; addEventListener('scroll',()=>{ if(!mmRaf) mmRaf=requestAnimationFrame(()=>{ mmRaf=0; markMonth(); }); },{passive:true});
 
   function watch(){
     document.getElementById('watch').innerHTML = (DATA.watch||[]).map(w=>`<div><b>${esc(w.t)}</b><p>${esc(w.b)}</p></div>`).join('');
