@@ -376,8 +376,8 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
     const days = nextKey ? Math.round((nextKey.s0-TODAY)/DAY) : null;
     document.getElementById('summary').innerHTML = `
       <div class="sum"><div class="lab">Next 7 days</div><div class="val">${wk.length}</div><div class="sub">events in the diary</div></div>
-      <div class="sum"><div class="lab">On BBC TV / iPlayer</div><div class="val">${live.length}</div><div class="sub">${live.length?esc(live.slice(0,2).map(e=>e.t).join(', ')):'none this week'}</div></div>
-      <div class="sum"><div class="lab">Sports this week</div><div class="val">${sports.length}</div><div class="sub">${esc(sports.join(', ')||'—')}</div></div>
+      <div class="sum"><div class="lab">On BBC TV / iPlayer</div><div class="val">${live.length}</div><div class="sub">${live.length?'live or highlights this week':'none this week'}</div></div>
+      <div class="sum"><div class="lab">Sports this week</div><div class="val">${sports.length}</div><div class="sub">${sports.length===1?'sport':'different sports'}</div></div>
       <div class="sum next" style="--c:${nextKey?col(nextKey.s):'var(--muted)'}"><div class="lab">Next on BBC TV</div><div class="sport">${nextKey?esc(nextKey.s):''}</div><div class="val">${nextKey?esc(nextKey.t):'—'}</div><div class="sub">${nextKey?`${nextKey.s0===nextKey.s1?fmtY(nextKey.s0):fmt(nextKey.s0)+' – '+fmtY(nextKey.s1)}${nextKey.time?' · '+esc(nextKey.time)+' UK':''}${nextKey.loc?' · '+esc(nextKey.loc):''} · ${days===0?'today':days===1?'tomorrow':'in '+days+' days'}`:''}</div>${nextKey?`<div class="pl" style="margin-top:6px">${(nextKey.bbc||[]).map(p=>`<b class="b ${p}">${PL[p]}</b>`).join('')}</div>`:''}</div>`;
   }
 
