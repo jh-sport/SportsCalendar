@@ -2153,34 +2153,6 @@
    ]
   },
   {
-   "t": "Premier League weekend (MW9)",
-   "s": "Football",
-   "d": "2026-10-24",
-   "e": "2026-10-25",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Sat: Aston Villa v Man City 12:30 (TNT), Arsenal v Everton, Coventry v Fulham, Chelsea v Spurs 17:30 (Sky). Sun: Palace v Newcastle, Hull v Brentford, Liverpool v Brighton, Man Utd v Bournemouth 14:00; Sunderland v Leeds 16:30 (Sky). Match of the Day Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries."
-  },
-  {
-   "t": "Premier League weekend (MW10)",
-   "s": "Football",
-   "d": "2026-10-31",
-   "e": "2026-11-02",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Sat: Chelsea v Man Utd 12:30 (TNT), Bournemouth v Leeds, Brentford v Forest, Coventry v Sunderland, Hull v Ipswich, Man City v Brighton, Spurs v Palace 17:30, Aston Villa v Fulham 20:00. Sun: Liverpool v Arsenal 16:30. Mon: Newcastle v Everton 20:00. MOTD Sat, MOTD2 Sun."
-  },
-  {
    "t": "Premier League final day",
    "s": "Football",
    "d": "2027-05-30",
@@ -2304,63 +2276,6 @@
    "st": "p"
   },
   {
-   "t": "Premier League: Boxing Day",
-   "s": "Football",
-   "d": "2026-12-26",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Sat 26 Dec: Aston Villa v Leeds 12:30 (TNT); Everton v Sunderland, Fulham v Brighton, Ipswich v Brentford, Spurs v Bournemouth 15:00; Hull v Liverpool 17:30 (Sky); Newcastle v Man City 20:00 (Sky). Sun 27 Dec: Coventry v Chelsea 14:00, Man Utd v Forest 16:30, Palace v Arsenal 19:00 (all Sky). Match of the Day on BBC One that evening; 5 Live commentaries.",
-   "e": "2026-12-27",
-   "k": 1
-  },
-  {
-   "t": "Premier League midweek round",
-   "s": "Football",
-   "d": "2026-12-29",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Tue 29 Dec: Hull v Leeds 19:30, Spurs v Brighton 19:30, Everton v Man City 20:15. Wed 30 Dec: Coventry v Brentford, Palace v Bournemouth, Fulham v Arsenal, Man Utd v Sunderland, Newcastle v Forest 19:30; Aston Villa v Liverpool, Ipswich v Chelsea 20:15. All on Sky. Match of the Day on BBC One that evening; 5 Live commentaries.",
-   "e": "2026-12-30"
-  },
-  {
-   "t": "Premier League: New Year round",
-   "s": "Football",
-   "d": "2027-01-01",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Fri 1 Jan: Leeds v Everton 20:00 (Sky). Sat 2 Jan: Brighton v Man Utd 12:30 (TNT); Arsenal v Ipswich, Brentford v Palace, Liverpool v Coventry, Forest v Fulham, Sunderland v Hull 15:00; Bournemouth v Aston Villa 17:30 (Sky). Sun 3 Jan: Chelsea v Newcastle 14:00, Man City v Spurs 16:30 (Sky). MOTD Sat, MOTD2 Sun.",
-   "e": "2027-01-03"
-  },
-  {
-   "t": "Premier League midweek round",
-   "s": "Football",
-   "d": "2027-01-05",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Tue 5 Jan: Arsenal v Brentford, Brighton v Bournemouth, Everton v Aston Villa, Forest v Hull 19:30; Sunderland v Liverpool 20:15. Wed 6 Jan: Palace v Chelsea, Fulham v Spurs, Ipswich v Coventry 19:30; Leeds v Man City 20:15. Thu 7 Jan: Man Utd v Newcastle 20:00. All on Sky. Match of the Day on BBC One that evening; 5 Live commentaries.",
-   "e": "2027-01-07"
-  },
-  {
    "t": "Scottish Premiership: Hearts v Hibs",
    "s": "Football",
    "d": "2026-12-27",
@@ -2387,48 +2302,6 @@
    ],
    "other": "Sky Sports",
    "note": "Old Firm derby. Highlights on BBC Scotland (Sportscene); live 5 Live and BBC Radio Scotland commentary on Old Firm games."
-  },
-  {
-   "t": "Premier League weekend",
-   "s": "Football",
-   "d": "2026-11-06",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Fri: Everton v Coventry 20:00. Sat: Leeds v Spurs 12:30; Arsenal v Hull, Fulham v Newcastle 15:00; Forest v Man City 17:30. Sun: Brighton v Brentford, Palace v Liverpool, Ipswich v Bournemouth, Sunderland v Chelsea 14:00; Man Utd v Aston Villa 16:30. MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
-   "e": "2026-11-08"
-  },
-  {
-   "t": "Premier League weekend",
-   "s": "Football",
-   "d": "2026-11-21",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Sat: Man City v Fulham 12:30; Bournemouth v Forest, Aston Villa v Sunderland, Chelsea v Leeds, Coventry v Palace, Spurs v Ipswich 15:00; Newcastle v Arsenal 17:30. Sun: Hull v Brighton 14:00; Liverpool v Man Utd 16:30. Mon: Brentford v Everton 20:00. MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
-   "e": "2026-11-23"
-  },
-  {
-   "t": "Premier League weekend",
-   "s": "Football",
-   "d": "2026-11-27",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Fri: Forest v Chelsea 20:00. Sat: Leeds v Coventry, Man Utd v Brentford 15:00; Ipswich v Aston Villa 17:30. Sun: Everton v Liverpool 12:00 (Merseyside derby); Brighton v Newcastle, Palace v Hull, Fulham v Bournemouth, Sunderland v Spurs 14:05; Arsenal v Man City 16:30. MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
-   "e": "2026-11-29"
   },
   {
    "t": "Premier League weekend",
@@ -3277,6 +3150,1000 @@
     "on"
    ],
    "other": "Premier Sports / DAZN"
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2026-10-24",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Aston Villa v Man City 12:30 (TNT); Arsenal v Everton, Coventry v Fulham 15:00; Chelsea v Spurs 17:30 (Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2026-10-25",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Palace v Newcastle, Hull v Brentford, Liverpool v Brighton, Man Utd v Bournemouth 14:00; Sunderland v Leeds 16:30 (all Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2026-10-31",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Chelsea v Man Utd 12:30 (TNT); Bournemouth v Leeds, Brentford v Forest, Coventry v Sunderland, Hull v Ipswich, Man City v Brighton 15:00; Spurs v Palace 17:30, Aston Villa v Fulham 20:00 (Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2026-11-01",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Liverpool v Arsenal 16:30 (Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League (Monday night)",
+   "s": "Football",
+   "d": "2026-11-02",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Newcastle v Everton 20:00 (Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League (Friday night)",
+   "s": "Football",
+   "d": "2026-11-06",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Everton v Coventry 20:00. 5 Live commentaries."
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2026-11-07",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Leeds v Spurs 12:30; Arsenal v Hull, Fulham v Newcastle 15:00; Forest v Man City 17:30. 5 Live commentaries."
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2026-11-08",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Brighton v Brentford, Palace v Liverpool, Ipswich v Bournemouth, Sunderland v Chelsea 14:00; Man Utd v Aston Villa 16:30. 5 Live commentaries."
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2026-11-21",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Man City v Fulham 12:30; Bournemouth v Forest, Aston Villa v Sunderland, Chelsea v Leeds, Coventry v Palace, Spurs v Ipswich 15:00; Newcastle v Arsenal 17:30. 5 Live commentaries."
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2026-11-22",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Hull v Brighton 14:00; Liverpool v Man Utd 16:30. 5 Live commentaries."
+  },
+  {
+   "t": "Premier League (Monday night)",
+   "s": "Football",
+   "d": "2026-11-23",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Brentford v Everton 20:00. 5 Live commentaries."
+  },
+  {
+   "t": "Premier League (Friday night)",
+   "s": "Football",
+   "d": "2026-11-27",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Forest v Chelsea 20:00. 5 Live commentaries."
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2026-11-28",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Leeds v Coventry, Man Utd v Brentford 15:00; Ipswich v Aston Villa 17:30. 5 Live commentaries."
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2026-11-29",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Everton v Liverpool 12:00 (Merseyside derby); Brighton v Newcastle, Palace v Hull, Fulham v Bournemouth, Sunderland v Spurs 14:05; Arsenal v Man City 16:30. 5 Live commentaries."
+  },
+  {
+   "t": "Premier League: Boxing Day",
+   "s": "Football",
+   "d": "2026-12-26",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Aston Villa v Leeds 12:30 (TNT); Everton v Sunderland, Fulham v Brighton, Ipswich v Brentford, Spurs v Bournemouth 15:00; Hull v Liverpool 17:30 (Sky); Newcastle v Man City 20:00 (Sky). 5 Live commentaries.",
+   "k": 1
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2026-12-27",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Coventry v Chelsea 14:00, Man Utd v Forest 16:30, Palace v Arsenal 19:00 (all Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League midweek",
+   "s": "Football",
+   "d": "2026-12-29",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Hull v Leeds, Spurs v Brighton 19:30; Everton v Man City 20:15 (all Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League midweek",
+   "s": "Football",
+   "d": "2026-12-30",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Coventry v Brentford, Palace v Bournemouth, Fulham v Arsenal, Man Utd v Sunderland, Newcastle v Forest 19:30; Aston Villa v Liverpool, Ipswich v Chelsea 20:15 (all Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League: New Year's Day",
+   "s": "Football",
+   "d": "2027-01-01",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Leeds v Everton 20:00 (Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2027-01-02",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Brighton v Man Utd 12:30 (TNT); Arsenal v Ipswich, Brentford v Palace, Liverpool v Coventry, Forest v Fulham, Sunderland v Hull 15:00; Bournemouth v Aston Villa 17:30 (Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League",
+   "s": "Football",
+   "d": "2027-01-03",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Chelsea v Newcastle 14:00, Man City v Spurs 16:30 (Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League midweek",
+   "s": "Football",
+   "d": "2027-01-05",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Arsenal v Brentford, Brighton v Bournemouth, Everton v Aston Villa, Forest v Hull 19:30; Sunderland v Liverpool 20:15 (all Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League midweek",
+   "s": "Football",
+   "d": "2027-01-06",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Palace v Chelsea, Fulham v Spurs, Ipswich v Coventry 19:30; Leeds v Man City 20:15 (all Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League midweek",
+   "s": "Football",
+   "d": "2027-01-07",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Man Utd v Newcastle 20:00 (Sky). 5 Live commentaries."
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2026-10-24",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2026-10-25",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2026-10-31",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2026-11-01",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2026-11-07",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2026-11-08",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2026-11-21",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2026-11-22",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2026-11-28",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2026-11-29",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day (midweek)",
+   "s": "Football",
+   "d": "2026-12-02",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Midweek highlights on BBC One and iPlayer, usually late evening; check listings for exact days.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2026-12-05",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2026-12-06",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2026-12-12",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2026-12-13",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2026-12-19",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2026-12-20",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2026-12-26",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2026-12-27",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day (midweek)",
+   "s": "Football",
+   "d": "2026-12-29",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Midweek highlights on BBC One and iPlayer, usually late evening; check listings for exact days.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day (midweek)",
+   "s": "Football",
+   "d": "2026-12-30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Midweek highlights on BBC One and iPlayer, usually late evening; check listings for exact days.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-01-02",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-01-03",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Match of the Day (midweek)",
+   "s": "Football",
+   "d": "2027-01-05",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Midweek highlights on BBC One and iPlayer, usually late evening; check listings for exact days.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day (midweek)",
+   "s": "Football",
+   "d": "2027-01-06",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Midweek highlights on BBC One and iPlayer, usually late evening; check listings for exact days.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day (midweek)",
+   "s": "Football",
+   "d": "2027-01-07",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Midweek highlights on BBC One and iPlayer, usually late evening; check listings for exact days.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-01-16",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-01-17",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-01-23",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-01-24",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-01-30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-01-31",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-02-06",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-02-07",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day (midweek)",
+   "s": "Football",
+   "d": "2027-02-10",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Midweek highlights on BBC One and iPlayer, usually late evening; check listings for exact days.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-02-20",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-02-21",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-02-27",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-02-28",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day (midweek)",
+   "s": "Football",
+   "d": "2027-03-03",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Midweek highlights on BBC One and iPlayer, usually late evening; check listings for exact days.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-03-13",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-03-14",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-03-20",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-03-21",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-04-10",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-04-11",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-04-17",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-04-18",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-04-24",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-04-25",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-05-01",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-05-02",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-05-08",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-05-09",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-05-15",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day 2",
+   "s": "Football",
+   "d": "2027-05-16",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-05-23",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
+   "st": "p"
+  },
+  {
+   "t": "Match of the Day",
+   "s": "Football",
+   "d": "2027-05-30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
   }
  ],
  "seasons": [

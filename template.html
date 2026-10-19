@@ -423,10 +423,6 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
         if(n<=7) rows.push({d,kind:'cont',e,i:i+1,n});
       }
     }
-    // drop a "day x of n" row when the same sport already has an entry starting that day
-    // (e.g. a finals session inside a championship), so one day reads as one thing
-    const startKey = new Set(rows.filter(r=>r.kind==='start').map(r=>r.d+'|'+r.e.s));
-    for(let i=rows.length-1;i>=0;i--) if(rows[i].kind==='cont' && startKey.has(rows[i].d+'|'+rows[i].e.s)) rows.splice(i,1);
     rows.sort((a,b)=>a.d-b.d || (a.kind==='start'?0:1)-(b.kind==='start'?0:1) || (a.e.time||'99').localeCompare(b.e.time||'99') || (b.e.k||0)-(a.e.k||0));
     const groups=new Map();
     for(const r of rows){ const w=wkOf(r.d); if(!groups.has(w)) groups.set(w,[]); groups.get(w).push(r); }
