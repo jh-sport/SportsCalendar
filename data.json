@@ -117,7 +117,9 @@
     "on"
    ],
    "other": "ITV (England), S4C (Wales)",
-   "note": "Scotland and Northern Ireland live on BBC; Wales on S4C with BBC; England on ITV. Groups run March to November 2027."
+   "note": "International window (Premier League off on 27 Mar). Scotland and Northern Ireland live on BBC; Wales on S4C with BBC; England on ITV. Exact match days follow the 6 Dec draw.",
+   "e": "2027-03-30",
+   "st": "p"
   },
   {
    "t": "FA Cup quarter-finals",
@@ -1534,16 +1536,6 @@
    "note": "Broadcaster for 2027 not yet confirmed."
   },
   {
-   "t": "London Athletics Meet (Diamond League)",
-   "s": "Athletics",
-   "m": "2027-07",
-   "bbc": [
-    "tv",
-    "ip",
-    "on"
-   ]
-  },
-  {
    "t": "The Hundred",
    "s": "Cricket",
    "m": "2027-08",
@@ -2189,34 +2181,6 @@
    "note": "Sat: Chelsea v Man Utd 12:30 (TNT), Bournemouth v Leeds, Brentford v Forest, Coventry v Sunderland, Hull v Ipswich, Man City v Brighton, Spurs v Palace 17:30, Aston Villa v Fulham 20:00. Sun: Liverpool v Arsenal 16:30. Mon: Newcastle v Everton 20:00. MOTD Sat, MOTD2 Sun."
   },
   {
-   "t": "Premier League weekend",
-   "s": "Football",
-   "d": "2026-11-07",
-   "st": "p",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Full round; kick-off times TBC. MOTD Sat night, MOTD2 Sun night."
-  },
-  {
-   "t": "Premier League weekend",
-   "s": "Football",
-   "d": "2026-11-28",
-   "st": "p",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Fixtures for December–January rounds due to be announced this week. MOTD Sat, MOTD2 Sun."
-  },
-  {
    "t": "Premier League final day",
    "s": "Football",
    "d": "2027-05-30",
@@ -2423,6 +2387,755 @@
    ],
    "other": "Sky Sports",
    "note": "Old Firm derby. Highlights on BBC Scotland (Sportscene); live 5 Live and BBC Radio Scotland commentary on Old Firm games."
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2026-11-06",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Fri: Everton v Coventry 20:00. Sat: Leeds v Spurs 12:30; Arsenal v Hull, Fulham v Newcastle 15:00; Forest v Man City 17:30. Sun: Brighton v Brentford, Palace v Liverpool, Ipswich v Bournemouth, Sunderland v Chelsea 14:00; Man Utd v Aston Villa 16:30. MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "e": "2026-11-08"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2026-11-21",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Sat: Man City v Fulham 12:30; Bournemouth v Forest, Aston Villa v Sunderland, Chelsea v Leeds, Coventry v Palace, Spurs v Ipswich 15:00; Newcastle v Arsenal 17:30. Sun: Hull v Brighton 14:00; Liverpool v Man Utd 16:30. Mon: Brentford v Everton 20:00. MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "e": "2026-11-23"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2026-11-27",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Fri: Forest v Chelsea 20:00. Sat: Leeds v Coventry, Man Utd v Brentford 15:00; Ipswich v Aston Villa 17:30. Sun: Everton v Liverpool 12:00 (Merseyside derby); Brighton v Newcastle, Palace v Hull, Fulham v Bournemouth, Sunderland v Spurs 14:05; Arsenal v Man City 16:30. MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "e": "2026-11-29"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-01-16",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Bournemouth v Ipswich, Aston Villa v Man Utd, Brentford v Brighton, Chelsea v Sunderland, Coventry v Everton, Hull v Arsenal, Liverpool v Palace, Man City v Forest, Newcastle v Fulham, Spurs v Leeds. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-01-23",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Arsenal v Newcastle, Brighton v Man City, Palace v Spurs, Everton v Brentford, Fulham v Aston Villa, Ipswich v Hull, Leeds v Chelsea, Man Utd v Liverpool, Forest v Bournemouth, Sunderland v Coventry. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-01-30",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Bournemouth v Fulham, Aston Villa v Ipswich, Brentford v Man Utd, Chelsea v Forest, Coventry v Leeds, Hull v Palace, Liverpool v Everton (Merseyside derby), Man City v Arsenal, Newcastle v Brighton, Spurs v Sunderland. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-02-06",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Arsenal v Liverpool, Brighton v Hull, Palace v Coventry, Everton v Newcastle, Fulham v Man City, Ipswich v Spurs, Leeds v Bournemouth, Man Utd v Chelsea, Forest v Brentford, Sunderland v Aston Villa. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League midweek round",
+   "s": "Football",
+   "d": "2027-02-10",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Wed 10 Feb: Aston Villa v Bournemouth, Coventry v Liverpool, Palace v Brentford, Everton v Leeds, Fulham v Forest, Hull v Sunderland, Ipswich v Arsenal, Man Utd v Brighton, Newcastle v Chelsea, Spurs v Man City. Listed at 8pm until TV picks are announced. Match of the Day highlights on BBC One that evening; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-02-20",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Bournemouth v Palace, Arsenal v Fulham, Brentford v Coventry, Brighton v Spurs, Chelsea v Ipswich, Leeds v Aston Villa, Liverpool v Hull, Man City v Newcastle, Forest v Man Utd, Sunderland v Everton. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-02-27",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Aston Villa v Chelsea, Coventry v Bournemouth, Palace v Sunderland, Everton v Forest, Fulham v Leeds, Hull v Man City, Ipswich v Brighton, Man Utd v Arsenal, Newcastle v Brentford, Spurs v Liverpool. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League midweek round",
+   "s": "Football",
+   "d": "2027-03-03",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Wed 3 Mar: Bournemouth v Spurs, Arsenal v Palace, Brentford v Ipswich, Brighton v Fulham, Chelsea v Coventry, Leeds v Hull, Liverpool v Aston Villa, Man City v Everton, Forest v Newcastle, Sunderland v Man Utd. Listed at 8pm until TV picks are announced. Match of the Day highlights on BBC One that evening; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-03-13",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Bournemouth v Newcastle, Aston Villa v Hull, Chelsea v Arsenal, Coventry v Man City, Palace v Fulham, Leeds v Brighton, Liverpool v Ipswich, Man Utd v Everton, Sunderland v Brentford, Spurs v Forest. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-03-20",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Arsenal v Sunderland, Brentford v Bournemouth, Brighton v Coventry, Everton v Spurs, Fulham v Liverpool, Hull v Chelsea, Ipswich v Palace, Man City v Man Utd (Manchester derby), Newcastle v Leeds, Forest v Aston Villa. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-04-10",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Bournemouth v Man City, Aston Villa v Brighton, Chelsea v Fulham, Coventry v Arsenal, Palace v Everton, Leeds v Forest, Liverpool v Newcastle, Man Utd v Hull, Sunderland v Ipswich, Spurs v Brentford. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-04-17",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Arsenal v Aston Villa, Brentford v Leeds, Brighton v Chelsea, Everton v Bournemouth, Fulham v Sunderland, Hull v Coventry, Ipswich v Man Utd, Man City v Palace, Newcastle v Spurs, Forest v Liverpool. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-04-24",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Bournemouth v Arsenal, Aston Villa v Coventry, Brentford v Fulham, Chelsea v Man City, Everton v Brighton, Leeds v Liverpool, Man Utd v Palace, Newcastle v Ipswich, Forest v Sunderland, Spurs v Hull. Same weekend as the FA Cup semi-finals. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-05-01",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Arsenal v Spurs (north London derby), Brighton v Forest, Coventry v Man Utd, Palace v Aston Villa, Fulham v Everton, Hull v Bournemouth, Ipswich v Leeds, Liverpool v Chelsea, Man City v Brentford, Sunderland v Newcastle (Tyne-Wear derby). Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-05-08",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Bournemouth v Man Utd, Brentford v Aston Villa, Brighton v Sunderland, Everton v Hull, Fulham v Ipswich, Leeds v Arsenal, Man City v Liverpool, Newcastle v Coventry, Forest v Palace, Spurs v Chelsea. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2027-05-15",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Arsenal v Forest, Aston Villa v Newcastle, Chelsea v Everton, Coventry v Spurs, Palace v Brighton, Hull v Fulham, Ipswich v Man City, Liverpool v Brentford, Man Utd v Leeds, Sunderland v Bournemouth. Same day as the Women's FA Cup final. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead). MOTD Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League (penultimate round)",
+   "s": "Football",
+   "d": "2027-05-23",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Sun 23 May: Bournemouth v Chelsea, Brentford v Hull, Brighton v Liverpool, Everton v Arsenal, Fulham v Coventry, Leeds v Sunderland, Man City v Aston Villa, Newcastle v Palace, Forest v Ipswich, Spurs v Man Utd. Day after the FA Cup final. Listed at 3pm until TV picks are announced (released in blocks a few weeks ahead).",
+   "st": "p"
+  },
+  {
+   "t": "Women's World Cup qualifying play-offs (final round)",
+   "s": "Football",
+   "d": "2026-11-26",
+   "e": "2026-12-05",
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "other": "ITV (England)",
+   "note": "Two-legged ties decide the last European places for Brazil 2027. Scotland, Wales and Northern Ireland women's games are on the BBC if involved; England's are on ITV."
+  },
+  {
+   "t": "Scottish League Cup final",
+   "s": "Football",
+   "d": "2026-12-13",
+   "loc": "Hampden Park",
+   "bbc": [
+    "on"
+   ],
+   "other": "Premier Sports",
+   "note": "Live on Premier Sports; BBC Radio Scotland commentary and BBC Sport online."
+  },
+  {
+   "t": "Carabao Cup final",
+   "s": "Football",
+   "d": "2027-03-21",
+   "loc": "Wembley",
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / ITV",
+   "note": "5 Live commentary. Date from event listings; confirm."
+  },
+  {
+   "t": "Scottish Premiership final day",
+   "s": "Football",
+   "d": "2027-05-15",
+   "e": "2027-05-16",
+   "bbc": [
+    "tv",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Round 38. Highlights on BBC Scotland."
+  },
+  {
+   "t": "Premier League 2027-28 season starts",
+   "s": "Football",
+   "m": "2027-08",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Fixtures usually published in June. Match of the Day returns."
+  },
+  {
+   "t": "WSL 2027-28 season starts",
+   "s": "Football",
+   "m": "2027-09",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "other": "Sky Sports"
+  },
+  {
+   "t": "Champions League 2027-28 league phase begins",
+   "s": "Football",
+   "m": "2027-09",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Paramount+ / Prime Video",
+   "note": "New UK live rights holders from 2027-28; BBC keeps highlights (MOTD: Champions League)."
+  },
+  {
+   "t": "Euro 2028 qualifiers: June window",
+   "s": "Football",
+   "m": "2027-06",
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "ITV (England), S4C (Wales)",
+   "note": "Scotland and Northern Ireland live on BBC. Window dates to be confirmed by UEFA."
+  },
+  {
+   "t": "Euro 2028 qualifiers: September window",
+   "s": "Football",
+   "m": "2027-09",
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "ITV (England), S4C (Wales)",
+   "note": "Scotland and Northern Ireland live on BBC."
+  },
+  {
+   "t": "Euro 2028 qualifiers: October window",
+   "s": "Football",
+   "m": "2027-10",
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "ITV (England), S4C (Wales)",
+   "note": "Scotland and Northern Ireland live on BBC."
+  },
+  {
+   "t": "Euro 2028 qualifiers: final group games",
+   "s": "Football",
+   "m": "2027-11",
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "ITV (England), S4C (Wales)",
+   "note": "Group stage ends in November; play-offs March 2028."
+  },
+  {
+   "t": "Test cricket: South Africa v England, 1st Test",
+   "s": "Cricket",
+   "d": "2026-12-17",
+   "e": "2026-12-21",
+   "loc": "Wanderers, Johannesburg",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "st": "p",
+   "other": "UK TV broadcaster to be confirmed",
+   "note": "Three-Test series. Test Match Special commentary expected."
+  },
+  {
+   "t": "Test cricket: South Africa v England, Boxing Day Test",
+   "s": "Cricket",
+   "d": "2026-12-26",
+   "e": "2026-12-30",
+   "loc": "SuperSport Park, Centurion",
+   "k": 1,
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "st": "p",
+   "other": "UK TV broadcaster to be confirmed",
+   "note": "Test Match Special commentary expected."
+  },
+  {
+   "t": "Test cricket: South Africa v England, New Year Test",
+   "s": "Cricket",
+   "d": "2027-01-03",
+   "e": "2027-01-07",
+   "loc": "Newlands, Cape Town",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "st": "p",
+   "other": "UK TV broadcaster to be confirmed"
+  },
+  {
+   "t": "South Africa v England ODIs",
+   "s": "Cricket",
+   "d": "2027-01-10",
+   "e": "2027-01-15",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "st": "p",
+   "other": "UK TV broadcaster to be confirmed",
+   "note": "10 Jan Paarl, 13 and 15 Jan Bloemfontein. The planned T20Is have been dropped."
+  },
+  {
+   "t": "ATP Finals",
+   "s": "Tennis",
+   "d": "2026-11-15",
+   "e": "2026-11-22",
+   "loc": "Turin",
+   "bbc": [
+    "on"
+   ],
+   "other": "Sky Sports"
+  },
+  {
+   "t": "Champions Cup & Challenge Cup finals",
+   "s": "Rugby union",
+   "d": "2027-05-21",
+   "e": "2027-05-22",
+   "loc": "Lyon",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Premier Sports",
+   "note": "European club rugby finals weekend. 5 Live commentary."
+  },
+  {
+   "t": "Royal Ascot",
+   "s": "Horse racing",
+   "d": "2027-06-15",
+   "e": "2027-06-19",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "ITV",
+   "note": "5 Live commentary."
+  },
+  {
+   "t": "Tour de France",
+   "s": "Cycling",
+   "d": "2027-07-02",
+   "e": "2027-07-25",
+   "loc": "Edinburgh to Paris",
+   "bbc": [
+    "on"
+   ],
+   "other": "TNT Sports; Channel 5 highlights",
+   "note": "Opens with three UK stages (see Grand Départ). Not on the BBC."
+  },
+  {
+   "t": "AIG Women's Open",
+   "s": "Golf",
+   "d": "2027-07-28",
+   "e": "2027-08-01",
+   "loc": "Royal St George's",
+   "bbc": [
+    "tv",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "First time at Royal St George's. BBC daily highlights; 5 Sports Extra commentary."
+  },
+  {
+   "t": "UK Snooker Championship 2027",
+   "s": "Snooker",
+   "m": "2027-11",
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Usually late November into December in York. Dates TBC."
+  },
+  {
+   "t": "Sports Personality of the Year 2027",
+   "s": "Awards",
+   "m": "2027-12",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Doha",
+   "s": "Athletics",
+   "d": "2027-05-07",
+   "loc": "Doha",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Shanghai/Keqiao",
+   "s": "Athletics",
+   "d": "2027-05-15",
+   "loc": "Shanghai/Keqiao",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Xiamen",
+   "s": "Athletics",
+   "d": "2027-05-22",
+   "loc": "Xiamen",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Rome",
+   "s": "Athletics",
+   "d": "2027-05-27",
+   "loc": "Rome",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Rabat",
+   "s": "Athletics",
+   "d": "2027-05-30",
+   "loc": "Rabat",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Oslo",
+   "s": "Athletics",
+   "d": "2027-06-03",
+   "loc": "Oslo",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Stockholm",
+   "s": "Athletics",
+   "d": "2027-06-06",
+   "loc": "Stockholm",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Paris",
+   "s": "Athletics",
+   "d": "2027-06-25",
+   "loc": "Paris",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Eugene",
+   "s": "Athletics",
+   "d": "2027-07-03",
+   "loc": "Eugene",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Monaco",
+   "s": "Athletics",
+   "d": "2027-07-09",
+   "loc": "Monaco",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Lausanne",
+   "s": "Athletics",
+   "d": "2027-07-13",
+   "loc": "Lausanne",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: London",
+   "s": "Athletics",
+   "d": "2027-07-17",
+   "loc": "London",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ],
+   "note": "London Athletics Meet at the London Stadium."
+  },
+  {
+   "t": "Diamond League: Silesia",
+   "s": "Athletics",
+   "d": "2027-08-15",
+   "loc": "Silesia",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Brussels",
+   "s": "Athletics",
+   "d": "2027-08-20",
+   "loc": "Brussels",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League Final",
+   "s": "Athletics",
+   "d": "2027-08-25",
+   "e": "2027-08-26",
+   "loc": "Zurich",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
   }
  ],
  "seasons": [
@@ -2504,16 +3217,15 @@
   {
    "t": "Diamond League",
    "s": "Athletics",
-   "d": "2027-04-17",
-   "e": "2027-09-05",
-   "st": "p",
+   "d": "2027-05-07",
+   "e": "2027-08-26",
    "bbc": [
     "tv",
     "ip",
     "rb",
     "on"
    ],
-   "note": "BBC live to 2030. 2027 dates to be confirmed."
+   "note": "BBC live to 2030. 15 meetings, final in Zurich 25–26 Aug."
   },
   {
    "t": "Serie A (Scottish players' clubs)",
