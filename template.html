@@ -1,15 +1,17 @@
 <title>World Sports Calendar</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@600;700&family=Roboto:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: a broadcast planning desk. Summary strip, then a month grid with a day rail beside it; agenda view as the alternative. */
 :root{
-  --bg:#f3f4f6; --panel:#ffffff; --ink:#151a24; --muted:#5b6474; --line:#dde1e8; --soft:#eceff4;
-  --accent:#d9381e; --accent-ink:#ffffff; --today:#151a24;
+  --bg:#ffffff; --panel:#ffffff; --ink:#141414; --muted:#545658; --line:#e1e1e1; --soft:#f6f6f6;
+  --accent:#ffd230; --accent-ink:#141414; --today:#141414;
+  --band:#141414; --band-ink:#ffffff; --band-muted:#c9c9c9; --hi:#ffd230; --hi-ink:#141414; --rule:#141414; --key:#c28f00;
+  --on-bg:#141414; --on-fg:#ffd230; --chip-on-bg:#141414; --chip-on-fg:#ffffff; --chip-on-line:#141414; --out:#f6f6f6;
   --ok:#1f7a4d; --warn:#a65f00; --tbc:#7a3fb0;
-  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
-  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-display:"Roboto Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"Roboto",Arial,system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
   --s-football:#2f6fd6; --s-rugbyunion:#0f8a6a; --s-rugbyleague:#7a9a12; --s-cricket:#b0742a; --s-tennis:#8a5cc8;
   --s-golf:#3d8f3d; --s-f1:#d9381e; --s-athletics:#d0457f; --s-snooker:#16704a; --s-darts:#6b6b6b; --s-horse:#8a4b2a;
@@ -18,8 +20,10 @@
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#0f131a; --panel:#171c25; --ink:#e9edf3; --muted:#9aa4b4; --line:#2a313d; --soft:#1f2530;
-  --accent:#ff5a3c; --accent-ink:#14100f; --today:#e9edf3;
+  --bg:#0b0b0b; --panel:#161616; --ink:#f2f2f2; --muted:#a3a3a3; --line:#2c2c2c; --soft:#1f1f1f;
+  --accent:#ffd230; --accent-ink:#141414; --today:#ffd230;
+  --band:#000000; --band-ink:#ffffff; --band-muted:#c9c9c9; --hi:#ffd230; --hi-ink:#141414; --rule:#ffd230; --key:#ffd230;
+  --on-bg:#ffd230; --on-fg:#141414; --chip-on-bg:#1f1f1f; --chip-on-fg:#f2f2f2; --chip-on-line:#3a3a3a; --out:#111111;
   --ok:#4cc58a; --warn:#f0a83a; --tbc:#b98ae6;
   --s-football:#6b9cf0; --s-rugbyunion:#3cc39f; --s-rugbyleague:#a8c93a; --s-cricket:#e0a35a; --s-tennis:#b48ef0;
   --s-golf:#6cc56c; --s-f1:#ff6b4f; --s-athletics:#f07aab; --s-snooker:#43b582; --s-darts:#a3a3a3; --s-horse:#c98a62;
@@ -27,8 +31,10 @@
   --s-gym:#ef6fbf; --s-net:#ff9a63; --s-hockey:#5cc9c9; --s-box:#e06a6a; --s-nfl:#8ea2e8; --s-mlb:#5fb3e6; --s-nba:#f0915a;
   color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0f131a; --panel:#171c25; --ink:#e9edf3; --muted:#9aa4b4; --line:#2a313d; --soft:#1f2530;
-  --accent:#ff5a3c; --accent-ink:#14100f; --today:#e9edf3;
+  --bg:#0b0b0b; --panel:#161616; --ink:#f2f2f2; --muted:#a3a3a3; --line:#2c2c2c; --soft:#1f1f1f;
+  --accent:#ffd230; --accent-ink:#141414; --today:#ffd230;
+  --band:#000000; --band-ink:#ffffff; --band-muted:#c9c9c9; --hi:#ffd230; --hi-ink:#141414; --rule:#ffd230; --key:#ffd230;
+  --on-bg:#ffd230; --on-fg:#141414; --chip-on-bg:#1f1f1f; --chip-on-fg:#f2f2f2; --chip-on-line:#3a3a3a; --out:#111111;
   --ok:#4cc58a; --warn:#f0a83a; --tbc:#b98ae6;
   --s-football:#6b9cf0; --s-rugbyunion:#3cc39f; --s-rugbyleague:#a8c93a; --s-cricket:#e0a35a; --s-tennis:#b48ef0;
   --s-golf:#6cc56c; --s-f1:#ff6b4f; --s-athletics:#f07aab; --s-snooker:#43b582; --s-darts:#a3a3a3; --s-horse:#c98a62;
@@ -174,6 +180,42 @@ button,input,select{font:inherit;color:inherit}
 footer{font-size:12px;color:var(--muted);max-width:90ch}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px}
 @media (prefers-reduced-motion:no-preference){.cell{transition:background .12s}.cell:hover{background:var(--soft)}}
+
+/* ---- BBC Sport-style colour treatment: black bands, white/charcoal surfaces, yellow highlights, square corners ---- */
+:focus-visible{outline-color:var(--ink)}
+.mast{background:var(--band);color:var(--band-ink);box-shadow:0 0 0 100vmax var(--band);clip-path:inset(-20px -100vmax 0 -100vmax);padding-block:18px;margin-top:-20px;padding-top:calc(18px + env(safe-area-inset-top,0px))}
+.mast h1{color:var(--band-ink);letter-spacing:.02em}
+.mast h1 span{color:var(--hi)}
+.mast p,.stamp{color:var(--band-muted)}
+.dot{background:var(--hi)}
+.summary{border-radius:0;border:0;gap:12px;background:none}
+.sum{background:var(--soft);border-top:4px solid var(--rule);border-radius:0}
+.sum.next{background:var(--hi);border-top-color:var(--rule)}
+.sum.next .lab,.sum.next .sub,.sum.next .val,.sum.next .sport{color:var(--hi-ink)}
+.sum.next .b{border-color:var(--hi-ink);color:var(--hi-ink)}
+.sum.next .b.tv{background:var(--hi-ink);color:var(--hi)}
+.seg{border-radius:0;border-color:var(--rule)}
+.seg button[aria-pressed="true"]{background:var(--on-bg);color:var(--on-fg)}
+.btn,.search,.chip{border-radius:0}
+.chip[aria-pressed="true"]{border-color:var(--chip-on-line);background:var(--chip-on-bg);color:var(--chip-on-fg)}
+.panel{border-radius:0;border-color:var(--line)}
+.agenda .wkh{background:var(--band);padding:10px 14px}
+.agenda .wkh h3{color:var(--hi)}
+.agenda .wkh span{color:var(--band-muted)}
+.b.tv{background:var(--hi);border-color:var(--hi);color:var(--hi-ink);font-weight:700}
+.b.ip,.b.rb{border-color:var(--ink);color:var(--ink)}
+.key,.item .key,.legend .key{color:var(--key)}
+.monhead{background:var(--band)}
+.monhead h2{color:var(--band-ink)}
+.nav button{background:var(--band);color:var(--hi);border-color:#545658;border-radius:0}
+.dow{background:var(--soft);color:var(--ink);font-weight:700}
+.cell.out{background:var(--out)}
+.cell.today .num b{background:var(--hi);color:var(--hi-ink)}
+.cell.sel{box-shadow:inset 0 0 0 3px var(--hi)}
+.rail h3{border-bottom:3px solid var(--hi);padding-bottom:6px;margin:0 14px}
+.watch div{border-top-color:var(--hi)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .agenda .wkh,:root:not([data-theme="light"]) .monhead{border-bottom:2px solid var(--hi)}}
+:root[data-theme="dark"] .agenda .wkh,:root[data-theme="dark"] .monhead{border-bottom:2px solid var(--hi)}
 </style>
 
 <div class="wrap">
