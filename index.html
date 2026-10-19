@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px/1.45 system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Sports Planning Diary</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a broadcast planning desk. Summary strip, then a month grid with a day rail beside it; agenda view as the alternative. */
+:root{
+  --bg:#f3f4f6; --panel:#ffffff; --ink:#151a24; --muted:#5b6474; --line:#dde1e8; --soft:#eceff4;
+  --accent:#d9381e; --accent-ink:#ffffff; --today:#151a24;
+  --ok:#1f7a4d; --warn:#a65f00; --tbc:#7a3fb0;
+  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --s-football:#2f6fd6; --s-rugbyunion:#0f8a6a; --s-rugbyleague:#7a9a12; --s-cricket:#b0742a; --s-tennis:#8a5cc8;
+  --s-golf:#3d8f3d; --s-f1:#d9381e; --s-athletics:#d0457f; --s-snooker:#16704a; --s-darts:#6b6b6b; --s-horse:#8a4b2a;
+  --s-swim:#1592b0; --s-cycle:#c99a00; --s-multi:#4a5bd6; --s-other:#6a7385;
+  --s-gym:#c2368f; --s-net:#e0662b; --s-hockey:#2a8c8c; --s-box:#9b2c2c;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f131a; --panel:#171c25; --ink:#e9edf3; --muted:#9aa4b4; --line:#2a313d; --soft:#1f2530;
+  --accent:#ff5a3c; --accent-ink:#14100f; --today:#e9edf3;
+  --ok:#4cc58a; --warn:#f0a83a; --tbc:#b98ae6;
+  --s-football:#6b9cf0; --s-rugbyunion:#3cc39f; --s-rugbyleague:#a8c93a; --s-cricket:#e0a35a; --s-tennis:#b48ef0;
+  --s-golf:#6cc56c; --s-f1:#ff6b4f; --s-athletics:#f07aab; --s-snooker:#43b582; --s-darts:#a3a3a3; --s-horse:#c98a62;
+  --s-swim:#4cc3df; --s-cycle:#f0c53a; --s-multi:#8a97f0; --s-other:#9aa4b4;
+  --s-gym:#ef6fbf; --s-net:#ff9a63; --s-hockey:#5cc9c9; --s-box:#e06a6a;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f131a; --panel:#171c25; --ink:#e9edf3; --muted:#9aa4b4; --line:#2a313d; --soft:#1f2530;
+  --accent:#ff5a3c; --accent-ink:#14100f; --today:#e9edf3;
+  --ok:#4cc58a; --warn:#f0a83a; --tbc:#b98ae6;
+  --s-football:#6b9cf0; --s-rugbyunion:#3cc39f; --s-rugbyleague:#a8c93a; --s-cricket:#e0a35a; --s-tennis:#b48ef0;
+  --s-golf:#6cc56c; --s-f1:#ff6b4f; --s-athletics:#f07aab; --s-snooker:#43b582; --s-darts:#a3a3a3; --s-horse:#c98a62;
+  --s-swim:#4cc3df; --s-cycle:#f0c53a; --s-multi:#8a97f0; --s-other:#9aa4b4;
+  --s-gym:#ef6fbf; --s-net:#ff9a63; --s-hockey:#5cc9c9; --s-box:#e06a6a;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
+.wrap{max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+h1,h2,h3{font-family:var(--f-display);font-weight:700;letter-spacing:.01em;margin:0;text-wrap:balance}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* masthead */
+.mast{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+.mast h1{font-size:clamp(28px,4vw,40px);line-height:1;text-transform:uppercase}
+.mast h1 span{color:var(--accent)}
+.mast p{margin:4px 0 0;color:var(--muted);max-width:62ch}
+.stamp{font-family:var(--f-mono);font-size:12px;color:var(--muted);display:flex;align-items:center;gap:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);display:inline-block}
+
+/* summary */
+.summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.sum{background:var(--panel);padding:12px 14px;min-width:0}
+.sum .lab{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.sum .val{font-family:var(--f-display);font-size:30px;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums}
+.sum .sub{font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sum .sport{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--ink)}
+.sum .sport::before{content:"";width:9px;height:9px;border-radius:2px;background:var(--c)}
+.sum.next .sub{white-space:normal}
+.sum.next .val{font-size:20px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:760px){.summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* toolbar */
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--panel)}
+.seg button{border:0;background:none;padding:7px 12px;cursor:pointer;color:var(--muted);font-weight:500}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.search{flex:1 1 200px;min-width:0;border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:7px 10px}
+.btn{text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:7px 12px;cursor:pointer;font-weight:500}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:3px 10px 3px 8px;font-size:12px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--muted)}
+.chip i{width:9px;height:9px;border-radius:2px;background:var(--c)}
+.chip[aria-pressed="true"]{color:var(--ink);border-color:var(--ink)}
+.chip[aria-pressed="false"] i{opacity:.35}
+
+/* platform badges */
+.pl{display:inline-flex;gap:3px;flex-wrap:wrap}
+.b{font-family:var(--f-mono);font-size:10px;font-weight:500;letter-spacing:.02em;padding:1px 5px;border-radius:3px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.b.tv{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.b.ip{border-color:var(--ink);color:var(--ink)}
+.b.rb{border-color:var(--ink);color:var(--ink);border-style:dashed}
+.b.r{color:var(--ink)}
+.b.no{border-style:dotted}
+.st{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;padding:1px 6px;border-radius:3px}
+.st.p{color:var(--warn);border:1px solid var(--warn)}
+.st.r{color:var(--tbc);border:1px solid var(--tbc)}
+
+/* main layout */
+.main{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:18px;align-items:start}
+@media (max-width:980px){.main{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;min-width:0}
+.monhead{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 12px;border-bottom:1px solid var(--line)}
+.monhead h2{font-size:24px;text-transform:uppercase}
+.nav{display:flex;gap:6px}
+.nav button{border:1px solid var(--line);background:var(--panel);border-radius:6px;width:34px;height:30px;cursor:pointer;font-size:16px}
+.nav .t{width:auto;padding:0 10px;font-size:13px}
+
+.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.dow{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--line)}
+.cell{min-height:108px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:5px 6px 6px;display:flex;flex-direction:column;gap:3px;cursor:pointer;background:var(--panel);text-align:left;border-top:0;border-left:0;min-width:0}
+.cell:nth-child(7n){border-right:0}
+.cell.out{background:var(--soft)}
+.cell.out .num{opacity:.45}
+.cell.sel{box-shadow:inset 0 0 0 2px var(--accent)}
+.num{font-family:var(--f-mono);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+.cell.today .num b{background:var(--today);color:var(--bg);border-radius:4px;padding:0 5px}
+.num b{font-weight:500}
+.ev{font-size:11.5px;line-height:1.25;padding:2px 4px 2px 6px;border-left:3px solid var(--c);background:color-mix(in srgb,var(--c) 12%,transparent);border-radius:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ev.tv{font-weight:600}
+.ev .to{font-weight:400;color:var(--muted)}
+.ev.cont{background:color-mix(in srgb,var(--c) 22%,transparent);border-left-color:transparent;color:var(--muted);font-weight:400;border-radius:0 2px 2px 0;margin-left:-6px;padding-left:12px}
+.dur{display:flex;align-items:center;gap:8px;margin-top:6px;font-size:12px;color:var(--muted)}
+.dur .seg{display:flex;gap:2px;flex:0 1 220px;min-width:60px}
+.dur .seg i{height:6px;flex:1;border-radius:1px;background:color-mix(in srgb,var(--c) 30%,transparent)}
+.dur .seg i.on{background:var(--c)}
+.dur .seg.solid i{background:var(--c)}
+.dur b{color:var(--ink);font-weight:600}
+.when b{display:block;color:var(--ink);font-weight:500}
+.when .n{display:inline-block;margin-top:3px;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--c);border:1px solid var(--c);border-radius:3px;padding:0 4px}
+.crow .tt{font-weight:500}
+.crow{background:color-mix(in srgb,var(--c) 6%,transparent)}
+.dayof{display:inline-block;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--c);border:1px solid var(--c);border-radius:3px;padding:0 4px;margin-left:4px;vertical-align:1px}
+.cont-list{list-style:none;margin:0;padding:2px 14px 8px;display:flex;flex-direction:column;gap:4px}
+.cont-list li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:center;font-size:12.5px;padding:5px 8px;border-left:3px solid var(--c);background:color-mix(in srgb,var(--c) 9%,transparent);border-radius:2px}
+.cont-list .r{color:var(--muted);font-family:var(--f-mono);font-size:11px;white-space:nowrap}
+@media (max-width:520px){.cont-list li{grid-template-columns:minmax(0,1fr)}}
+.more{font-size:11px;color:var(--muted)}
+.ticks{margin-top:auto;display:flex;gap:2px;flex-wrap:wrap}
+.ticks span{height:4px;flex:1 1 10px;max-width:24px;border-radius:2px;background:var(--c)}
+@media (max-width:640px){
+  .cell{min-height:58px;padding:3px}
+  .ev{font-size:0;padding:0;height:6px;border-left:0;background:var(--c)}
+  .more{font-size:9px}
+}
+
+/* side rail */
+.rail{display:flex;flex-direction:column;gap:18px}
+.rail h3{font-size:18px;text-transform:uppercase;padding:12px 14px 0}
+.rail .hint{font-size:12px;color:var(--muted);padding:2px 14px 0}
+.list{list-style:none;margin:0;padding:6px 0}
+.item{padding:9px 14px;border-top:1px solid var(--line);display:grid;grid-template-columns:4px minmax(0,1fr);gap:10px}
+.item:first-child{border-top:0}
+.item .bar4{background:var(--c);border-radius:2px}
+.item .tt{font-weight:600;line-height:1.3}
+.item .meta{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:2px}
+.item .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:5px}
+.item .note{font-size:12.5px;color:var(--muted);margin-top:4px}
+.item .key{color:var(--accent);font-weight:700}
+.sub-h{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:10px 14px 2px}
+.empty{padding:14px;color:var(--muted);font-size:13px}
+
+/* agenda */
+.agenda .wk{border-top:1px solid var(--line)}
+.agenda .wk:first-child{border-top:0}
+.agenda .wkh{display:flex;justify-content:space-between;align-items:baseline;padding:12px 14px 4px}
+.agenda .wkh h3{font-size:18px;text-transform:uppercase}
+.agenda .wkh span{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.agenda .item{grid-template-columns:86px 4px minmax(0,1fr)}
+.agenda .when{font-family:var(--f-mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:2px}
+@media (max-width:520px){.agenda .item{grid-template-columns:4px minmax(0,1fr)}.agenda .when{grid-column:1/-1}}
+
+.legend{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:12px;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;gap:6px;align-items:center}
+.watch{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.watch div{border-top:2px solid var(--tbc);padding-top:8px}
+.watch b{display:block;margin-bottom:2px}
+.watch p{margin:0;color:var(--muted);font-size:13px}
+footer{font-size:12px;color:var(--muted);max-width:90ch}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px}
+@media (prefers-reduced-motion:no-preference){.cell{transition:background .12s}.cell:hover{background:var(--soft)}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <h1>Sports <span>Planning</span> Diary</h1>
+      <p>World sport for the year ahead, marked by how BBC Sport covers it: TV, iPlayer, Red Button, 5 Live and online.</p>
+    </div>
+    <div class="stamp"><span class="dot"></span><span id="stamp"></span></div>
+  </header>
+
+  <section class="summary" id="summary" aria-label="Next seven days"></section>
+
+  <div class="bar">
+    <div class="seg" role="group" aria-label="View">
+      <button id="v-agenda" aria-pressed="true">Agenda</button>
+      <button id="v-month" aria-pressed="false">Month</button>
+    </div>
+    <div class="seg" role="group" aria-label="Coverage filter">
+      <button id="f-all" aria-pressed="true">All sport</button>
+      <button id="f-bbc" aria-pressed="false">Any BBC</button>
+      <button id="f-live" aria-pressed="false">BBC TV &amp; iPlayer</button>
+    </div>
+    <input class="search" id="q" type="search" placeholder="Search events, venues, teams" aria-label="Search">
+    <button class="btn" id="ics" hidden>Export to calendar (.ics)</button>
+    <a class="btn" id="subscribe" href="sports-diary.ics" hidden title="Copy this link and add it in Outlook: Add calendar > Subscribe from web">Outlook feed</a>
+  </div>
+  <div class="chips" id="chips" aria-label="Sports"></div>
+
+  <div class="main">
+    <section class="panel" id="month-view">
+      <div class="monhead">
+        <h2 id="mtitle"></h2>
+        <div class="nav">
+          <button id="prev" aria-label="Previous month">‹</button>
+          <button id="todayBtn" class="t">Today</button>
+          <button id="next" aria-label="Next month">›</button>
+        </div>
+      </div>
+      <div class="grid" id="grid"></div>
+    </section>
+    <section class="panel agenda" id="agenda-view" hidden></section>
+
+    <aside class="rail">
+      <div class="panel" id="running"></div>
+      <div class="panel" id="day"></div>
+    </aside>
+  </div>
+
+  <div class="legend">
+    <span><b class="key">★</b> Headline event: a final, major championship or big BBC moment</span>
+    <span><b class="b tv">TV</b> BBC One/Two live or highlights</span>
+    <span><b class="b ip">iPlayer</b> streamed live</span>
+    <span><b class="b rb">Red Button</b></span>
+    <span><b class="b r">5 Live</b> radio commentary</span>
+    <span><b class="b">Online</b> live text, clips</span>
+    <span><span class="st p">Provisional</span> date or BBC split not confirmed</span>
+    <span><span class="st r">Rights TBC</span> broadcaster not announced</span>
+  </div>
+
+  <section class="panel" style="padding:14px 16px">
+    <h3 style="font-size:20px;text-transform:uppercase;margin-bottom:10px">Rights to watch</h3>
+    <div class="watch" id="watch"></div>
+  </section>
+
+  <footer>Dates are UK time where a time is shown. Coverage reflects published rights deals and announced BBC picks; individual match selections are confirmed nearer the day. The diary is re-checked every Monday.</footer>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script type="application/json" id="diary-data">{"updated": "2026-10-19", "events": [{"t": "Bundesliga: Stuttgart v Borussia Mönchengladbach", "s": "Football", "d": "2026-10-23", "time": "19:30", "bbc": ["ip", "on"], "note": "BBC's Friday-night Bundesliga game, live on iPlayer and the BBC Sport website."}, {"t": "WSL: Tottenham v Arsenal", "s": "Football", "d": "2026-10-24", "time": "12:45", "bbc": ["tv", "ip", "on"], "note": "North London derby, live on BBC One."}, {"t": "WSL: Charlton v Chelsea", "s": "Football", "d": "2026-11-01", "time": "14:30", "bbc": ["tv", "ip", "on"], "note": "Live on BBC Two."}, {"t": "FA Cup first round", "s": "Football", "d": "2026-11-07", "bbc": ["tv", "ip", "r", "on"], "note": "Ties spread across the weekend. BBC picks live games each round; 5 Live commentary."}, {"t": "FA Cup second round", "s": "Football", "d": "2026-12-05", "bbc": ["tv", "ip", "r", "on"]}, {"t": "Euro 2028 qualifying draw", "s": "Football", "d": "2026-12-06", "loc": "Belfast", "bbc": ["on"], "note": "Sets the 2027 qualifying groups for Scotland, Wales, Northern Ireland and England."}, {"t": "FA Cup third round", "s": "Football", "d": "2027-01-09", "e": "2027-01-10", "k": 1, "bbc": ["tv", "ip", "r", "on"], "note": "Premier League and Championship clubs enter."}, {"t": "FA Cup fourth round", "s": "Football", "d": "2027-02-13", "bbc": ["tv", "ip", "r", "on"]}, {"t": "FA Cup fifth round", "s": "Football", "d": "2027-03-06", "bbc": ["tv", "ip", "r", "on"]}, {"t": "Euro 2028 qualifiers begin", "s": "Football", "d": "2027-03-25", "k": 1, "bbc": ["tv", "ip", "r", "on"], "other": "ITV (England), S4C (Wales)", "note": "Scotland and Northern Ireland live on BBC; Wales on S4C with BBC; England on ITV. Groups run March to November 2027."}, {"t": "FA Cup quarter-finals", "s": "Football", "d": "2027-04-03", "bbc": ["tv", "ip", "r", "on"]}, {"t": "FA Cup semi-finals", "s": "Football", "d": "2027-04-24", "e": "2027-04-25", "loc": "Wembley", "bbc": ["tv", "ip", "r", "on"]}, {"t": "Women's FA Cup final", "s": "Football", "d": "2027-05-15", "loc": "Wembley", "bbc": ["r", "on"], "other": "Channel 4", "note": "Live TV on Channel 4; 5 Live commentary."}, {"t": "FA Cup final", "s": "Football", "d": "2027-05-22", "loc": "Wembley", "k": 1, "bbc": ["tv", "ip", "r", "on"], "other": "TNT Sports"}, {"t": "Champions League final", "s": "Football", "d": "2027-06-05", "loc": "Metropolitano, Madrid", "k": 1, "bbc": ["tv", "r", "on"], "other": "TNT Sports / Prime Video", "note": "BBC has Champions League highlights; live rights sit elsewhere."}, {"t": "Women's World Cup", "s": "Football", "d": "2027-06-24", "e": "2027-07-25", "loc": "Brazil", "k": 1, "bbc": ["tv", "ip", "r", "on"], "other": "ITV", "note": "Rights shared equally with ITV. Opener at the Maracanã on 24 June; semi-final in Rio on 21 July."}, {"t": "Women's World Cup final", "s": "Football", "d": "2027-07-25", "loc": "Maracanã, Rio", "k": 1, "bbc": ["tv", "ip", "r", "on"], "other": "ITV", "note": "Live on both BBC and ITV."}, {"t": "Rugby League World Cup", "s": "Rugby league", "d": "2026-10-15", "e": "2026-11-15", "loc": "Australia & PNG", "bbc": ["on"], "other": "Premier Sports", "note": "No BBC TV coverage this time: Premier Sports holds exclusive UK rights."}, {"t": "RLWC: England v France", "s": "Rugby league", "d": "2026-10-24", "time": "07:35", "bbc": ["on"], "other": "Premier Sports"}, {"t": "RLWC semi-finals", "s": "Rugby league", "d": "2026-11-07", "e": "2026-11-08", "time": "09:05", "bbc": ["on"], "other": "Premier Sports"}, {"t": "RLWC finals (men's & women's)", "s": "Rugby league", "d": "2026-11-15", "loc": "Brisbane", "time": "08:35", "bbc": ["on"], "other": "Premier Sports", "note": "Women's final 05:15, men's final 08:35 UK time. Wheelchair final 13 November."}, {"t": "Super League Grand Final", "s": "Rugby league", "d": "2027-10-02", "loc": "Old Trafford", "st": "r", "bbc": ["on"], "note": "BBC's 2024–26 Super League deal has ended. 2027 TV rights not yet announced."}, {"t": "Nations Championship: November Tests", "s": "Rugby union", "d": "2026-11-06", "e": "2026-11-21", "bbc": ["ip", "on"], "other": "ITV", "note": "Live on ITV. Wales home Tests (v Japan 7 Nov, v New Zealand 14 Nov) also listed on BBC iPlayer. Other fixtures: Scotland v NZ (7 Nov), England v Australia (8 Nov), England v Japan (14 Nov), Scotland v Australia (15 Nov), England v NZ, Scotland v Japan & Wales v Australia (21 Nov)."}, {"t": "England v New Zealand", "s": "Rugby union", "d": "2026-11-21", "loc": "Twickenham", "bbc": ["on"], "other": "ITV"}, {"t": "Nations Championship Finals Weekend", "s": "Rugby union", "d": "2026-11-27", "e": "2026-11-29", "loc": "Twickenham", "k": 1, "bbc": ["on"], "other": "ITV", "note": "Six Tests over three days, including the first Nations Championship final on Sunday 29 November."}, {"t": "Men's Six Nations", "s": "Rugby union", "d": "2027-02-05", "e": "2027-03-13", "k": 1, "bbc": ["tv", "ip", "r", "on"], "other": "ITV", "note": "BBC shows five of the 15 matches, all involving Scotland or Wales (including Scotland v Wales). ITV has the other ten, including every England game. Every match on 5 Live."}, {"t": "Six Nations: Ireland v England", "s": "Rugby union", "d": "2027-02-05", "time": "20:10", "loc": "Aviva Stadium", "bbc": ["r", "on"], "other": "ITV"}, {"t": "Six Nations: Scotland v Italy", "s": "Rugby union", "d": "2027-02-06", "time": "14:10", "loc": "Murrayfield", "st": "p", "bbc": ["r", "on"], "note": "Scotland match, so a likely BBC TV pick. Confirm the BBC/ITV split."}, {"t": "Six Nations: France v Wales", "s": "Rugby union", "d": "2027-02-06", "time": "16:40", "loc": "Stade de France", "st": "p", "bbc": ["r", "on"], "note": "Wales match, so a possible BBC TV pick. Confirm the BBC/ITV split."}, {"t": "Six Nations: Scotland v Wales", "s": "Rugby union", "d": "2027-02-13", "time": "16:40", "loc": "Murrayfield", "bbc": ["tv", "ip", "r", "on"], "note": "Named in the BBC's package."}, {"t": "Six Nations: England v France", "s": "Rugby union", "d": "2027-02-14", "time": "15:10", "loc": "Allianz Stadium", "bbc": ["r", "on"], "other": "ITV"}, {"t": "Six Nations: Wales v Ireland", "s": "Rugby union", "d": "2027-02-20", "time": "14:10", "loc": "Principality Stadium", "st": "p", "bbc": ["r", "on"], "note": "Wales match, so a likely BBC TV pick. Confirm the BBC/ITV split."}, {"t": "Six Nations: France v Scotland", "s": "Rugby union", "d": "2027-02-21", "time": "15:10", "loc": "Stade de France", "st": "p", "bbc": ["r", "on"], "note": "Scotland match, so a possible BBC TV pick. Confirm the BBC/ITV split."}, {"t": "Six Nations: Scotland v Ireland", "s": "Rugby union", "d": "2027-03-05", "time": "20:10", "loc": "Murrayfield", "st": "p", "bbc": ["r", "on"], "note": "Friday night. Scotland match, so a possible BBC TV pick."}, {"t": "Six Nations Super Saturday", "s": "Rugby union", "d": "2027-03-13", "k": 1, "bbc": ["tv", "ip", "r", "on"], "other": "ITV", "note": "Three matches including England v Scotland (Calcutta Cup) and Ireland v France."}, {"t": "Women's Six Nations", "s": "Rugby union", "d": "2027-04-10", "e": "2027-05-15", "k": 1, "bbc": ["tv", "ip", "r", "on"], "other": "S4C (Wales)", "note": "Every match on the BBC in the UK. All five rounds are Saturday triple-headers."}, {"t": "W6N: Wales v England", "s": "Rugby union", "d": "2027-04-10", "time": "14:45", "bbc": ["tv", "ip", "on"]}, {"t": "W6N: England v Scotland", "s": "Rugby union", "d": "2027-04-17", "time": "16:45", "bbc": ["tv", "ip", "on"]}, {"t": "W6N: England v Italy", "s": "Rugby union", "d": "2027-04-24", "time": "17:00", "bbc": ["tv", "ip", "on"]}, {"t": "W6N: Ireland v England", "s": "Rugby union", "d": "2027-05-08", "time": "14:45", "loc": "Aviva Stadium", "bbc": ["tv", "ip", "on"]}, {"t": "W6N: England v France", "s": "Rugby union", "d": "2027-05-15", "time": "16:45", "k": 1, "bbc": ["tv", "ip", "on"], "note": "Final-round match between the two strongest sides."}, {"t": "Men's Rugby World Cup", "s": "Rugby union", "d": "2027-10-01", "e": "2027-11-13", "loc": "Australia", "k": 1, "bbc": ["on"], "other": "ITV", "note": "Live on ITV. BBC radio rights for 2027 not yet confirmed. Pool stage ends with five games on 17 Oct; quarter-finals 30–31 Oct."}, {"t": "Rugby World Cup final", "s": "Rugby union", "d": "2027-11-13", "loc": "Stadium Australia, Sydney", "k": 1, "bbc": ["on"], "other": "ITV"}, {"t": "England v Pakistan ODIs", "s": "Cricket", "d": "2027-05-15", "e": "2027-05-26", "bbc": ["tv", "r", "on"], "other": "Sky Sports", "note": "Five ODIs. BBC TV highlights; Test Match Special live."}, {"t": "World Test Championship final", "s": "Cricket", "d": "2027-06-09", "e": "2027-06-13", "loc": "The Oval", "bbc": ["on"], "other": "Sky Sports"}, {"t": "Men's Ashes: 1st Test", "s": "Cricket", "d": "2027-06-18", "e": "2027-06-22", "loc": "Trent Bridge", "k": 1, "bbc": ["tv", "r", "on"], "other": "Sky Sports", "note": "Five-Test series: Trent Bridge, Lord's, Edgbaston, Rose Bowl, The Oval. BBC daily TV highlights; TMS live."}, {"t": "Women's Ashes Test", "s": "Cricket", "d": "2027-06-24", "e": "2027-06-27", "loc": "Headingley", "bbc": ["tv", "r", "on"], "other": "Sky Sports"}, {"t": "Women's Ashes white-ball series", "s": "Cricket", "d": "2027-07-03", "e": "2027-07-20", "bbc": ["tv", "r", "on"], "other": "Sky Sports", "note": "T20Is on 3, 6, 9 July; ODIs on 13, 16, 20 July."}, {"t": "Men's Ashes: 3rd Test", "s": "Cricket", "d": "2027-07-08", "e": "2027-07-12", "loc": "Edgbaston", "bbc": ["tv", "r", "on"], "other": "Sky Sports"}, {"t": "Men's Ashes: 5th Test", "s": "Cricket", "d": "2027-07-29", "e": "2027-08-02", "loc": "The Oval", "st": "p", "bbc": ["tv", "r", "on"], "other": "Sky Sports", "note": "Series ends 2 August; start date estimated."}, {"t": "England v New Zealand white-ball series", "s": "Cricket", "d": "2027-09-07", "e": "2027-09-25", "bbc": ["tv", "r", "on"], "other": "Sky Sports", "note": "Three T20Is then five ODIs, ending at Headingley on 25 Sept."}, {"t": "Men's Cricket World Cup", "s": "Cricket", "d": "2027-10-02", "e": "2027-11-21", "loc": "South Africa, Zimbabwe, Namibia", "k": 1, "bbc": ["r", "on"], "other": "Sky Sports", "note": "Test Match Special commentary (BBC radio rights run to 2027)."}, {"t": "CWC: South Africa v England", "s": "Cricket", "d": "2027-10-16", "loc": "Gqeberha", "bbc": ["r", "on"], "other": "Sky Sports"}, {"t": "Australian Open", "s": "Tennis", "d": "2027-01-17", "e": "2027-01-31", "loc": "Melbourne", "st": "p", "bbc": ["r", "on"], "other": "TNT Sports", "note": "Dates estimated. 5 Live commentary."}, {"t": "French Open", "s": "Tennis", "d": "2027-05-23", "e": "2027-06-06", "loc": "Paris", "st": "p", "bbc": ["r", "on"], "other": "TNT Sports", "note": "Dates estimated."}, {"t": "Nottingham Open", "s": "Tennis", "d": "2027-06-07", "e": "2027-06-13", "st": "p", "bbc": ["tv", "ip", "rb", "on"], "note": "Dates estimated. BBC deal runs to 2027."}, {"t": "Queen's Club Championships", "s": "Tennis", "d": "2027-06-14", "e": "2027-06-20", "loc": "London", "st": "p", "bbc": ["tv", "ip", "rb", "r", "on"], "note": "Dates estimated. BBC deal runs to 2027."}, {"t": "Eastbourne International", "s": "Tennis", "d": "2027-06-20", "e": "2027-06-26", "st": "p", "bbc": ["tv", "ip", "rb", "on"], "note": "Dates estimated. BBC deal runs to 2027."}, {"t": "Wimbledon", "s": "Tennis", "d": "2027-06-28", "e": "2027-07-11", "k": 1, "bbc": ["tv", "ip", "rb", "r", "on"], "note": "150 years since the first Championships (1877). BBC rights run to 2033."}, {"t": "Wimbledon: ladies' singles final", "s": "Tennis", "d": "2027-07-10", "k": 1, "bbc": ["tv", "ip", "r", "on"]}, {"t": "Wimbledon: gentlemen's singles final", "s": "Tennis", "d": "2027-07-11", "k": 1, "bbc": ["tv", "ip", "r", "on"]}, {"t": "US Open", "s": "Tennis", "d": "2027-08-30", "e": "2027-09-12", "loc": "New York", "st": "p", "bbc": ["r", "on"], "other": "Sky Sports", "note": "Dates estimated."}, {"t": "The Masters", "s": "Golf", "d": "2027-04-08", "e": "2027-04-11", "loc": "Augusta", "bbc": ["r", "on"], "other": "Sky Sports"}, {"t": "PGA Championship", "s": "Golf", "d": "2027-05-20", "e": "2027-05-23", "loc": "PGA Frisco, Texas", "bbc": ["r", "on"], "other": "Sky Sports"}, {"t": "US Open (golf)", "s": "Golf", "d": "2027-06-17", "e": "2027-06-20", "loc": "Pebble Beach", "bbc": ["r", "on"], "other": "Sky Sports"}, {"t": "The Open", "s": "Golf", "d": "2027-07-15", "e": "2027-07-18", "loc": "St Andrews", "k": 1, "bbc": ["tv", "ip", "r", "on"], "other": "Sky Sports", "note": "BBC daily highlights (deal runs to 2027) and 5 Live commentary."}, {"t": "Ryder Cup", "s": "Golf", "d": "2027-09-17", "e": "2027-09-19", "loc": "Adare Manor, Ireland", "k": 1, "bbc": ["tv", "r", "on"], "other": "Sky Sports", "note": "BBC highlights and 5 Live commentary."}, {"t": "BMW PGA Championship", "s": "Golf", "d": "2027-09-23", "e": "2027-09-26", "loc": "Wentworth", "bbc": ["tv", "on"], "other": "Sky Sports", "note": "BBC highlights."}, {"t": "United States GP", "s": "Formula 1", "d": "2026-10-23", "e": "2026-10-25", "loc": "Austin", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Mexico City GP", "s": "Formula 1", "d": "2026-10-30", "e": "2026-11-01", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "São Paulo GP", "s": "Formula 1", "d": "2026-11-06", "e": "2026-11-08", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Las Vegas GP", "s": "Formula 1", "d": "2026-11-19", "e": "2026-11-21", "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "Saturday-night race (early Sunday UK time)."}, {"t": "Qatar GP", "s": "Formula 1", "d": "2026-11-27", "e": "2026-11-29", "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "F1 has contingency plans for the Gulf races because of the regional conflict."}, {"t": "Abu Dhabi GP (season finale)", "s": "Formula 1", "d": "2026-12-04", "e": "2026-12-06", "k": 1, "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "F1 has contingency plans for the Gulf races because of the regional conflict."}, {"t": "Bahrain GP (season opener)", "s": "Formula 1", "d": "2027-03-12", "e": "2027-03-14", "k": 1, "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "Sprint weekend. Testing in Bahrain 24–27 Feb."}, {"t": "Saudi Arabian GP", "s": "Formula 1", "d": "2027-03-19", "e": "2027-03-21", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Australian GP", "s": "Formula 1", "d": "2027-04-02", "e": "2027-04-04", "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "Sprint weekend."}, {"t": "Japanese GP", "s": "Formula 1", "d": "2027-04-09", "e": "2027-04-11", "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "Sprint weekend."}, {"t": "Chinese GP", "s": "Formula 1", "d": "2027-04-16", "e": "2027-04-18", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Miami GP", "s": "Formula 1", "d": "2027-04-30", "e": "2027-05-02", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Canadian GP", "s": "Formula 1", "d": "2027-05-21", "e": "2027-05-23", "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "Sprint weekend."}, {"t": "Monaco GP", "s": "Formula 1", "d": "2027-06-04", "e": "2027-06-06", "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "Sprint weekend."}, {"t": "Portuguese GP", "s": "Formula 1", "d": "2027-06-18", "e": "2027-06-20", "loc": "Portimão", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "British GP", "s": "Formula 1", "d": "2027-07-02", "e": "2027-07-04", "loc": "Silverstone", "k": 1, "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "Sprint weekend. 5 Live commentary."}, {"t": "Austrian GP", "s": "Formula 1", "d": "2027-07-09", "e": "2027-07-11", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Belgian GP", "s": "Formula 1", "d": "2027-07-23", "e": "2027-07-25", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Hungarian GP", "s": "Formula 1", "d": "2027-07-30", "e": "2027-08-01", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Italian GP", "s": "Formula 1", "d": "2027-09-03", "e": "2027-09-05", "loc": "Monza", "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "Sprint weekend."}, {"t": "Spanish GP", "s": "Formula 1", "d": "2027-09-10", "e": "2027-09-12", "loc": "Madrid", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Azerbaijan GP", "s": "Formula 1", "d": "2027-09-24", "e": "2027-09-26", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Turkish GP", "s": "Formula 1", "d": "2027-10-01", "e": "2027-10-03", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Singapore GP", "s": "Formula 1", "d": "2027-10-08", "e": "2027-10-10", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "United States GP", "s": "Formula 1", "d": "2027-10-22", "e": "2027-10-24", "loc": "Austin", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Mexico City GP", "s": "Formula 1", "d": "2027-10-29", "e": "2027-10-31", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "São Paulo GP", "s": "Formula 1", "d": "2027-11-05", "e": "2027-11-07", "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "Sprint weekend."}, {"t": "Las Vegas GP", "s": "Formula 1", "d": "2027-11-18", "e": "2027-11-20", "bbc": ["r", "on"], "other": "Sky Sports F1"}, {"t": "Qatar GP", "s": "Formula 1", "d": "2027-12-03", "e": "2027-12-05", "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "Sprint weekend."}, {"t": "Abu Dhabi GP (season finale)", "s": "Formula 1", "d": "2027-12-10", "e": "2027-12-12", "k": 1, "bbc": ["r", "on"], "other": "Sky Sports F1", "note": "Sprint weekend."}, {"t": "New York City Marathon", "s": "Athletics", "d": "2026-11-01", "bbc": ["rb", "on"], "other": "TNT Sports"}, {"t": "European Athletics Indoor Championships", "s": "Athletics", "d": "2027-03-04", "e": "2027-03-07", "loc": "Valencia", "bbc": ["tv", "ip", "rb", "r", "on"], "note": "BBC deal runs to 2027."}, {"t": "London Marathon (two-day 'Double')", "s": "Athletics", "d": "2027-04-24", "e": "2027-04-25", "loc": "London", "k": 1, "bbc": ["tv", "ip", "r", "on"], "note": "One-off two-day event with 100,000 runners."}, {"t": "World Athletics Championships", "s": "Athletics", "d": "2027-09-10", "e": "2027-09-19", "loc": "Beijing", "k": 1, "bbc": ["tv", "ip", "rb", "r", "on"], "note": "Morning UK time sessions likely; Beijing is 7 hours ahead."}, {"t": "UK Championship", "s": "Snooker", "d": "2026-11-28", "e": "2026-12-06", "loc": "York Barbican", "k": 1, "bbc": ["tv", "ip", "rb", "on"], "other": "TNT Sports"}, {"t": "The Masters", "s": "Snooker", "d": "2027-01-10", "e": "2027-01-17", "loc": "Alexandra Palace", "k": 1, "bbc": ["tv", "ip", "rb", "on"], "other": "TNT Sports"}, {"t": "World Snooker Championship", "s": "Snooker", "d": "2027-04-17", "e": "2027-05-03", "loc": "Crucible, Sheffield", "k": 1, "bbc": ["tv", "ip", "rb", "r", "on"], "other": "TNT Sports"}, {"t": "PDC World Darts Championship", "s": "Darts", "d": "2026-12-11", "e": "2027-01-03", "loc": "Alexandra Palace", "bbc": ["on"], "other": "Sky Sports", "note": "Live on Sky; reports on 5 Live."}, {"t": "Cheltenham Festival", "s": "Horse racing", "d": "2027-03-16", "e": "2027-03-19", "bbc": ["r", "on"], "other": "ITV", "note": "5 Live commentary. ITV's racing deal runs to 2030."}, {"t": "Grand National", "s": "Horse racing", "d": "2027-04-10", "time": "16:00", "loc": "Aintree", "k": 1, "bbc": ["r", "on"], "other": "ITV", "note": "Festival 8–10 April. 5 Live commentary."}, {"t": "The Derby", "s": "Horse racing", "d": "2027-06-05", "loc": "Epsom", "bbc": ["r", "on"], "other": "ITV"}, {"t": "World Aquatics Championships", "s": "Swimming", "d": "2027-06-26", "e": "2027-07-18", "loc": "Budapest", "bbc": ["tv", "ip", "rb", "on"], "note": "Pool swimming 10–18 July; diving 26 June–4 July."}, {"t": "Tour de France Grand Départ", "s": "Cycling", "d": "2027-07-02", "e": "2027-07-04", "loc": "Edinburgh to Cardiff", "k": 1, "bbc": ["on"], "other": "Channel 5 (free-to-air) / TNT Sports", "note": "Edinburgh–Carlisle, Keswick–Liverpool, Welshpool–Cardiff. Not on the BBC."}, {"t": "Tour de France Femmes Grand Départ", "s": "Cycling", "d": "2027-07-30", "e": "2027-08-01", "loc": "Leeds, Manchester, London", "bbc": ["on"], "other": "Channel 5 / TNT Sports"}, {"t": "Invictus Games", "s": "Multi-sport", "d": "2027-07-10", "e": "2027-07-17", "loc": "NEC Birmingham", "st": "p", "bbc": ["tv", "ip", "on"], "note": "BBC has covered recent Games; 2027 plans not yet confirmed."}, {"t": "Super Bowl LXI", "s": "American football", "d": "2027-02-14", "loc": "SoFi Stadium", "bbc": ["on"], "other": "Channel 5 / Sky Sports", "note": "Kick-off late Sunday night UK time."}, {"t": "FIBA Basketball World Cup", "s": "Basketball", "d": "2027-08-27", "e": "2027-09-12", "loc": "Qatar", "bbc": ["on"], "other": "DAZN"}, {"t": "Sports Personality of the Year 2026", "s": "Awards", "m": "2026-12", "bbc": ["tv", "ip", "on"], "note": "Date and venue to be announced."}, {"t": "European Cross Country Championships", "s": "Athletics", "m": "2026-12", "bbc": ["tv", "ip", "on"], "note": "BBC deal runs to 2027."}, {"t": "London International Horse Show", "s": "Equestrian", "m": "2026-12", "bbc": ["tv", "ip", "on"]}, {"t": "World Indoor Bowls Championships", "s": "Bowls", "m": "2027-01", "bbc": ["tv", "ip", "on"]}, {"t": "Welsh Open snooker", "s": "Snooker", "m": "2027-02", "bbc": ["tv", "ip", "on"], "note": "On BBC Wales."}, {"t": "Super League season starts", "s": "Rugby league", "m": "2027-02", "st": "r", "bbc": ["on"], "note": "2027 TV deal not yet announced."}, {"t": "Women's Champions League final", "s": "Football", "m": "2027-05", "loc": "Warsaw", "bbc": ["tv", "ip", "on"], "other": "Disney+"}, {"t": "Challenge Cup final", "s": "Rugby league", "m": "2027-06", "st": "r", "bbc": ["on"], "note": "Broadcaster for 2027 not yet confirmed."}, {"t": "London Athletics Meet (Diamond League)", "s": "Athletics", "m": "2027-07", "bbc": ["tv", "ip", "on"]}, {"t": "The Hundred", "s": "Cricket", "m": "2027-08", "bbc": ["tv", "ip", "r", "on"], "other": "Sky Sports", "note": "BBC shows 10 men's and 8 women's games live. Runs through most of August."}, {"t": "Great North Run", "s": "Athletics", "m": "2027-09", "bbc": ["tv", "ip", "on"]}, {"t": "World Gymnastics Championships", "s": "Gymnastics", "d": "2026-10-17", "e": "2026-10-25", "loc": "Rotterdam", "k": 1, "bbc": ["tv", "ip", "on"], "note": "Artistic worlds. Every final live on BBC Two and iPlayer, 20–25 Oct."}, {"t": "Gymnastics Worlds: men's team final", "s": "Gymnastics", "d": "2026-10-20", "time": "19:00", "bbc": ["tv", "ip", "on"], "note": "BBC Two."}, {"t": "Gymnastics Worlds: women's team final", "s": "Gymnastics", "d": "2026-10-21", "time": "19:00", "bbc": ["tv", "ip", "on"], "note": "BBC Two."}, {"t": "Gymnastics Worlds: men's all-around final", "s": "Gymnastics", "d": "2026-10-22", "time": "19:00", "bbc": ["tv", "ip", "on"], "note": "BBC Two."}, {"t": "Gymnastics Worlds: women's all-around final", "s": "Gymnastics", "d": "2026-10-23", "time": "20:00", "bbc": ["tv", "ip", "on"], "note": "BBC Two."}, {"t": "Gymnastics Worlds: apparatus finals", "s": "Gymnastics", "d": "2026-10-24", "e": "2026-10-25", "time": "19:00", "bbc": ["tv", "ip", "on"], "note": "BBC Two, both evenings."}, {"t": "World Gymnastics Championships 2027", "s": "Gymnastics", "d": "2027-09-29", "e": "2027-10-08", "loc": "Chengdu", "st": "p", "bbc": ["on"], "note": "BBC showed the 2026 worlds live; 2027 coverage not yet announced. Dates from listings, confirm with FIG."}, {"t": "Serie A: Parma v Torino", "s": "Football", "d": "2026-10-19", "time": "19:45", "bbc": ["ip", "on"], "note": "BBC Alba and iPlayer."}, {"t": "Serie A: Torino v Como", "s": "Football", "d": "2026-10-27", "time": "19:45", "bbc": ["ip", "on"], "note": "BBC Alba and iPlayer."}, {"t": "WXV: Australia v Scotland Women", "s": "Rugby union", "d": "2026-10-23", "time": "09:45", "bbc": ["ip", "on"]}, {"t": "WXV: Canada v England Women", "s": "Rugby union", "d": "2026-10-24", "time": "00:00", "bbc": ["ip", "on"], "note": "Midnight UK time (late Friday night)."}, {"t": "WXV: USA v England Women", "s": "Rugby union", "d": "2026-10-30", "time": "21:15", "bbc": ["ip", "on"]}, {"t": "Women's Champions League: Man City v PSG", "s": "Football", "d": "2026-10-29", "time": "20:00", "bbc": ["tv", "ip", "on"], "note": "League phase, BBC Two."}, {"t": "Bundesliga: Elversberg v Mainz", "s": "Football", "d": "2026-10-30", "time": "19:30", "bbc": ["ip", "on"]}, {"t": "Bundesliga: Hamburg v Borussia Mönchengladbach", "s": "Football", "d": "2026-11-06", "time": "19:30", "bbc": ["ip", "on"]}, {"t": "WSL: London City Lionesses v Birmingham", "s": "Football", "d": "2026-11-08", "time": "14:30", "bbc": ["ip", "on"]}, {"t": "WSL: Chelsea v Manchester City", "s": "Football", "d": "2026-11-14", "time": "13:30", "bbc": ["tv", "ip", "on"], "note": "BBC One."}, {"t": "Nations League: Scotland v North Macedonia", "s": "Football", "d": "2026-11-13", "time": "19:45", "bbc": ["tv", "ip", "r", "on"], "note": "BBC channel to be confirmed; on iPlayer."}, {"t": "Nations League: Norway v Wales", "s": "Football", "d": "2026-11-14", "time": "17:00", "bbc": ["tv", "ip", "on"], "other": "S4C", "note": "BBC channel to be confirmed; on iPlayer."}, {"t": "Nations League: Northern Ireland v Ukraine", "s": "Football", "d": "2026-11-14", "time": "19:45", "bbc": ["tv", "ip", "on"], "note": "BBC channel to be confirmed; on iPlayer."}, {"t": "Nations League: Switzerland v Scotland", "s": "Football", "d": "2026-11-16", "time": "19:45", "bbc": ["tv", "ip", "r", "on"], "note": "BBC channel to be confirmed; on iPlayer."}, {"t": "Nations League: Wales v Portugal", "s": "Football", "d": "2026-11-17", "time": "19:45", "bbc": ["tv", "ip", "on"], "other": "S4C", "note": "BBC channel to be confirmed; on iPlayer."}, {"t": "Nations League: Hungary v Northern Ireland", "s": "Football", "d": "2026-11-17", "time": "19:45", "st": "p", "bbc": ["tv", "ip", "on"], "note": "BBC holds Northern Ireland rights; listing not yet confirmed."}, {"t": "Badminton Horse Trials", "s": "Equestrian", "d": "2027-05-05", "e": "2027-05-09", "st": "p", "bbc": ["tv", "ip", "on"], "note": "Dates from listings; confirm with organisers."}, {"t": "EuroHockey Championships", "s": "Hockey", "d": "2027-07-28", "e": "2027-08-08", "loc": "Lee Valley & Twickenham Stoop, London", "st": "r", "bbc": ["on"], "note": "Men's and women's Euros on home soil. BBC has shown EuroHockey before; 2027 broadcaster not yet named."}, {"t": "Netball World Cup", "s": "Netball", "d": "2027-08-25", "e": "2027-09-05", "loc": "Sydney", "k": 1, "st": "r", "bbc": ["on"], "note": "UK broadcaster not yet announced (2023 was shared by Sky and the BBC)."}, {"t": "UCI Road World Championships", "s": "Cycling", "d": "2027-08-25", "e": "2027-09-05", "loc": "Haute-Savoie, France", "st": "p", "bbc": ["tv", "ip", "on"], "other": "TNT Sports", "note": "Men's road race 29 Aug, time trials 1 Sep, women's road race 5 Sep. BBC has shown the Worlds; 2027 plans TBC."}, {"t": "All England Open Badminton", "s": "Badminton", "m": "2027-03", "loc": "Birmingham", "bbc": ["ip", "rb", "on"], "note": "2026 finals were on iPlayer and Red Button."}, {"t": "World Figure Skating Championships", "s": "Winter sports", "m": "2027-03", "st": "r", "bbc": ["on"], "note": "BBC showed the 2026 worlds in Prague; 2027 coverage not yet announced."}, {"t": "All-Ireland GAA finals", "s": "GAA", "m": "2027-07", "bbc": ["tv", "ip", "on"], "note": "BBC NI live, with one final on BBC Two (deal to 2027)."}, {"t": "Boxing on the BBC (Boxxer)", "s": "Boxing", "m": "2026-11", "st": "p", "bbc": ["tv", "ip", "on"], "note": "Boxxer aims for roughly one BBC Two/iPlayer show a month. Cards are announced a few weeks ahead."}, {"t": "Champions League MD3: Man City v AEK Athens, Liverpool v Villarreal", "s": "Football", "d": "2026-10-20", "time": "20:00", "bbc": ["r", "on"], "other": "TNT Sports / Prime Video", "note": "Live on TNT/Prime; 5 Live has selected commentaries. Feeds the BBC One highlights show. Also tonight: Stuttgart v Atlético, PSG v Barcelona, Napoli v Bodø/Glimt, Porto v PSV, Roma v Slovan Bratislava (8pm); Sabah v Dortmund, Fenerbahçe v Slavia Praha (5.45pm)."}, {"t": "Champions League MD3: Bayern v Arsenal, Aston Villa v Viking, Como v Man Utd (5.45pm)", "s": "Football", "d": "2026-10-21", "time": "20:00", "bbc": ["r", "on"], "other": "TNT Sports / Prime Video", "note": "Live on TNT/Prime; 5 Live has selected commentaries. Feeds the BBC One highlights show. Also tonight: Club Brugge v Lens, Real Madrid v Leipzig, Real Betis v Feyenoord, Sporting v LASK, Inter v Shakhtar (8pm); Lille v Galatasaray (5.45pm)."}, {"t": "MOTD: Champions League highlights", "s": "Football", "d": "2026-10-21", "time": "22:40", "bbc": ["tv", "ip", "on"], "note": "BBC One and iPlayer, matchday 3. Covers every game from the round, so all fixtures need ingesting."}, {"t": "Champions League MD4: Barcelona v Aston Villa, Man Utd v Roma", "s": "Football", "d": "2026-11-03", "time": "20:00", "bbc": ["r", "on"], "other": "TNT Sports / Prime Video", "note": "Live on TNT/Prime; 5 Live has selected commentaries. Feeds the BBC One highlights show. Also tonight: Atlético v Bayern, Bodø/Glimt v Lille, Feyenoord v Inter, LASK v Slovan Bratislava, Villarreal v PSG (8pm); Galatasaray v Stuttgart, Shakhtar v Sporting (5.45pm)."}, {"t": "Champions League MD4: Slavia Praha v Arsenal, Leipzig v Man City, Fenerbahçe v Liverpool (5.45pm)", "s": "Football", "d": "2026-11-04", "time": "20:00", "bbc": ["r", "on"], "other": "TNT Sports / Prime Video", "note": "Live on TNT/Prime; 5 Live has selected commentaries. Feeds the BBC One highlights show. Also tonight: Dortmund v Betis, PSV v Club Brugge, Lens v Como, Porto v Napoli, Viking v Sabah (8pm); AEK v Real Madrid (5.45pm)."}, {"t": "MOTD: Champions League highlights", "s": "Football", "d": "2026-11-04", "time": "22:40", "bbc": ["tv", "ip", "on"], "note": "BBC One and iPlayer, matchday 4. Covers every game from the round, so all fixtures need ingesting."}, {"t": "Champions League MD5: Arsenal v Dortmund, Man City v Napoli, Galatasaray v Aston Villa (5.45pm)", "s": "Football", "d": "2026-11-24", "time": "20:00", "bbc": ["r", "on"], "other": "TNT Sports / Prime Video", "note": "Live on TNT/Prime; 5 Live has selected commentaries. Feeds the BBC One highlights show. Also tonight: Como v AEK, Feyenoord v Porto, Leipzig v Lens, Real Madrid v PSV, Slovan Bratislava v Betis (8pm); Bodø/Glimt v LASK (5.45pm)."}, {"t": "Champions League MD5: Club Brugge v Liverpool, Sporting v Man Utd", "s": "Football", "d": "2026-11-25", "time": "20:00", "bbc": ["r", "on"], "other": "TNT Sports / Prime Video", "note": "Live on TNT/Prime; 5 Live has selected commentaries. Feeds the BBC One highlights show. Also tonight: Atlético v Viking, Lille v Bayern, Inter v Stuttgart, Shakhtar v Fenerbahçe, PSG v Roma (8pm); Sabah v Barcelona, Slavia Praha v Villarreal (5.45pm)."}, {"t": "MOTD: Champions League highlights", "s": "Football", "d": "2026-11-25", "time": "22:40", "bbc": ["tv", "ip", "on"], "note": "BBC One and iPlayer, matchday 5. Covers every game from the round, so all fixtures need ingesting."}, {"t": "Champions League MD6: Aston Villa v PSG, Barcelona v Man City, Man Utd v Leipzig", "s": "Football", "d": "2026-12-08", "time": "20:00", "bbc": ["r", "on"], "other": "TNT Sports / Prime Video", "note": "Live on TNT/Prime; 5 Live has selected commentaries. Feeds the BBC One highlights show. Also tonight: AEK v Galatasaray, Bayern v Slavia Praha, Napoli v Club Brugge, Roma v Sporting (8pm); Villarreal v Sabah, Viking v Feyenoord (5.45pm)."}, {"t": "Champions League MD6: Arsenal v Real Madrid, Liverpool v Porto", "s": "Football", "d": "2026-12-09", "time": "20:00", "bbc": ["r", "on"], "other": "TNT Sports / Prime Video", "note": "Live on TNT/Prime; 5 Live has selected commentaries. Feeds the BBC One highlights show. Also tonight: Dortmund v Inter, Lens v Bodø/Glimt, LASK v Fenerbahçe, PSV v Atlético, Stuttgart v Lille (8pm); Betis v Como, Slovan Bratislava v Shakhtar (5.45pm)."}, {"t": "MOTD: Champions League highlights", "s": "Football", "d": "2026-12-09", "time": "22:40", "bbc": ["tv", "ip", "on"], "note": "BBC One and iPlayer, matchday 6. Covers every game from the round, so all fixtures need ingesting."}, {"t": "Champions League MD7: Aston Villa v Dortmund, Inter v Liverpool", "s": "Football", "d": "2027-01-19", "time": "20:00", "bbc": ["r", "on"], "other": "TNT Sports / Prime Video", "note": "Live on TNT/Prime; 5 Live has selected commentaries. Feeds the BBC One highlights show. Also tonight: AEK v Roma, Stuttgart v Club Brugge, Lille v Slovan Bratislava, Porto v Slavia Praha, Real Madrid v LASK (8pm); Bodø/Glimt v Atlético, Galatasaray v Feyenoord (5.45pm)."}, {"t": "Champions League MD7: Lens v Man City, Man Utd v Bayern, Real Betis v Arsenal", "s": "Football", "d": "2027-01-20", "time": "20:00", "bbc": ["r", "on"], "other": "TNT Sports / Prime Video", "note": "Live on TNT/Prime; 5 Live has selected commentaries. Feeds the BBC One highlights show. Also tonight: Como v PSG, Leipzig v Shakhtar, Sporting v Barcelona, Viking v PSV (8pm); Fenerbahçe v Villarreal, Sabah v Napoli (5.45pm)."}, {"t": "MOTD: Champions League highlights", "s": "Football", "d": "2027-01-20", "time": "22:40", "bbc": ["tv", "ip", "on"], "note": "BBC One and iPlayer, matchday 7. Covers every game from the round, so all fixtures need ingesting."}, {"t": "Champions League MD8: Arsenal v Sabah, Slavia Praha v Aston Villa, Man City v Sporting, Liverpool v Lens, Villarreal v Man Utd", "s": "Football", "d": "2027-01-27", "time": "20:00", "bbc": ["r", "on"], "other": "TNT Sports / Prime Video", "note": "Live on TNT/Prime; 5 Live has selected commentaries. Feeds the BBC One highlights show. Also tonight: all 18 games kick off at the same time (8pm UK); Dortmund v AEK listed for 28 Jan in one UEFA list, so confirm.", "k": 1}, {"t": "MOTD: Champions League highlights", "s": "Football", "d": "2027-01-27", "time": "22:40", "bbc": ["tv", "ip", "on"], "note": "BBC One and iPlayer, matchday 8. Covers every game from the round, so all fixtures need ingesting."}, {"t": "Bundesliga: Bayern Munich v FC Köln", "s": "Football", "d": "2026-11-20", "time": "19:30", "bbc": ["ip", "on"]}, {"t": "Bundesliga: Werder Bremen v Borussia Mönchengladbach", "s": "Football", "d": "2026-11-27", "time": "19:30", "bbc": ["ip", "on"]}, {"t": "Premier League weekend (MW9)", "s": "Football", "d": "2026-10-24", "e": "2026-10-25", "bbc": ["tv", "ip", "r", "on"], "other": "Sky Sports / TNT Sports", "note": "Sat: Aston Villa v Man City 12:30 (TNT), Arsenal v Everton, Coventry v Fulham, Chelsea v Spurs 17:30 (Sky). Sun: Palace v Newcastle, Hull v Brentford, Liverpool v Brighton, Man Utd v Bournemouth 14:00; Sunderland v Leeds 16:30 (Sky). Match of the Day Sat night and MOTD2 Sun night on BBC One; 5 Live commentaries."}, {"t": "Premier League weekend (MW10)", "s": "Football", "d": "2026-10-31", "e": "2026-11-02", "bbc": ["tv", "ip", "r", "on"], "other": "Sky Sports / TNT Sports", "note": "Sat: Chelsea v Man Utd 12:30 (TNT), Bournemouth v Leeds, Brentford v Forest, Coventry v Sunderland, Hull v Ipswich, Man City v Brighton, Spurs v Palace 17:30, Aston Villa v Fulham 20:00. Sun: Liverpool v Arsenal 16:30. Mon: Newcastle v Everton 20:00. MOTD Sat, MOTD2 Sun."}, {"t": "Premier League weekend", "s": "Football", "d": "2026-11-07", "st": "p", "bbc": ["tv", "ip", "r", "on"], "other": "Sky Sports / TNT Sports", "note": "Full round; kick-off times TBC. MOTD Sat night, MOTD2 Sun night."}, {"t": "Premier League weekend", "s": "Football", "d": "2026-11-28", "st": "p", "bbc": ["tv", "ip", "r", "on"], "other": "Sky Sports / TNT Sports", "note": "Fixtures for December–January rounds due to be announced this week. MOTD Sat, MOTD2 Sun."}, {"t": "Premier League weekend", "s": "Football", "d": "2026-12-12", "st": "p", "bbc": ["tv", "ip", "r", "on"], "other": "Sky Sports / TNT Sports", "note": "MOTD Sat, MOTD2 Sun."}, {"t": "Premier League final day", "s": "Football", "d": "2027-05-30", "time": "16:00", "k": 1, "bbc": ["tv", "ip", "r", "on"], "other": "Sky Sports", "note": "All ten games kick off at 4pm. MOTD that evening."}, {"t": "Champions League knockout play-offs", "s": "Football", "m": "2027-02", "bbc": ["tv", "ip", "r", "on"], "other": "TNT Sports / Prime Video", "note": "Two legs in February; dates to confirm. BBC One highlights each match night."}, {"t": "Champions League round of 16", "s": "Football", "m": "2027-03", "bbc": ["tv", "ip", "r", "on"], "other": "TNT Sports / Prime Video", "note": "Dates to confirm. BBC One highlights."}, {"t": "Champions League quarter-finals", "s": "Football", "m": "2027-04", "bbc": ["tv", "ip", "r", "on"], "other": "TNT Sports / Prime Video", "note": "Dates to confirm. BBC One highlights."}, {"t": "Champions League semi-finals", "s": "Football", "m": "2027-05", "bbc": ["tv", "ip", "r", "on"], "other": "TNT Sports / Prime Video", "note": "Late April/May; dates to confirm. BBC One highlights."}], "seasons": [{"t": "Premier League", "s": "Football", "d": "2026-08-21", "e": "2027-05-30", "bbc": ["tv", "ip", "r", "on"], "note": "Match of the Day (Sat) and MOTD2 (Sun) on BBC One; 5 Live commentaries. Live games on Sky and TNT."}, {"t": "Champions League", "s": "Football", "d": "2026-09-08", "e": "2027-06-05", "bbc": ["tv", "ip", "r", "on"], "other": "TNT Sports / Prime Video", "note": "MOTD: Champions League on BBC One and iPlayer at 10.40pm on match nights (deal to 2031). Live games on TNT and Prime."}, {"t": "Women's Super League", "s": "Football", "d": "2026-09-04", "e": "2027-05-23", "bbc": ["tv", "ip", "on"], "note": "19 live games on BBC One, BBC Two and iPlayer. Winter break 21 Dec to mid-Jan."}, {"t": "Bundesliga Friday nights", "s": "Football", "d": "2026-08-28", "e": "2027-05-21", "bbc": ["ip", "on"], "note": "One live Friday game per round on iPlayer and the website. No weekly BBC highlights programme found in published listings; confirm."}, {"t": "Scottish Premiership", "s": "Football", "d": "2026-08-01", "e": "2027-05-23", "bbc": ["tv", "ip", "r", "on"], "note": "Highlights on BBC Scotland; live Championship games."}, {"t": "Women's Champions League", "s": "Football", "d": "2026-10-06", "e": "2027-05-30", "bbc": ["tv", "ip", "on"], "note": "Seven live BBC games per season."}, {"t": "Diamond League", "s": "Athletics", "d": "2027-04-17", "e": "2027-09-05", "st": "p", "bbc": ["tv", "ip", "rb", "on"], "note": "BBC live to 2030. 2027 dates to be confirmed."}, {"t": "Serie A (Scottish players' clubs)", "s": "Football", "d": "2026-08-22", "e": "2027-05-30", "st": "p", "bbc": ["ip", "on"], "note": "Selected games on BBC Alba and iPlayer."}, {"t": "SWPL & Scottish Championship", "s": "Football", "d": "2026-08-01", "e": "2027-05-23", "st": "p", "bbc": ["tv", "ip", "on"], "note": "BBC Scotland, BBC Alba and iPlayer."}, {"t": "NIFL Premiership & League of Ireland", "s": "Football", "d": "2026-08-01", "e": "2027-05-31", "st": "p", "bbc": ["tv", "ip", "on"], "note": "BBC Northern Ireland and iPlayer (Derry City games)."}, {"t": "Cymru Premier, URC & Super Rygbi Cymru", "s": "Rugby union", "d": "2026-08-01", "e": "2027-05-31", "st": "p", "bbc": ["ip", "on"], "note": "Welsh club football and rugby streamed on iPlayer."}, {"t": "Netball Super League", "s": "Netball", "d": "2027-02-20", "e": "2027-06-30", "st": "r", "bbc": ["ip", "rb", "on"], "note": "One game a week on iPlayer in 2026; 2027 deal not yet confirmed."}], "watch": [{"t": "Super League rights for 2027", "b": "The BBC's three-year deal (2024–26) has ended and no new free-to-air deal has been announced."}, {"t": "Rugby League World Cup on Premier Sports", "b": "Unlike 2021, the BBC has no TV coverage of the 2026 tournament."}, {"t": "Tour de France UK stages go to Channel 5", "b": "The 2027 Grand Départ from Edinburgh is free-to-air on Channel 5, not the BBC."}, {"t": "Deals ending in 2027", "b": "Queen's, Eastbourne and Nottingham tennis, The Open highlights, European Athletics Indoors and Cross Country, and Test Match Special's ICC event rights all run to 2027."}, {"t": "Bundesliga deal", "b": "The BBC's Friday-night package was announced for 2025–26 but games are still listed on the BBC in 2026–27. Confirm the term."}, {"t": "Smaller sports to keep an eye on", "b": "In the past year the BBC also showed gymnastics, figure skating, triathlon (WTCS London), badminton, bowls, table tennis, netball and Boxxer boxing. These deals are often event by event, so check each one."}]}</script>
+<script>
+(function(){
+  const DATA = JSON.parse(document.getElementById('diary-data').textContent);
+  const SPORTS = {
+    "Football":"--s-football","Rugby union":"--s-rugbyunion","Rugby league":"--s-rugbyleague","Cricket":"--s-cricket",
+    "Tennis":"--s-tennis","Golf":"--s-golf","Formula 1":"--s-f1","Athletics":"--s-athletics","Snooker":"--s-snooker",
+    "Darts":"--s-darts","Horse racing":"--s-horse","Swimming":"--s-swim","Cycling":"--s-cycle","Gymnastics":"--s-gym",
+    "Netball":"--s-net","Hockey":"--s-hockey","Boxing":"--s-box","Multi-sport":"--s-multi"
+  };
+  const col = s => `var(${SPORTS[s]||'--s-other'})`;
+  const PL = {tv:'TV',ip:'iPlayer',rb:'Red Button',r:'5 Live',on:'Online'};
+  const MON = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const MS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const DOW = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+
+  const pd = s => { const [y,m,d]=s.split('-').map(Number); return Date.UTC(y,m-1,d); };
+  const DAY = 86400000;
+  const iso = t => new Date(t).toISOString().slice(0,10);
+  const now = new Date();
+  const TODAY = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  const fmt = t => { const d=new Date(t); return `${['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][d.getUTCDay()]} ${d.getUTCDate()} ${MS[d.getUTCMonth()]}`; };
+  const fmtY = t => { const d=new Date(t); return `${d.getUTCDate()} ${MS[d.getUTCMonth()]} ${d.getUTCFullYear()}`; };
+
+  const events = DATA.events.map((e,i)=>({...e,id:i,
+    s0: e.d? pd(e.d):null, s1: e.d? pd(e.e||e.d):null, tbc: !e.d}));
+  const seasons = DATA.seasons.map(e=>({...e,s0:pd(e.d),s1:pd(e.e)}));
+
+  // state (per-viewer convenience only)
+  let store={}; try{ store=JSON.parse(localStorage.getItem('spd2')||'{}'); }catch(_){}
+  const save=()=>{ try{ localStorage.setItem('spd2',JSON.stringify({view:S.view,cov:S.cov,off:[...S.off]})); }catch(_){} };
+  const S = { view: store.view||'agenda', cov: store.cov||'all', off: new Set(store.off||[]), q:'',
+    sel: TODAY, ym: [new Date(TODAY).getUTCFullYear(), new Date(TODAY).getUTCMonth()] };
+
+  const hasBBC = e => e.bbc && e.bbc.some(p=>p!=='on');
+  const isLive = e => e.bbc && (e.bbc.includes('tv')||e.bbc.includes('ip')||e.bbc.includes('rb'));
+  function pass(e){
+    if(S.off.has(sportKey(e.s))) return false;
+    if(S.cov==='bbc' && !hasBBC(e)) return false;
+    if(S.cov==='live' && !isLive(e)) return false;
+    if(S.q){ const h=(e.t+' '+(e.loc||'')+' '+(e.note||'')+' '+e.s+' '+(e.other||'')).toLowerCase(); if(!h.includes(S.q)) return false; }
+    return true;
+  }
+  const sportKey = s => SPORTS[s] ? s : 'Other';
+
+  const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  function badges(e){
+    const b=(e.bbc||[]).map(p=>`<b class="b ${p}">${PL[p]}</b>`).join('');
+    const st = (e.st==='p'?'<span class="st p">Provisional</span>':e.st==='r'?'<span class="st r">Rights TBC</span>':'') + (e.tbc&&e.st!=='p'?'<span class="st p">Date TBC</span>':'');
+    const none = !hasBBC(e) ? '<b class="b no">No BBC TV/radio</b>' : '';
+    return `<span class="pl">${b}${none}</span>${st}`;
+  }
+  function itemHTML(e, opts={}){
+    const when = e.tbc ? `${MON[+e.m.slice(5)-1]} ${e.m.slice(0,4)}, date TBC`
+      : (e.s0===e.s1 ? fmt(e.s0) : `${fmt(e.s0)} – ${fmt(e.s1)}`);
+    const meta = [opts.agenda?null:when, e.time?e.time+' UK':null, e.loc||null, e.other?('Also: '+e.other):null].filter(Boolean).map(esc).map(x=>`<span>${x}</span>`).join('');
+    const n = e.tbc ? 1 : Math.round((e.s1-e.s0)/DAY)+1;
+    const whenCol = opts.agenda ? `<div class="when">${e.tbc?'Date TBC':(n===1?`<b>${esc(fmt(e.s0))}</b>`:`<b>${esc(fmt(e.s0))}</b>to ${esc(fmt(e.s1))}<br><span class="n">${n} days</span>`)}</div>` : '';
+    const ref = opts.ref ?? TODAY;
+    let durHTML = '';
+    if(n>1){
+      const solid = n>21;
+      const segs = solid ? '<i></i>' : Array.from({length:n},(_,i)=>`<i class="${e.s0+i*DAY===ref?'on':''}"></i>`).join('');
+      const inRun = ref>=e.s0 && ref<=e.s1;
+      const pos = inRun ? ` · <b>day ${Math.round((ref-e.s0)/DAY)+1} of ${n}</b>` : '';
+      durHTML = `<div class="dur"><span class="seg${solid?' solid':''}">${segs}</span><span>${n} days, ${esc(fmt(e.s0))} – ${esc(fmt(e.s1))}${pos}</span></div>`;
+    }
+    return `<li class="item" style="--c:${col(e.s)}">${whenCol}<div class="bar4"></div><div>
+      <div class="tt">${e.k?'<span class="key" title="Headline event" aria-label="Headline event">★ </span>':''}${esc(e.t)}</div>
+      <div class="meta"><span>${esc(e.s)}</span>${meta}</div>
+      ${durHTML}
+      <div class="row">${badges(e)}</div>
+      ${e.note?`<div class="note">${esc(e.note)}</div>`:''}</div></li>`;
+  }
+
+  // summary
+  function summary(){
+    const end = TODAY+7*DAY;
+    const wk = events.filter(e=>!e.tbc && e.s0<end && e.s1>=TODAY && pass(e));
+    const live = wk.filter(isLive);
+    const nextKey = events.filter(e=>!e.tbc && e.k && isLive(e) && e.s0>=TODAY).sort((a,b)=>a.s0-b.s0)[0];
+    const sports = [...new Set(wk.map(e=>e.s))];
+    const days = nextKey ? Math.round((nextKey.s0-TODAY)/DAY) : null;
+    document.getElementById('summary').innerHTML = `
+      <div class="sum"><div class="lab">Next 7 days</div><div class="val">${wk.length}</div><div class="sub">events in the diary</div></div>
+      <div class="sum"><div class="lab">On BBC TV / iPlayer</div><div class="val">${live.length}</div><div class="sub">${live.length?esc(live.slice(0,2).map(e=>e.t).join(', ')):'none this week'}</div></div>
+      <div class="sum"><div class="lab">Sports this week</div><div class="val">${sports.length}</div><div class="sub">${esc(sports.join(', ')||'—')}</div></div>
+      <div class="sum next" style="--c:${nextKey?col(nextKey.s):'var(--muted)'}"><div class="lab">Next headline BBC event</div><div class="sport">${nextKey?esc(nextKey.s):''}</div><div class="val">${nextKey?esc(nextKey.t):'—'}</div><div class="sub">${nextKey?`${nextKey.s0===nextKey.s1?fmtY(nextKey.s0):fmt(nextKey.s0)+' – '+fmtY(nextKey.s1)}${nextKey.loc?' · '+esc(nextKey.loc):''} · in ${days} day${days===1?'':'s'}`:''}</div>${nextKey?`<div class="pl" style="margin-top:6px">${(nextKey.bbc||[]).map(p=>`<b class="b ${p}">${PL[p]}</b>`).join('')}</div>`:''}</div>`;
+  }
+
+  // chips
+  function chips(){
+    const keys=[...Object.keys(SPORTS),'Other'];
+    document.getElementById('chips').innerHTML = keys.map(k=>`<button class="chip" data-k="${esc(k)}" aria-pressed="${!S.off.has(k)}" style="--c:${col(k)}"><i></i>${esc(k)}</button>`).join('')
+      + `<button class="chip" id="allchips" aria-pressed="true">Show all</button>`;
+  }
+
+  // month grid
+  function month(){
+    const [y,m]=S.ym;
+    document.getElementById('mtitle').textContent = `${MON[m]} ${y}`;
+    const first = Date.UTC(y,m,1);
+    const lead = (new Date(first).getUTCDay()+6)%7;
+    const start = first - lead*DAY;
+    const last = Date.UTC(y,m+1,0);
+    const cells = Math.ceil((lead + new Date(last).getUTCDate())/7)*7;
+    const vis = events.filter(e=>!e.tbc && pass(e));
+    let h = DOW.map(d=>`<div class="dow">${d}</div>`).join('');
+    for(let i=0;i<cells;i++){
+      const t = start+i*DAY, d=new Date(t);
+      const out = d.getUTCMonth()!==m;
+      const on = vis.filter(e=>e.s0<=t && e.s1>=t);
+      const nd = e => Math.round((e.s1-e.s0)/DAY)+1;
+      // starting today, or a single-day event
+      const startsHere = on.filter(e=>e.s0===t).sort((a,b)=>(isLive(b)-isLive(a))||((b.k||0)-(a.k||0)));
+      // multi-day events carried over from earlier days: shown as continuation bars up to 16 days, ticks beyond
+      const cont = on.filter(e=>e.s0<t && nd(e)<=16).sort((a,b)=>a.s0-b.s0);
+      const long = on.filter(e=>e.s0<t && nd(e)>16);
+      const short = startsHere.concat(cont);
+      const shown = short.slice(0,3);
+      const label = `${fmt(t)}: ${on.length} event${on.length===1?'':'s'}`;
+      h += `<button class="cell${out?' out':''}${t===TODAY?' today':''}${t===S.sel?' sel':''}" data-t="${t}" aria-label="${esc(label)}">
+        <span class="num"><b>${d.getUTCDate()}</b></span>
+        ${shown.map(e=> e.s0<t
+            ? `<span class="ev cont" style="--c:${col(e.s)}" title="${esc(e.t)}: day ${Math.round((t-e.s0)/DAY)+1} of ${nd(e)}, ends ${esc(fmt(e.s1))}">${t===e.s1?'Ends: ':'↳ '}${esc(e.t)}</span>`
+            : `<span class="ev${isLive(e)?' tv':''}" style="--c:${col(e.s)}" title="${esc(e.t)}${nd(e)>1?` (${nd(e)} days, to ${esc(fmt(e.s1))})`:''}">${esc(e.t)}${nd(e)>1?` <span class="to">→ ${new Date(e.s1).getUTCDate()} ${MS[new Date(e.s1).getUTCMonth()]}</span>`:''}</span>`).join('')}
+        ${short.length>3?`<span class="more">+${short.length-3} more</span>`:''}
+        ${long.length?`<span class="ticks">${long.slice(0,6).map(e=>`<span style="--c:${col(e.s)}" title="${esc(e.t)} (ongoing)"></span>`).join('')}</span>`:''}
+      </button>`;
+    }
+    document.getElementById('grid').innerHTML = h;
+  }
+
+  function day(){
+    const t=S.sel;
+    const vis = events.filter(e=>!e.tbc && pass(e) && e.s0<=t && e.s1>=t);
+    const starts = vis.filter(e=>e.s0===t || e.s0===e.s1).sort((a,b)=>(a.time||'99').localeCompare(b.time||'99'));
+    const ongoing = vis.filter(e=>!starts.includes(e));
+    let h = `<h3>${fmt(t)} ${new Date(t).getUTCFullYear()}</h3><div class="hint">Click any day in the grid to see its schedule.</div>`;
+    if(!vis.length) h += `<div class="empty">Nothing in the diary for this day with the current filters.</div>`;
+    if(starts.length) h += `<div class="sub-h">On the day</div><ul class="list">${starts.map(e=>itemHTML(e,{ref:t})).join('')}</ul>`;
+    if(ongoing.length) h += `<div class="sub-h">Still running</div><ul class="list">${ongoing.map(e=>itemHTML(e,{ref:t})).join('')}</ul>`;
+    document.getElementById('day').innerHTML = h;
+  }
+
+  function running(){
+    let a,b,title;
+    const mkey = `${S.ym[0]}-${String(S.ym[1]+1).padStart(2,'0')}`;
+    if(S.view==='month'){ const [y,m]=S.ym; a=Date.UTC(y,m,1); b=Date.UTC(y,m+1,0); title=`On the radar: ${MON[m]}`; }
+    else { a=TODAY; b=Infinity; title='On the radar'; }
+    const sortKey = e => e.tbc ? pd(e.m+'-01') : e.s0;
+    const list = events.filter(e=>pass(e) && (
+        e.tbc ? (S.view==='month' ? e.m===mkey : pd(e.m+'-01')>=Date.UTC(new Date(TODAY).getUTCFullYear(),new Date(TODAY).getUTCMonth(),1))
+              : ((e.st==='p'||e.st==='r') && e.s1>=a && e.s0<=b)
+      )).sort((x,y)=>sortKey(x)-sortKey(y));
+    let h = `<h3>${title}</h3><div class="hint">Coming up, with the date, the BBC's coverage or the rights still to be confirmed.</div>`;
+    h += list.length ? `<ul class="list">${list.map(e=>itemHTML(e)).join('')}</ul>`
+                     : `<div class="empty">Nothing waiting on confirmation with the current filters.</div>`;
+    document.getElementById('running').innerHTML = h;
+  }
+
+  function agenda(){
+    const vis = events.filter(e=>!e.tbc && pass(e) && e.s1>=TODAY);
+    const wk0 = TODAY - ((new Date(TODAY).getUTCDay()+6)%7)*DAY;
+    const wkOf = d => wk0 + Math.floor((d-wk0)/(7*DAY))*7*DAY;
+    const nd = e => Math.round((e.s1-e.s0)/DAY)+1;
+    // rows: the event's first day as a full card; for events of up to 7 days, a short
+    // "day x of n" row on each following day. Longer events are listed under
+    // "Still running this week" in the week header instead.
+    const rows=[];
+    for(const e of vis){
+      const n=nd(e);
+      if(e.s0>=TODAY) rows.push({d:e.s0,kind:'start',e});
+      else rows.push({d:TODAY,kind:'start',e,late:true});
+      for(let i=1;i<n;i++){
+        const d=e.s0+i*DAY;
+        if(d<=TODAY) continue; // today is already covered by the start row
+        if(n<=7) rows.push({d,kind:'cont',e,i:i+1,n});
+      }
+    }
+    // drop a "day x of n" row when the same sport already has an entry starting that day
+    // (e.g. a finals session inside a championship), so one day reads as one thing
+    const startKey = new Set(rows.filter(r=>r.kind==='start').map(r=>r.d+'|'+r.e.s));
+    for(let i=rows.length-1;i>=0;i--) if(rows[i].kind==='cont' && startKey.has(rows[i].d+'|'+rows[i].e.s)) rows.splice(i,1);
+    rows.sort((a,b)=>a.d-b.d || (a.kind==='start'?0:1)-(b.kind==='start'?0:1) || (a.e.time||'99').localeCompare(b.e.time||'99') || (b.e.k||0)-(a.e.k||0));
+    const groups=new Map();
+    for(const r of rows){ const w=wkOf(r.d); if(!groups.has(w)) groups.set(w,[]); groups.get(w).push(r); }
+    const contRow = r => `<li class="item crow" style="--c:${col(r.e.s)}"><div class="when"><b>${esc(fmt(r.d))}</b></div><div class="bar4"></div><div>
+        <div class="tt">${r.e.k?'<span class="key" title="Headline event">★ </span>':''}${esc(r.e.t)} <span class="dayof">${'day '+r.i+' of '+r.n}</span></div>
+        <div class="meta"><span>${esc(r.e.s)}</span>${r.e.time?`<span>${esc(r.e.time)} UK</span>`:''}<span>Continues from ${esc(fmt(r.e.s0))}</span></div>
+        <div class="row">${badges(r.e)}</div></div></li>`;
+    let h='';
+    const weeks=[...groups.keys()].sort((a,b)=>a-b).slice(0,30);
+    for(const w of weeks){
+      const list=groups.get(w);
+      const lab = w===wk0?'This week':(w===wk0+7*DAY?'Next week':`Week of ${fmt(w)}`);
+      // long events (8+ days) that started before this week and are still going
+      const carry = vis.filter(e=>nd(e)>7 && Math.max(e.s0,TODAY)<w && e.s1>=w);
+      const carryHTML = carry.length ? `<div class="sub-h">Still running this week</div><ul class="cont-list">${carry.map(e=>{
+          const n=nd(e), a=Math.round((w-e.s0)/DAY)+1, b=Math.min(n,a+6);
+          return `<li style="--c:${col(e.s)}"><span>${e.k?'<span class="key">★ </span>':''}<b>${esc(e.t)}</b> · ${esc(e.s)}</span><span class="r">day ${a}${b>a?'–'+b:''} of ${n} · ends ${esc(fmt(e.s1))}</span></li>`;}).join('')}</ul>` : '';
+      h += `<div class="wk"><div class="wkh"><h3>${lab}</h3><span>${fmtY(w)} – ${fmtY(w+6*DAY)}</span></div>${carryHTML}<ul class="list">${list.map(r=>r.kind==='start'?itemHTML(r.e,{agenda:true}):contRow(r)).join('')}</ul></div>`;
+    }
+    if(!h) h = `<div class="empty">No upcoming events match these filters.</div>`;
+    document.getElementById('agenda-view').innerHTML = h;
+  }
+
+  function watch(){
+    document.getElementById('watch').innerHTML = (DATA.watch||[]).map(w=>`<div><b>${esc(w.t)}</b><p>${esc(w.b)}</p></div>`).join('');
+  }
+
+  function render(){
+    document.getElementById('v-month').setAttribute('aria-pressed',S.view==='month');
+    document.getElementById('v-agenda').setAttribute('aria-pressed',S.view==='agenda');
+    ['all','bbc','live'].forEach(k=>document.getElementById('f-'+k).setAttribute('aria-pressed',S.cov===k));
+    document.getElementById('month-view').hidden = S.view!=='month';
+    document.getElementById('agenda-view').hidden = S.view!=='agenda';
+    document.getElementById('day').hidden = S.view!=='month';
+    summary(); chips();
+    if(S.view==='month'){ month(); day(); } else agenda();
+    running();
+  }
+
+  document.getElementById('stamp').textContent = `Last checked ${fmtY(pd(DATA.updated))} · updates every Monday`;
+  watch();
+
+  document.getElementById('v-month').onclick=()=>{S.view='month';save();render();};
+  document.getElementById('v-agenda').onclick=()=>{S.view='agenda';save();render();};
+  ['all','bbc','live'].forEach(k=>document.getElementById('f-'+k).onclick=()=>{S.cov=k;save();render();});
+  document.getElementById('q').addEventListener('input',e=>{S.q=e.target.value.trim().toLowerCase();render();});
+  document.getElementById('chips').addEventListener('click',e=>{
+    const c=e.target.closest('.chip'); if(!c) return;
+    if(c.id==='allchips'){ S.off.clear(); }
+    else { const k=c.dataset.k;
+      // first click on a full set isolates that sport; later clicks toggle
+      if(S.off.size===0){ Object.keys(SPORTS).concat('Other').forEach(x=>{ if(x!==k) S.off.add(x); }); }
+      else if(S.off.has(k)) S.off.delete(k); else S.off.add(k);
+      if(S.off.size===Object.keys(SPORTS).length+1) S.off.clear();
+    }
+    save(); render();
+  });
+  document.getElementById('grid').addEventListener('click',e=>{
+    const c=e.target.closest('.cell'); if(!c) return;
+    S.sel=+c.dataset.t; const d=new Date(S.sel);
+    if(d.getUTCMonth()!==S.ym[1]) S.ym=[d.getUTCFullYear(),d.getUTCMonth()];
+    render();
+    if(window.matchMedia('(max-width:980px)').matches) document.getElementById('day').scrollIntoView({behavior:'smooth',block:'start'});
+  });
+  const shift=n=>{ let [y,m]=S.ym; m+=n; if(m<0){m=11;y--;} if(m>11){m=0;y++;} S.ym=[y,m];
+    S.sel = (y===new Date(TODAY).getUTCFullYear()&&m===new Date(TODAY).getUTCMonth())?TODAY:Date.UTC(y,m,1); render(); };
+  document.getElementById('prev').onclick=()=>shift(-1);
+  document.getElementById('next').onclick=()=>shift(1);
+  document.getElementById('todayBtn').onclick=()=>{ S.sel=TODAY; S.ym=[new Date(TODAY).getUTCFullYear(),new Date(TODAY).getUTCMonth()]; render(); };
+
+  // .ics export of the current filtered set
+  function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.hidden=false; clearTimeout(toast.h); toast.h=setTimeout(()=>t.hidden=true,2600); }
+  function ics(){
+    const d8 = t=>iso(t).replace(/-/g,'');
+    const fold = s=>s.replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n');
+    const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Sports Planning Diary//EN','CALSCALE:GREGORIAN','X-WR-CALNAME:Sports Planning Diary'];
+    events.filter(e=>!e.tbc && pass(e)).forEach(e=>{
+      const cov=(e.bbc||[]).map(p=>PL[p]).join(', ');
+      const desc=[e.s, cov?('BBC: '+cov):'', e.other?('Also: '+e.other):'', e.time?('Time: '+e.time+' UK'):'', e.note||''].filter(Boolean).join('\n');
+      lines.push('BEGIN:VEVENT',`UID:spd-${e.s0}-${e.id}@sports-diary`,`DTSTAMP:${d8(TODAY)}T000000Z`,
+        `DTSTART;VALUE=DATE:${d8(e.s0)}`,`DTEND;VALUE=DATE:${d8(e.s1+DAY)}`,
+        `SUMMARY:${fold((isLive(e)?'[BBC] ':'')+e.t)}`, e.loc?`LOCATION:${fold(e.loc)}`:null, `DESCRIPTION:${fold(desc)}`,'END:VEVENT');
+    });
+    lines.push('END:VCALENDAR');
+    return lines.filter(Boolean).join('\r\n');
+  }
+  (async()=>{
+    try{
+      const b=document.getElementById('ics');
+      if(!window.claude){
+        // ordinary website: plain browser download, plus the subscribable feed if one is published alongside
+        b.hidden=false;
+        b.onclick=()=>{
+          const url=URL.createObjectURL(new Blob([ics()],{type:'text/calendar'}));
+          const a=document.createElement('a'); a.href=url; a.download='sports-planning-diary.ics';
+          document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),1000);
+          toast('Calendar file downloaded');
+        };
+        const sub=document.getElementById('subscribe'); if(sub) sub.hidden=false;
+        return;
+      }
+      const dl = await window.claude.use('downloads');
+      if(!dl) return;
+      b.hidden=false;
+      b.onclick=async()=>{
+        try{ await dl.save({filename:'sports-planning-diary.ics',data:ics()}); toast('Calendar file saved'); }
+        catch(err){ toast('Export cancelled or unavailable'); }
+      };
+    }catch(_){}
+  })();
+
+  render();
+})();
+</script>
+
+</body>
+</html>

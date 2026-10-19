@@ -1,0 +1,1774 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sports Planning Diary//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sports Planning Diary
+X-WR-TIMEZONE:Europe/London
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:2026-10-23-bundesliga-stuttgart-v-borussia-m-nchengladbach@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:[BBC] 19:30 Bundesliga: Stuttgart v Borussia Mönchengladbach
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK\nBBC's Friday-
+ night Bundesliga game\, live on iPlayer and the BBC Sport website.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-wsl-tottenham-v-arsenal@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:[BBC] 12:45 WSL: Tottenham v Arsenal
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 12:45 UK\nNort
+ h London derby\, live on BBC One.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-01-wsl-charlton-v-chelsea@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:[BBC] 14:30 WSL: Charlton v Chelsea
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 14:30 UK\nLive
+  on BBC Two.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-fa-cup-first-round@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:[BBC] FA Cup first round
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nTies spread
+  across the weekend. BBC picks live games each round\; 5 Live commentary.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-05-fa-cup-second-round@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:[BBC] FA Cup second round
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-06-euro-2028-qualifying-draw@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Euro 2028 qualifying draw
+DESCRIPTION:Football\nBBC: Online\nSets the 2027 qualifying groups for Sco
+ tland\, Wales\, Northern Ireland and England.
+TRANSP:TRANSPARENT
+LOCATION:Belfast
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-09-fa-cup-third-round@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270111
+SUMMARY:★ [BBC] FA Cup third round
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nPremier Lea
+ gue and Championship clubs enter.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-13-fa-cup-fourth-round@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:[BBC] FA Cup fourth round
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-06-fa-cup-fifth-round@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:[BBC] FA Cup fifth round
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-25-euro-2028-qualifiers-begin@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:★ [BBC] Euro 2028 qualifiers begin
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: ITV (
+ England)\, S4C (Wales)\nScotland and Northern Ireland live on BBC\; Wales
+  on S4C with BBC\; England on ITV. Groups run March to November 2027.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-03-fa-cup-quarter-finals@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:[BBC] FA Cup quarter-finals
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-24-fa-cup-semi-finals@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270426
+SUMMARY:[BBC] FA Cup semi-finals
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+TRANSP:TRANSPARENT
+LOCATION:Wembley
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-15-women-s-fa-cup-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:Women's FA Cup final
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nAlso: Channel 4\nLive TV on Ch
+ annel 4\; 5 Live commentary.
+TRANSP:TRANSPARENT
+LOCATION:Wembley
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-22-fa-cup-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:★ [BBC] FA Cup final
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: TNT S
+ ports
+TRANSP:TRANSPARENT
+LOCATION:Wembley
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-05-champions-league-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:★ [BBC] Champions League final
+DESCRIPTION:Football\nBBC: BBC TV\, 5 Live\, Online\nAlso: TNT Sports / Pr
+ ime Video\nBBC has Champions League highlights\; live rights sit elsewher
+ e.
+TRANSP:TRANSPARENT
+LOCATION:Metropolitano\, Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-24-women-s-world-cup@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270726
+SUMMARY:★ [BBC] Women's World Cup
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: ITV\n
+ Rights shared equally with ITV. Opener at the Maracanã on 24 June\; semi
+ -final in Rio on 21 July.
+TRANSP:TRANSPARENT
+LOCATION:Brazil
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-25-women-s-world-cup-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:★ [BBC] Women's World Cup final
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: ITV\n
+ Live on both BBC and ITV.
+TRANSP:TRANSPARENT
+LOCATION:Maracanã\, Rio
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-15-rugby-league-world-cup@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261116
+SUMMARY:Rugby League World Cup
+DESCRIPTION:Rugby league\nBBC: Online\nAlso: Premier Sports\nNo BBC TV cov
+ erage this time: Premier Sports holds exclusive UK rights.
+TRANSP:TRANSPARENT
+LOCATION:Australia & PNG
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-rlwc-england-v-france@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:07:35 RLWC: England v France
+DESCRIPTION:Rugby league\nBBC: Online\nTime: 07:35 UK\nAlso: Premier Sport
+ s
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-rlwc-semi-finals@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+SUMMARY:09:05 RLWC semi-finals
+DESCRIPTION:Rugby league\nBBC: Online\nTime: 09:05 UK\nAlso: Premier Sport
+ s
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-rlwc-finals-men-s-women-s@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:08:35 RLWC finals (men's & women's)
+DESCRIPTION:Rugby league\nBBC: Online\nTime: 08:35 UK\nAlso: Premier Sport
+ s\nWomen's final 05:15\, men's final 08:35 UK time. Wheelchair final 13 N
+ ovember.
+TRANSP:TRANSPARENT
+LOCATION:Brisbane
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-02-super-league-grand-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:Super League Grand Final
+DESCRIPTION:Rugby league\nBBC: Online\nRights TBC\nBBC's 2024–26 Super L
+ eague deal has ended. 2027 TV rights not yet announced.
+TRANSP:TRANSPARENT
+LOCATION:Old Trafford
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06-nations-championship-november-tests@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261122
+SUMMARY:[BBC] Nations Championship: November Tests
+DESCRIPTION:Rugby union\nBBC: iPlayer\, Online\nAlso: ITV\nLive on ITV. Wa
+ les home Tests (v Japan 7 Nov\, v New Zealand 14 Nov) also listed on BBC 
+ iPlayer. Other fixtures: Scotland v NZ (7 Nov)\, England v Australia (8 N
+ ov)\, England v Japan (14 Nov)\, Scotland v Australia (15 Nov)\, England 
+ v NZ\, Scotland v Japan & Wales v Australia (21 Nov).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-england-v-new-zealand@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:England v New Zealand
+DESCRIPTION:Rugby union\nBBC: Online\nAlso: ITV
+TRANSP:TRANSPARENT
+LOCATION:Twickenham
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-27-nations-championship-finals-weekend@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:★ Nations Championship Finals Weekend
+DESCRIPTION:Rugby union\nBBC: Online\nAlso: ITV\nSix Tests over three days
+ \, including the first Nations Championship final on Sunday 29 November.
+TRANSP:TRANSPARENT
+LOCATION:Twickenham
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-05-men-s-six-nations@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270314
+SUMMARY:★ [BBC] Men's Six Nations
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: IT
+ V\nBBC shows five of the 15 matches\, all involving Scotland or Wales (in
+ cluding Scotland v Wales). ITV has the other ten\, including every Englan
+ d game. Every match on 5 Live.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-05-six-nations-ireland-v-england@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:20:10 Six Nations: Ireland v England
+DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 20:10 UK\nAlso: ITV
+TRANSP:TRANSPARENT
+LOCATION:Aviva Stadium
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-06-six-nations-scotland-v-italy@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:14:10 Six Nations: Scotland v Italy
+DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 14:10 UK\nProvisional
+ \nScotland match\, so a likely BBC TV pick. Confirm the BBC/ITV split.
+TRANSP:TRANSPARENT
+LOCATION:Murrayfield
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-06-six-nations-france-v-wales@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:16:40 Six Nations: France v Wales
+DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 16:40 UK\nProvisional
+ \nWales match\, so a possible BBC TV pick. Confirm the BBC/ITV split.
+TRANSP:TRANSPARENT
+LOCATION:Stade de France
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-13-six-nations-scotland-v-wales@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:[BBC] 16:40 Six Nations: Scotland v Wales
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nTime: 16
+ :40 UK\nNamed in the BBC's package.
+TRANSP:TRANSPARENT
+LOCATION:Murrayfield
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-14-six-nations-england-v-france@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:15:10 Six Nations: England v France
+DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 15:10 UK\nAlso: ITV
+TRANSP:TRANSPARENT
+LOCATION:Allianz Stadium
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-20-six-nations-wales-v-ireland@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:14:10 Six Nations: Wales v Ireland
+DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 14:10 UK\nProvisional
+ \nWales match\, so a likely BBC TV pick. Confirm the BBC/ITV split.
+TRANSP:TRANSPARENT
+LOCATION:Principality Stadium
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-21-six-nations-france-v-scotland@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:15:10 Six Nations: France v Scotland
+DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 15:10 UK\nProvisional
+ \nScotland match\, so a possible BBC TV pick. Confirm the BBC/ITV split.
+TRANSP:TRANSPARENT
+LOCATION:Stade de France
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-05-six-nations-scotland-v-ireland@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:20:10 Six Nations: Scotland v Ireland
+DESCRIPTION:Rugby union\nBBC: 5 Live\, Online\nTime: 20:10 UK\nProvisional
+ \nFriday night. Scotland match\, so a possible BBC TV pick.
+TRANSP:TRANSPARENT
+LOCATION:Murrayfield
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-13-six-nations-super-saturday@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:★ [BBC] Six Nations Super Saturday
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: IT
+ V\nThree matches including England v Scotland (Calcutta Cup) and Ireland 
+ v France.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-10-women-s-six-nations@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270516
+SUMMARY:★ [BBC] Women's Six Nations
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: S4
+ C (Wales)\nEvery match on the BBC in the UK. All five rounds are Saturday
+  triple-headers.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-10-w6n-wales-v-england@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:[BBC] 14:45 W6N: Wales v England
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 14:45 UK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-17-w6n-england-v-scotland@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:[BBC] 16:45 W6N: England v Scotland
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 16:45 UK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-24-w6n-england-v-italy@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:[BBC] 17:00 W6N: England v Italy
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 17:00 UK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-08-w6n-ireland-v-england@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:[BBC] 14:45 W6N: Ireland v England
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 14:45 UK
+TRANSP:TRANSPARENT
+LOCATION:Aviva Stadium
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-15-w6n-england-v-france@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:★ [BBC] 16:45 W6N: England v France
+DESCRIPTION:Rugby union\nBBC: BBC TV\, iPlayer\, Online\nTime: 16:45 UK\nF
+ inal-round match between the two strongest sides.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-01-men-s-rugby-world-cup@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271114
+SUMMARY:★ Men's Rugby World Cup
+DESCRIPTION:Rugby union\nBBC: Online\nAlso: ITV\nLive on ITV. BBC radio ri
+ ghts for 2027 not yet confirmed. Pool stage ends with five games on 17 Oc
+ t\; quarter-finals 30–31 Oct.
+TRANSP:TRANSPARENT
+LOCATION:Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-13-rugby-world-cup-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271113
+DTEND;VALUE=DATE:20271114
+SUMMARY:★ Rugby World Cup final
+DESCRIPTION:Rugby union\nBBC: Online\nAlso: ITV
+TRANSP:TRANSPARENT
+LOCATION:Stadium Australia\, Sydney
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-15-england-v-pakistan-odis@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270527
+SUMMARY:[BBC] England v Pakistan ODIs
+DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nFive
+  ODIs. BBC TV highlights\; Test Match Special live.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-09-world-test-championship-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270614
+SUMMARY:World Test Championship final
+DESCRIPTION:Cricket\nBBC: Online\nAlso: Sky Sports
+TRANSP:TRANSPARENT
+LOCATION:The Oval
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-18-men-s-ashes-1st-test@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270623
+SUMMARY:★ [BBC] Men's Ashes: 1st Test
+DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nFive
+ -Test series: Trent Bridge\, Lord's\, Edgbaston\, Rose Bowl\, The Oval. B
+ BC daily TV highlights\; TMS live.
+TRANSP:TRANSPARENT
+LOCATION:Trent Bridge
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-24-women-s-ashes-test@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270628
+SUMMARY:[BBC] Women's Ashes Test
+DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports
+TRANSP:TRANSPARENT
+LOCATION:Headingley
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-03-women-s-ashes-white-ball-series@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270721
+SUMMARY:[BBC] Women's Ashes white-ball series
+DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nT20I
+ s on 3\, 6\, 9 July\; ODIs on 13\, 16\, 20 July.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-08-men-s-ashes-3rd-test@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270713
+SUMMARY:[BBC] Men's Ashes: 3rd Test
+DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports
+TRANSP:TRANSPARENT
+LOCATION:Edgbaston
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-29-men-s-ashes-5th-test@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270803
+SUMMARY:[BBC] Men's Ashes: 5th Test
+DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nProv
+ isional\nSeries ends 2 August\; start date estimated.
+TRANSP:TRANSPARENT
+LOCATION:The Oval
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-07-england-v-new-zealand-white-ball-series@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270926
+SUMMARY:[BBC] England v New Zealand white-ball series
+DESCRIPTION:Cricket\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nThre
+ e T20Is then five ODIs\, ending at Headingley on 25 Sept.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-02-men-s-cricket-world-cup@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271122
+SUMMARY:★ Men's Cricket World Cup
+DESCRIPTION:Cricket\nBBC: 5 Live\, Online\nAlso: Sky Sports\nTest Match Sp
+ ecial commentary (BBC radio rights run to 2027).
+TRANSP:TRANSPARENT
+LOCATION:South Africa\, Zimbabwe\, Namibia
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-16-cwc-south-africa-v-england@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271017
+SUMMARY:CWC: South Africa v England
+DESCRIPTION:Cricket\nBBC: 5 Live\, Online\nAlso: Sky Sports
+TRANSP:TRANSPARENT
+LOCATION:Gqeberha
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-17-australian-open@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270201
+SUMMARY:Australian Open
+DESCRIPTION:Tennis\nBBC: 5 Live\, Online\nAlso: TNT Sports\nProvisional\nD
+ ates estimated. 5 Live commentary.
+TRANSP:TRANSPARENT
+LOCATION:Melbourne
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-23-french-open@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270607
+SUMMARY:French Open
+DESCRIPTION:Tennis\nBBC: 5 Live\, Online\nAlso: TNT Sports\nProvisional\nD
+ ates estimated.
+TRANSP:TRANSPARENT
+LOCATION:Paris
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-07-nottingham-open@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270614
+SUMMARY:[BBC] Nottingham Open
+DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nProvision
+ al\nDates estimated. BBC deal runs to 2027.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-14-queen-s-club-championships@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270621
+SUMMARY:[BBC] Queen's Club Championships
+DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, Red Button\, 5 Live\, Online\n
+ Provisional\nDates estimated. BBC deal runs to 2027.
+TRANSP:TRANSPARENT
+LOCATION:London
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-20-eastbourne-international@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270627
+SUMMARY:[BBC] Eastbourne International
+DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nProvision
+ al\nDates estimated. BBC deal runs to 2027.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-28-wimbledon@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270712
+SUMMARY:★ [BBC] Wimbledon
+DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, Red Button\, 5 Live\, Online\n
+ 150 years since the first Championships (1877). BBC rights run to 2033.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-10-wimbledon-ladies-singles-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270711
+SUMMARY:★ [BBC] Wimbledon: ladies' singles final
+DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-11-wimbledon-gentlemen-s-singles-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:★ [BBC] Wimbledon: gentlemen's singles final
+DESCRIPTION:Tennis\nBBC: BBC TV\, iPlayer\, 5 Live\, Online
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-30-us-open@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270913
+SUMMARY:US Open
+DESCRIPTION:Tennis\nBBC: 5 Live\, Online\nAlso: Sky Sports\nProvisional\nD
+ ates estimated.
+TRANSP:TRANSPARENT
+LOCATION:New York
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-08-the-masters@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270412
+SUMMARY:The Masters
+DESCRIPTION:Golf\nBBC: 5 Live\, Online\nAlso: Sky Sports
+TRANSP:TRANSPARENT
+LOCATION:Augusta
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-20-pga-championship@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270524
+SUMMARY:PGA Championship
+DESCRIPTION:Golf\nBBC: 5 Live\, Online\nAlso: Sky Sports
+TRANSP:TRANSPARENT
+LOCATION:PGA Frisco\, Texas
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-17-us-open-golf@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270621
+SUMMARY:US Open (golf)
+DESCRIPTION:Golf\nBBC: 5 Live\, Online\nAlso: Sky Sports
+TRANSP:TRANSPARENT
+LOCATION:Pebble Beach
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-15-the-open@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270719
+SUMMARY:★ [BBC] The Open
+DESCRIPTION:Golf\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky Sport
+ s\nBBC daily highlights (deal runs to 2027) and 5 Live commentary.
+TRANSP:TRANSPARENT
+LOCATION:St Andrews
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-17-ryder-cup@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270917
+DTEND;VALUE=DATE:20270920
+SUMMARY:★ [BBC] Ryder Cup
+DESCRIPTION:Golf\nBBC: BBC TV\, 5 Live\, Online\nAlso: Sky Sports\nBBC hig
+ hlights and 5 Live commentary.
+TRANSP:TRANSPARENT
+LOCATION:Adare Manor\, Ireland
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-23-bmw-pga-championship@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270927
+SUMMARY:[BBC] BMW PGA Championship
+DESCRIPTION:Golf\nBBC: BBC TV\, Online\nAlso: Sky Sports\nBBC highlights.
+TRANSP:TRANSPARENT
+LOCATION:Wentworth
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23-united-states-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261026
+SUMMARY:United States GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+LOCATION:Austin
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-30-mexico-city-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261102
+SUMMARY:Mexico City GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06-s-o-paulo-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261109
+SUMMARY:São Paulo GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-las-vegas-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261122
+SUMMARY:Las Vegas GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSaturday
+ -night race (early Sunday UK time).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-27-qatar-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261130
+SUMMARY:Qatar GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nF1 has c
+ ontingency plans for the Gulf races because of the regional conflict.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04-abu-dhabi-gp-season-finale@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261207
+SUMMARY:★ Abu Dhabi GP (season finale)
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nF1 has c
+ ontingency plans for the Gulf races because of the regional conflict.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-12-bahrain-gp-season-opener@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270315
+SUMMARY:★ Bahrain GP (season opener)
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
+ eekend. Testing in Bahrain 24–27 Feb.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-19-saudi-arabian-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270322
+SUMMARY:Saudi Arabian GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-02-australian-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270405
+SUMMARY:Australian GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
+ eekend.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-09-japanese-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270412
+SUMMARY:Japanese GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
+ eekend.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-16-chinese-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270419
+SUMMARY:Chinese GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-30-miami-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270503
+SUMMARY:Miami GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-21-canadian-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270524
+SUMMARY:Canadian GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
+ eekend.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-04-monaco-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270607
+SUMMARY:Monaco GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
+ eekend.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-18-portuguese-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270621
+SUMMARY:Portuguese GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+LOCATION:Portimão
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-02-british-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270705
+SUMMARY:★ British GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
+ eekend. 5 Live commentary.
+TRANSP:TRANSPARENT
+LOCATION:Silverstone
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-09-austrian-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270712
+SUMMARY:Austrian GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-23-belgian-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270726
+SUMMARY:Belgian GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-30-hungarian-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270802
+SUMMARY:Hungarian GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-03-italian-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270906
+SUMMARY:Italian GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
+ eekend.
+TRANSP:TRANSPARENT
+LOCATION:Monza
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-10-spanish-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270913
+SUMMARY:Spanish GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+LOCATION:Madrid
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-24-azerbaijan-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270927
+SUMMARY:Azerbaijan GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-01-turkish-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271004
+SUMMARY:Turkish GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-08-singapore-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271011
+SUMMARY:Singapore GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-22-united-states-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271025
+SUMMARY:United States GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+LOCATION:Austin
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-29-mexico-city-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271101
+SUMMARY:Mexico City GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-05-s-o-paulo-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271105
+DTEND;VALUE=DATE:20271108
+SUMMARY:São Paulo GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
+ eekend.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-18-las-vegas-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271118
+DTEND;VALUE=DATE:20271121
+SUMMARY:Las Vegas GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-03-qatar-gp@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271203
+DTEND;VALUE=DATE:20271206
+SUMMARY:Qatar GP
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
+ eekend.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-10-abu-dhabi-gp-season-finale@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20271210
+DTEND;VALUE=DATE:20271213
+SUMMARY:★ Abu Dhabi GP (season finale)
+DESCRIPTION:Formula 1\nBBC: 5 Live\, Online\nAlso: Sky Sports F1\nSprint w
+ eekend.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-01-new-york-city-marathon@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:[BBC] New York City Marathon
+DESCRIPTION:Athletics\nBBC: Red Button\, Online\nAlso: TNT Sports
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-04-european-athletics-indoor-championships@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270308
+SUMMARY:[BBC] European Athletics Indoor Championships
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, 5 Live\, Onlin
+ e\nBBC deal runs to 2027.
+TRANSP:TRANSPARENT
+LOCATION:Valencia
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-24-london-marathon-two-day-double@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270426
+SUMMARY:★ [BBC] London Marathon (two-day 'Double')
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nOne-off tw
+ o-day event with 100\,000 runners.
+TRANSP:TRANSPARENT
+LOCATION:London
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-10-world-athletics-championships@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270920
+SUMMARY:★ [BBC] World Athletics Championships
+DESCRIPTION:Athletics\nBBC: BBC TV\, iPlayer\, Red Button\, 5 Live\, Onlin
+ e\nMorning UK time sessions likely\; Beijing is 7 hours ahead.
+TRANSP:TRANSPARENT
+LOCATION:Beijing
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-28-uk-championship@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261207
+SUMMARY:★ [BBC] UK Championship
+DESCRIPTION:Snooker\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nAlso: TN
+ T Sports
+TRANSP:TRANSPARENT
+LOCATION:York Barbican
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-10-the-masters@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270118
+SUMMARY:★ [BBC] The Masters
+DESCRIPTION:Snooker\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nAlso: TN
+ T Sports
+TRANSP:TRANSPARENT
+LOCATION:Alexandra Palace
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-17-world-snooker-championship@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270504
+SUMMARY:★ [BBC] World Snooker Championship
+DESCRIPTION:Snooker\nBBC: BBC TV\, iPlayer\, Red Button\, 5 Live\, Online\
+ nAlso: TNT Sports
+TRANSP:TRANSPARENT
+LOCATION:Crucible\, Sheffield
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-11-pdc-world-darts-championship@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20270104
+SUMMARY:PDC World Darts Championship
+DESCRIPTION:Darts\nBBC: Online\nAlso: Sky Sports\nLive on Sky\; reports on
+  5 Live.
+TRANSP:TRANSPARENT
+LOCATION:Alexandra Palace
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-16-cheltenham-festival@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270320
+SUMMARY:Cheltenham Festival
+DESCRIPTION:Horse racing\nBBC: 5 Live\, Online\nAlso: ITV\n5 Live commenta
+ ry. ITV's racing deal runs to 2030.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-10-grand-national@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:★ 16:00 Grand National
+DESCRIPTION:Horse racing\nBBC: 5 Live\, Online\nTime: 16:00 UK\nAlso: ITV\
+ nFestival 8–10 April. 5 Live commentary.
+TRANSP:TRANSPARENT
+LOCATION:Aintree
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-05-the-derby@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:The Derby
+DESCRIPTION:Horse racing\nBBC: 5 Live\, Online\nAlso: ITV
+TRANSP:TRANSPARENT
+LOCATION:Epsom
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-26-world-aquatics-championships@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270719
+SUMMARY:[BBC] World Aquatics Championships
+DESCRIPTION:Swimming\nBBC: BBC TV\, iPlayer\, Red Button\, Online\nPool sw
+ imming 10–18 July\; diving 26 June–4 July.
+TRANSP:TRANSPARENT
+LOCATION:Budapest
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-02-tour-de-france-grand-d-part@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270705
+SUMMARY:★ Tour de France Grand Départ
+DESCRIPTION:Cycling\nBBC: Online\nAlso: Channel 5 (free-to-air) / TNT Spor
+ ts\nEdinburgh–Carlisle\, Keswick–Liverpool\, Welshpool–Cardiff. Not
+  on the BBC.
+TRANSP:TRANSPARENT
+LOCATION:Edinburgh to Cardiff
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-30-tour-de-france-femmes-grand-d-part@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270802
+SUMMARY:Tour de France Femmes Grand Départ
+DESCRIPTION:Cycling\nBBC: Online\nAlso: Channel 5 / TNT Sports
+TRANSP:TRANSPARENT
+LOCATION:Leeds\, Manchester\, London
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-10-invictus-games@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270718
+SUMMARY:[BBC] Invictus Games
+DESCRIPTION:Multi-sport\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nBBC 
+ has covered recent Games\; 2027 plans not yet confirmed.
+TRANSP:TRANSPARENT
+LOCATION:NEC Birmingham
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-14-super-bowl-lxi@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Super Bowl LXI
+DESCRIPTION:American football\nBBC: Online\nAlso: Channel 5 / Sky Sports\n
+ Kick-off late Sunday night UK time.
+TRANSP:TRANSPARENT
+LOCATION:SoFi Stadium
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-27-fiba-basketball-world-cup@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270913
+SUMMARY:FIBA Basketball World Cup
+DESCRIPTION:Basketball\nBBC: Online\nAlso: DAZN
+TRANSP:TRANSPARENT
+LOCATION:Qatar
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-17-world-gymnastics-championships@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261026
+SUMMARY:★ [BBC] World Gymnastics Championships
+DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nArtistic worlds. E
+ very final live on BBC Two and iPlayer\, 20–25 Oct.
+TRANSP:TRANSPARENT
+LOCATION:Rotterdam
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-20-gymnastics-worlds-men-s-team-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:[BBC] 19:00 Gymnastics Worlds: men's team final
+DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:00 UK\nBB
+ C Two.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21-gymnastics-worlds-women-s-team-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:[BBC] 19:00 Gymnastics Worlds: women's team final
+DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:00 UK\nBB
+ C Two.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-22-gymnastics-worlds-men-s-all-around-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:[BBC] 19:00 Gymnastics Worlds: men's all-around final
+DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:00 UK\nBB
+ C Two.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23-gymnastics-worlds-women-s-all-around-final@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:[BBC] 20:00 Gymnastics Worlds: women's all-around final
+DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nTime: 20:00 UK\nBB
+ C Two.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-gymnastics-worlds-apparatus-finals@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:[BBC] 19:00 Gymnastics Worlds: apparatus finals
+DESCRIPTION:Gymnastics\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:00 UK\nBB
+ C Two\, both evenings.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-09-29-world-gymnastics-championships-2027@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20271009
+SUMMARY:World Gymnastics Championships 2027
+DESCRIPTION:Gymnastics\nBBC: Online\nProvisional\nBBC showed the 2026 worl
+ ds live\; 2027 coverage not yet announced. Dates from listings\, confirm 
+ with FIG.
+TRANSP:TRANSPARENT
+LOCATION:Chengdu
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-19-serie-a-parma-v-torino@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:[BBC] 19:45 Serie A: Parma v Torino
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:45 UK\nBBC Alba and 
+ iPlayer.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27-serie-a-torino-v-como@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:[BBC] 19:45 Serie A: Torino v Como
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:45 UK\nBBC Alba and 
+ iPlayer.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23-wxv-australia-v-scotland-women@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:[BBC] 09:45 WXV: Australia v Scotland Women
+DESCRIPTION:Rugby union\nBBC: iPlayer\, Online\nTime: 09:45 UK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-wxv-canada-v-england-women@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:[BBC] 00:00 WXV: Canada v England Women
+DESCRIPTION:Rugby union\nBBC: iPlayer\, Online\nTime: 00:00 UK\nMidnight U
+ K time (late Friday night).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-30-wxv-usa-v-england-women@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:[BBC] 21:15 WXV: USA v England Women
+DESCRIPTION:Rugby union\nBBC: iPlayer\, Online\nTime: 21:15 UK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-29-women-s-champions-league-man-city-v-psg@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:[BBC] 20:00 Women's Champions League: Man City v PSG
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 20:00 UK\nLeag
+ ue phase\, BBC Two.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-30-bundesliga-elversberg-v-mainz@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:[BBC] 19:30 Bundesliga: Elversberg v Mainz
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06-bundesliga-hamburg-v-borussia-m-nchengladbach@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:[BBC] 19:30 Bundesliga: Hamburg v Borussia Mönchengladbach
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-08-wsl-london-city-lionesses-v-birmingham@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:[BBC] 14:30 WSL: London City Lionesses v Birmingham
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 14:30 UK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-wsl-chelsea-v-manchester-city@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:[BBC] 13:30 WSL: Chelsea v Manchester City
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 13:30 UK\nBBC 
+ One.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-nations-league-scotland-v-north-macedonia@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:[BBC] 19:45 Nations League: Scotland v North Macedonia
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nTime: 19:45
+  UK\nBBC channel to be confirmed\; on iPlayer.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-nations-league-norway-v-wales@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:[BBC] 17:00 Nations League: Norway v Wales
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 17:00 UK\nAlso
+ : S4C\nBBC channel to be confirmed\; on iPlayer.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-nations-league-northern-ireland-v-ukraine@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:[BBC] 19:45 Nations League: Northern Ireland v Ukraine
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:45 UK\nBBC 
+ channel to be confirmed\; on iPlayer.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-16-nations-league-switzerland-v-scotland@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:[BBC] 19:45 Nations League: Switzerland v Scotland
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nTime: 19:45
+  UK\nBBC channel to be confirmed\; on iPlayer.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-17-nations-league-wales-v-portugal@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:[BBC] 19:45 Nations League: Wales v Portugal
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:45 UK\nAlso
+ : S4C\nBBC channel to be confirmed\; on iPlayer.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-17-nations-league-hungary-v-northern-ireland@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:[BBC] 19:45 Nations League: Hungary v Northern Ireland
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 19:45 UK\nProv
+ isional\nBBC holds Northern Ireland rights\; listing not yet confirmed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-05-badminton-horse-trials@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270510
+SUMMARY:[BBC] Badminton Horse Trials
+DESCRIPTION:Equestrian\nBBC: BBC TV\, iPlayer\, Online\nProvisional\nDates
+  from listings\; confirm with organisers.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-28-eurohockey-championships@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270809
+SUMMARY:EuroHockey Championships
+DESCRIPTION:Hockey\nBBC: Online\nRights TBC\nMen's and women's Euros on ho
+ me soil. BBC has shown EuroHockey before\; 2027 broadcaster not yet named
+ .
+TRANSP:TRANSPARENT
+LOCATION:Lee Valley & Twickenham Stoop\, London
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-25-netball-world-cup@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270906
+SUMMARY:★ Netball World Cup
+DESCRIPTION:Netball\nBBC: Online\nRights TBC\nUK broadcaster not yet annou
+ nced (2023 was shared by Sky and the BBC).
+TRANSP:TRANSPARENT
+LOCATION:Sydney
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-25-uci-road-world-championships@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270906
+SUMMARY:[BBC] UCI Road World Championships
+DESCRIPTION:Cycling\nBBC: BBC TV\, iPlayer\, Online\nAlso: TNT Sports\nPro
+ visional\nMen's road race 29 Aug\, time trials 1 Sep\, women's road race 
+ 5 Sep. BBC has shown the Worlds\; 2027 plans TBC.
+TRANSP:TRANSPARENT
+LOCATION:Haute-Savoie\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-20-champions-league-md3-man-city-v-aek-athens-liverpool-v-villarreal@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:20:00 Champions League MD3: Man City v AEK Athens\, Liverpool v Vi
+ llarreal
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
+ ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
+ eeds the BBC One highlights show. Also tonight: Stuttgart v Atlético\, P
+ SG v Barcelona\, Napoli v Bodø/Glimt\, Porto v PSV\, Roma v Slovan Brati
+ slava (8pm)\; Sabah v Dortmund\, Fenerbahçe v Slavia Praha (5.45pm).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21-champions-league-md3-bayern-v-arsenal-aston-villa-v-viking-como-v-man-utd-5-45pm@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:20:00 Champions League MD3: Bayern v Arsenal\, Aston Villa v Vikin
+ g\, Como v Man Utd (5.45pm)
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
+ ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
+ eeds the BBC One highlights show. Also tonight: Club Brugge v Lens\, Real
+  Madrid v Leipzig\, Real Betis v Feyenoord\, Sporting v LASK\, Inter v Sh
+ akhtar (8pm)\; Lille v Galatasaray (5.45pm).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21-motd-champions-league-highlights@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
+ One and iPlayer\, matchday 3. Covers every game from the round\, so all f
+ ixtures need ingesting.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03-champions-league-md4-barcelona-v-aston-villa-man-utd-v-roma@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:20:00 Champions League MD4: Barcelona v Aston Villa\, Man Utd v Ro
+ ma
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
+ ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
+ eeds the BBC One highlights show. Also tonight: Atlético v Bayern\, Bod
+ ø/Glimt v Lille\, Feyenoord v Inter\, LASK v Slovan Bratislava\, Villarr
+ eal v PSG (8pm)\; Galatasaray v Stuttgart\, Shakhtar v Sporting (5.45pm).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04-champions-league-md4-slavia-praha-v-arsenal-leipzig-v-man-city-fenerbah-e-v-liverpool-5-45pm@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:20:00 Champions League MD4: Slavia Praha v Arsenal\, Leipzig v Man
+  City\, Fenerbahçe v Liverpool (5.45pm)
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
+ ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
+ eeds the BBC One highlights show. Also tonight: Dortmund v Betis\, PSV v 
+ Club Brugge\, Lens v Como\, Porto v Napoli\, Viking v Sabah (8pm)\; AEK v
+  Real Madrid (5.45pm).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04-motd-champions-league-highlights@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
+ One and iPlayer\, matchday 4. Covers every game from the round\, so all f
+ ixtures need ingesting.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-24-champions-league-md5-arsenal-v-dortmund-man-city-v-napoli-galatasaray-v-aston-villa-5-45pm@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:20:00 Champions League MD5: Arsenal v Dortmund\, Man City v Napoli
+ \, Galatasaray v Aston Villa (5.45pm)
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
+ ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
+ eeds the BBC One highlights show. Also tonight: Como v AEK\, Feyenoord v 
+ Porto\, Leipzig v Lens\, Real Madrid v PSV\, Slovan Bratislava v Betis (8
+ pm)\; Bodø/Glimt v LASK (5.45pm).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-champions-league-md5-club-brugge-v-liverpool-sporting-v-man-utd@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:20:00 Champions League MD5: Club Brugge v Liverpool\, Sporting v M
+ an Utd
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
+ ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
+ eeds the BBC One highlights show. Also tonight: Atlético v Viking\, Lill
+ e v Bayern\, Inter v Stuttgart\, Shakhtar v Fenerbahçe\, PSG v Roma (8pm
+ )\; Sabah v Barcelona\, Slavia Praha v Villarreal (5.45pm).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-motd-champions-league-highlights@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
+ One and iPlayer\, matchday 5. Covers every game from the round\, so all f
+ ixtures need ingesting.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-08-champions-league-md6-aston-villa-v-psg-barcelona-v-man-city-man-utd-v-leipzig@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:20:00 Champions League MD6: Aston Villa v PSG\, Barcelona v Man Ci
+ ty\, Man Utd v Leipzig
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
+ ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
+ eeds the BBC One highlights show. Also tonight: AEK v Galatasaray\, Bayer
+ n v Slavia Praha\, Napoli v Club Brugge\, Roma v Sporting (8pm)\; Villarr
+ eal v Sabah\, Viking v Feyenoord (5.45pm).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-09-champions-league-md6-arsenal-v-real-madrid-liverpool-v-porto@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:20:00 Champions League MD6: Arsenal v Real Madrid\, Liverpool v Po
+ rto
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
+ ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
+ eeds the BBC One highlights show. Also tonight: Dortmund v Inter\, Lens v
+  Bodø/Glimt\, LASK v Fenerbahçe\, PSV v Atlético\, Stuttgart v Lille (
+ 8pm)\; Betis v Como\, Slovan Bratislava v Shakhtar (5.45pm).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-09-motd-champions-league-highlights@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
+ One and iPlayer\, matchday 6. Covers every game from the round\, so all f
+ ixtures need ingesting.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-19-champions-league-md7-aston-villa-v-dortmund-inter-v-liverpool@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:20:00 Champions League MD7: Aston Villa v Dortmund\, Inter v Liver
+ pool
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
+ ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
+ eeds the BBC One highlights show. Also tonight: AEK v Roma\, Stuttgart v 
+ Club Brugge\, Lille v Slovan Bratislava\, Porto v Slavia Praha\, Real Mad
+ rid v LASK (8pm)\; Bodø/Glimt v Atlético\, Galatasaray v Feyenoord (5.4
+ 5pm).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-20-champions-league-md7-lens-v-man-city-man-utd-v-bayern-real-betis-v-arsenal@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:20:00 Champions League MD7: Lens v Man City\, Man Utd v Bayern\, R
+ eal Betis v Arsenal
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
+ ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
+ eeds the BBC One highlights show. Also tonight: Como v PSG\, Leipzig v Sh
+ akhtar\, Sporting v Barcelona\, Viking v PSV (8pm)\; Fenerbahçe v Villar
+ real\, Sabah v Napoli (5.45pm).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-20-motd-champions-league-highlights@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
+ One and iPlayer\, matchday 7. Covers every game from the round\, so all f
+ ixtures need ingesting.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-27-champions-league-md8-arsenal-v-sabah-slavia-praha-v-aston-villa-man-city-v-sporting-liverpool-v-lens-villarreal-v-man-utd@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:★ 20:00 Champions League MD8: Arsenal v Sabah\, Slavia Praha v A
+ ston Villa\, Man City v Sporting\, Liverpool v Lens\, Villarreal v Man Ut
+ d
+DESCRIPTION:Football\nBBC: 5 Live\, Online\nTime: 20:00 UK\nAlso: TNT Spor
+ ts / Prime Video\nLive on TNT/Prime\; 5 Live has selected commentaries. F
+ eeds the BBC One highlights show. Also tonight: all 18 games kick off at 
+ the same time (8pm UK)\; Dortmund v AEK listed for 28 Jan in one UEFA lis
+ t\, so confirm.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-27-motd-champions-league-highlights@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:[BBC] 22:40 MOTD: Champions League highlights
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, Online\nTime: 22:40 UK\nBBC 
+ One and iPlayer\, matchday 8. Covers every game from the round\, so all f
+ ixtures need ingesting.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-bundesliga-bayern-munich-v-fc-k-ln@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:[BBC] 19:30 Bundesliga: Bayern Munich v FC Köln
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-27-bundesliga-werder-bremen-v-borussia-m-nchengladbach@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:[BBC] 19:30 Bundesliga: Werder Bremen v Borussia Mönchengladbach
+DESCRIPTION:Football\nBBC: iPlayer\, Online\nTime: 19:30 UK
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-premier-league-weekend-mw9@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261026
+SUMMARY:[BBC] Premier League weekend (MW9)
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
+ ports / TNT Sports\nSat: Aston Villa v Man City 12:30 (TNT)\, Arsenal v E
+ verton\, Coventry v Fulham\, Chelsea v Spurs 17:30 (Sky). Sun: Palace v N
+ ewcastle\, Hull v Brentford\, Liverpool v Brighton\, Man Utd v Bournemout
+ h 14:00\; Sunderland v Leeds 16:30 (Sky). Match of the Day Sat night and 
+ MOTD2 Sun night on BBC One\; 5 Live commentaries.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-31-premier-league-weekend-mw10@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261103
+SUMMARY:[BBC] Premier League weekend (MW10)
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
+ ports / TNT Sports\nSat: Chelsea v Man Utd 12:30 (TNT)\, Bournemouth v Le
+ eds\, Brentford v Forest\, Coventry v Sunderland\, Hull v Ipswich\, Man C
+ ity v Brighton\, Spurs v Palace 17:30\, Aston Villa v Fulham 20:00. Sun: 
+ Liverpool v Arsenal 16:30. Mon: Newcastle v Everton 20:00. MOTD Sat\, MOT
+ D2 Sun.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-premier-league-weekend@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:[BBC] Premier League weekend
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
+ ports / TNT Sports\nProvisional\nFull round\; kick-off times TBC. MOTD Sa
+ t night\, MOTD2 Sun night.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-28-premier-league-weekend@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:[BBC] Premier League weekend
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
+ ports / TNT Sports\nProvisional\nFixtures for December–January rounds d
+ ue to be announced this week. MOTD Sat\, MOTD2 Sun.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-12-premier-league-weekend@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:[BBC] Premier League weekend
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nAlso: Sky S
+ ports / TNT Sports\nProvisional\nMOTD Sat\, MOTD2 Sun.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-30-premier-league-final-day@sports-planning-diary
+DTSTAMP:20261019T101847Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:★ [BBC] 16:00 Premier League final day
+DESCRIPTION:Football\nBBC: BBC TV\, iPlayer\, 5 Live\, Online\nTime: 16:00
+  UK\nAlso: Sky Sports\nAll ten games kick off at 4pm. MOTD that evening.
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

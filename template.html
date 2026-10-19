@@ -1,0 +1,541 @@
+<title>Sports Planning Diary</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a broadcast planning desk. Summary strip, then a month grid with a day rail beside it; agenda view as the alternative. */
+:root{
+  --bg:#f3f4f6; --panel:#ffffff; --ink:#151a24; --muted:#5b6474; --line:#dde1e8; --soft:#eceff4;
+  --accent:#d9381e; --accent-ink:#ffffff; --today:#151a24;
+  --ok:#1f7a4d; --warn:#a65f00; --tbc:#7a3fb0;
+  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --s-football:#2f6fd6; --s-rugbyunion:#0f8a6a; --s-rugbyleague:#7a9a12; --s-cricket:#b0742a; --s-tennis:#8a5cc8;
+  --s-golf:#3d8f3d; --s-f1:#d9381e; --s-athletics:#d0457f; --s-snooker:#16704a; --s-darts:#6b6b6b; --s-horse:#8a4b2a;
+  --s-swim:#1592b0; --s-cycle:#c99a00; --s-multi:#4a5bd6; --s-other:#6a7385;
+  --s-gym:#c2368f; --s-net:#e0662b; --s-hockey:#2a8c8c; --s-box:#9b2c2c;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f131a; --panel:#171c25; --ink:#e9edf3; --muted:#9aa4b4; --line:#2a313d; --soft:#1f2530;
+  --accent:#ff5a3c; --accent-ink:#14100f; --today:#e9edf3;
+  --ok:#4cc58a; --warn:#f0a83a; --tbc:#b98ae6;
+  --s-football:#6b9cf0; --s-rugbyunion:#3cc39f; --s-rugbyleague:#a8c93a; --s-cricket:#e0a35a; --s-tennis:#b48ef0;
+  --s-golf:#6cc56c; --s-f1:#ff6b4f; --s-athletics:#f07aab; --s-snooker:#43b582; --s-darts:#a3a3a3; --s-horse:#c98a62;
+  --s-swim:#4cc3df; --s-cycle:#f0c53a; --s-multi:#8a97f0; --s-other:#9aa4b4;
+  --s-gym:#ef6fbf; --s-net:#ff9a63; --s-hockey:#5cc9c9; --s-box:#e06a6a;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f131a; --panel:#171c25; --ink:#e9edf3; --muted:#9aa4b4; --line:#2a313d; --soft:#1f2530;
+  --accent:#ff5a3c; --accent-ink:#14100f; --today:#e9edf3;
+  --ok:#4cc58a; --warn:#f0a83a; --tbc:#b98ae6;
+  --s-football:#6b9cf0; --s-rugbyunion:#3cc39f; --s-rugbyleague:#a8c93a; --s-cricket:#e0a35a; --s-tennis:#b48ef0;
+  --s-golf:#6cc56c; --s-f1:#ff6b4f; --s-athletics:#f07aab; --s-snooker:#43b582; --s-darts:#a3a3a3; --s-horse:#c98a62;
+  --s-swim:#4cc3df; --s-cycle:#f0c53a; --s-multi:#8a97f0; --s-other:#9aa4b4;
+  --s-gym:#ef6fbf; --s-net:#ff9a63; --s-hockey:#5cc9c9; --s-box:#e06a6a;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
+.wrap{max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+h1,h2,h3{font-family:var(--f-display);font-weight:700;letter-spacing:.01em;margin:0;text-wrap:balance}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* masthead */
+.mast{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+.mast h1{font-size:clamp(28px,4vw,40px);line-height:1;text-transform:uppercase}
+.mast h1 span{color:var(--accent)}
+.mast p{margin:4px 0 0;color:var(--muted);max-width:62ch}
+.stamp{font-family:var(--f-mono);font-size:12px;color:var(--muted);display:flex;align-items:center;gap:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);display:inline-block}
+
+/* summary */
+.summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.sum{background:var(--panel);padding:12px 14px;min-width:0}
+.sum .lab{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.sum .val{font-family:var(--f-display);font-size:30px;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums}
+.sum .sub{font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sum .sport{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--ink)}
+.sum .sport::before{content:"";width:9px;height:9px;border-radius:2px;background:var(--c)}
+.sum.next .sub{white-space:normal}
+.sum.next .val{font-size:20px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media (max-width:760px){.summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* toolbar */
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--panel)}
+.seg button{border:0;background:none;padding:7px 12px;cursor:pointer;color:var(--muted);font-weight:500}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.search{flex:1 1 200px;min-width:0;border:1px solid var(--line);border-radius:8px;background:var(--panel);padding:7px 10px}
+.btn{text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:7px 12px;cursor:pointer;font-weight:500}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:3px 10px 3px 8px;font-size:12px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--muted)}
+.chip i{width:9px;height:9px;border-radius:2px;background:var(--c)}
+.chip[aria-pressed="true"]{color:var(--ink);border-color:var(--ink)}
+.chip[aria-pressed="false"] i{opacity:.35}
+
+/* platform badges */
+.pl{display:inline-flex;gap:3px;flex-wrap:wrap}
+.b{font-family:var(--f-mono);font-size:10px;font-weight:500;letter-spacing:.02em;padding:1px 5px;border-radius:3px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.b.tv{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.b.ip{border-color:var(--ink);color:var(--ink)}
+.b.rb{border-color:var(--ink);color:var(--ink);border-style:dashed}
+.b.r{color:var(--ink)}
+.b.no{border-style:dotted}
+.st{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;padding:1px 6px;border-radius:3px}
+.st.p{color:var(--warn);border:1px solid var(--warn)}
+.st.r{color:var(--tbc);border:1px solid var(--tbc)}
+
+/* main layout */
+.main{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:18px;align-items:start}
+@media (max-width:980px){.main{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;min-width:0}
+.monhead{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 12px;border-bottom:1px solid var(--line)}
+.monhead h2{font-size:24px;text-transform:uppercase}
+.nav{display:flex;gap:6px}
+.nav button{border:1px solid var(--line);background:var(--panel);border-radius:6px;width:34px;height:30px;cursor:pointer;font-size:16px}
+.nav .t{width:auto;padding:0 10px;font-size:13px}
+
+.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.dow{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--line)}
+.cell{min-height:108px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:5px 6px 6px;display:flex;flex-direction:column;gap:3px;cursor:pointer;background:var(--panel);text-align:left;border-top:0;border-left:0;min-width:0}
+.cell:nth-child(7n){border-right:0}
+.cell.out{background:var(--soft)}
+.cell.out .num{opacity:.45}
+.cell.sel{box-shadow:inset 0 0 0 2px var(--accent)}
+.num{font-family:var(--f-mono);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+.cell.today .num b{background:var(--today);color:var(--bg);border-radius:4px;padding:0 5px}
+.num b{font-weight:500}
+.ev{font-size:11.5px;line-height:1.25;padding:2px 4px 2px 6px;border-left:3px solid var(--c);background:color-mix(in srgb,var(--c) 12%,transparent);border-radius:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ev.tv{font-weight:600}
+.ev .to{font-weight:400;color:var(--muted)}
+.ev.cont{background:color-mix(in srgb,var(--c) 22%,transparent);border-left-color:transparent;color:var(--muted);font-weight:400;border-radius:0 2px 2px 0;margin-left:-6px;padding-left:12px}
+.dur{display:flex;align-items:center;gap:8px;margin-top:6px;font-size:12px;color:var(--muted)}
+.dur .seg{display:flex;gap:2px;flex:0 1 220px;min-width:60px}
+.dur .seg i{height:6px;flex:1;border-radius:1px;background:color-mix(in srgb,var(--c) 30%,transparent)}
+.dur .seg i.on{background:var(--c)}
+.dur .seg.solid i{background:var(--c)}
+.dur b{color:var(--ink);font-weight:600}
+.when b{display:block;color:var(--ink);font-weight:500}
+.when .n{display:inline-block;margin-top:3px;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--c);border:1px solid var(--c);border-radius:3px;padding:0 4px}
+.crow .tt{font-weight:500}
+.crow{background:color-mix(in srgb,var(--c) 6%,transparent)}
+.dayof{display:inline-block;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--c);border:1px solid var(--c);border-radius:3px;padding:0 4px;margin-left:4px;vertical-align:1px}
+.cont-list{list-style:none;margin:0;padding:2px 14px 8px;display:flex;flex-direction:column;gap:4px}
+.cont-list li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:center;font-size:12.5px;padding:5px 8px;border-left:3px solid var(--c);background:color-mix(in srgb,var(--c) 9%,transparent);border-radius:2px}
+.cont-list .r{color:var(--muted);font-family:var(--f-mono);font-size:11px;white-space:nowrap}
+@media (max-width:520px){.cont-list li{grid-template-columns:minmax(0,1fr)}}
+.more{font-size:11px;color:var(--muted)}
+.ticks{margin-top:auto;display:flex;gap:2px;flex-wrap:wrap}
+.ticks span{height:4px;flex:1 1 10px;max-width:24px;border-radius:2px;background:var(--c)}
+@media (max-width:640px){
+  .cell{min-height:58px;padding:3px}
+  .ev{font-size:0;padding:0;height:6px;border-left:0;background:var(--c)}
+  .more{font-size:9px}
+}
+
+/* side rail */
+.rail{display:flex;flex-direction:column;gap:18px}
+.rail h3{font-size:18px;text-transform:uppercase;padding:12px 14px 0}
+.rail .hint{font-size:12px;color:var(--muted);padding:2px 14px 0}
+.list{list-style:none;margin:0;padding:6px 0}
+.item{padding:9px 14px;border-top:1px solid var(--line);display:grid;grid-template-columns:4px minmax(0,1fr);gap:10px}
+.item:first-child{border-top:0}
+.item .bar4{background:var(--c);border-radius:2px}
+.item .tt{font-weight:600;line-height:1.3}
+.item .meta{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:2px}
+.item .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:5px}
+.item .note{font-size:12.5px;color:var(--muted);margin-top:4px}
+.item .key{color:var(--accent);font-weight:700}
+.sub-h{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:10px 14px 2px}
+.empty{padding:14px;color:var(--muted);font-size:13px}
+
+/* agenda */
+.agenda .wk{border-top:1px solid var(--line)}
+.agenda .wk:first-child{border-top:0}
+.agenda .wkh{display:flex;justify-content:space-between;align-items:baseline;padding:12px 14px 4px}
+.agenda .wkh h3{font-size:18px;text-transform:uppercase}
+.agenda .wkh span{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.agenda .item{grid-template-columns:86px 4px minmax(0,1fr)}
+.agenda .when{font-family:var(--f-mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:2px}
+@media (max-width:520px){.agenda .item{grid-template-columns:4px minmax(0,1fr)}.agenda .when{grid-column:1/-1}}
+
+.legend{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:12px;color:var(--muted);align-items:center}
+.legend span{display:inline-flex;gap:6px;align-items:center}
+.watch{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.watch div{border-top:2px solid var(--tbc);padding-top:8px}
+.watch b{display:block;margin-bottom:2px}
+.watch p{margin:0;color:var(--muted);font-size:13px}
+footer{font-size:12px;color:var(--muted);max-width:90ch}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:13px}
+@media (prefers-reduced-motion:no-preference){.cell{transition:background .12s}.cell:hover{background:var(--soft)}}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <h1>Sports <span>Planning</span> Diary</h1>
+      <p>World sport for the year ahead, marked by how BBC Sport covers it: TV, iPlayer, Red Button, 5 Live and online.</p>
+    </div>
+    <div class="stamp"><span class="dot"></span><span id="stamp"></span></div>
+  </header>
+
+  <section class="summary" id="summary" aria-label="Next seven days"></section>
+
+  <div class="bar">
+    <div class="seg" role="group" aria-label="View">
+      <button id="v-agenda" aria-pressed="true">Agenda</button>
+      <button id="v-month" aria-pressed="false">Month</button>
+    </div>
+    <div class="seg" role="group" aria-label="Coverage filter">
+      <button id="f-all" aria-pressed="true">All sport</button>
+      <button id="f-bbc" aria-pressed="false">Any BBC</button>
+      <button id="f-live" aria-pressed="false">BBC TV &amp; iPlayer</button>
+    </div>
+    <input class="search" id="q" type="search" placeholder="Search events, venues, teams" aria-label="Search">
+    <button class="btn" id="ics" hidden>Export to calendar (.ics)</button>
+    <a class="btn" id="subscribe" href="sports-diary.ics" hidden title="Copy this link and add it in Outlook: Add calendar > Subscribe from web">Outlook feed</a>
+  </div>
+  <div class="chips" id="chips" aria-label="Sports"></div>
+
+  <div class="main">
+    <section class="panel" id="month-view">
+      <div class="monhead">
+        <h2 id="mtitle"></h2>
+        <div class="nav">
+          <button id="prev" aria-label="Previous month">‹</button>
+          <button id="todayBtn" class="t">Today</button>
+          <button id="next" aria-label="Next month">›</button>
+        </div>
+      </div>
+      <div class="grid" id="grid"></div>
+    </section>
+    <section class="panel agenda" id="agenda-view" hidden></section>
+
+    <aside class="rail">
+      <div class="panel" id="running"></div>
+      <div class="panel" id="day"></div>
+    </aside>
+  </div>
+
+  <div class="legend">
+    <span><b class="key">★</b> Headline event: a final, major championship or big BBC moment</span>
+    <span><b class="b tv">TV</b> BBC One/Two live or highlights</span>
+    <span><b class="b ip">iPlayer</b> streamed live</span>
+    <span><b class="b rb">Red Button</b></span>
+    <span><b class="b r">5 Live</b> radio commentary</span>
+    <span><b class="b">Online</b> live text, clips</span>
+    <span><span class="st p">Provisional</span> date or BBC split not confirmed</span>
+    <span><span class="st r">Rights TBC</span> broadcaster not announced</span>
+  </div>
+
+  <section class="panel" style="padding:14px 16px">
+    <h3 style="font-size:20px;text-transform:uppercase;margin-bottom:10px">Rights to watch</h3>
+    <div class="watch" id="watch"></div>
+  </section>
+
+  <footer>Dates are UK time where a time is shown. Coverage reflects published rights deals and announced BBC picks; individual match selections are confirmed nearer the day. The diary is re-checked every Monday.</footer>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script type="application/json" id="diary-data">__DATA__</script>
+<script>
+(function(){
+  const DATA = JSON.parse(document.getElementById('diary-data').textContent);
+  const SPORTS = {
+    "Football":"--s-football","Rugby union":"--s-rugbyunion","Rugby league":"--s-rugbyleague","Cricket":"--s-cricket",
+    "Tennis":"--s-tennis","Golf":"--s-golf","Formula 1":"--s-f1","Athletics":"--s-athletics","Snooker":"--s-snooker",
+    "Darts":"--s-darts","Horse racing":"--s-horse","Swimming":"--s-swim","Cycling":"--s-cycle","Gymnastics":"--s-gym",
+    "Netball":"--s-net","Hockey":"--s-hockey","Boxing":"--s-box","Multi-sport":"--s-multi"
+  };
+  const col = s => `var(${SPORTS[s]||'--s-other'})`;
+  const PL = {tv:'TV',ip:'iPlayer',rb:'Red Button',r:'5 Live',on:'Online'};
+  const MON = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const MS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const DOW = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+
+  const pd = s => { const [y,m,d]=s.split('-').map(Number); return Date.UTC(y,m-1,d); };
+  const DAY = 86400000;
+  const iso = t => new Date(t).toISOString().slice(0,10);
+  const now = new Date();
+  const TODAY = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  const fmt = t => { const d=new Date(t); return `${['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][d.getUTCDay()]} ${d.getUTCDate()} ${MS[d.getUTCMonth()]}`; };
+  const fmtY = t => { const d=new Date(t); return `${d.getUTCDate()} ${MS[d.getUTCMonth()]} ${d.getUTCFullYear()}`; };
+
+  const events = DATA.events.map((e,i)=>({...e,id:i,
+    s0: e.d? pd(e.d):null, s1: e.d? pd(e.e||e.d):null, tbc: !e.d}));
+  const seasons = DATA.seasons.map(e=>({...e,s0:pd(e.d),s1:pd(e.e)}));
+
+  // state (per-viewer convenience only)
+  let store={}; try{ store=JSON.parse(localStorage.getItem('spd2')||'{}'); }catch(_){}
+  const save=()=>{ try{ localStorage.setItem('spd2',JSON.stringify({view:S.view,cov:S.cov,off:[...S.off]})); }catch(_){} };
+  const S = { view: store.view||'agenda', cov: store.cov||'all', off: new Set(store.off||[]), q:'',
+    sel: TODAY, ym: [new Date(TODAY).getUTCFullYear(), new Date(TODAY).getUTCMonth()] };
+
+  const hasBBC = e => e.bbc && e.bbc.some(p=>p!=='on');
+  const isLive = e => e.bbc && (e.bbc.includes('tv')||e.bbc.includes('ip')||e.bbc.includes('rb'));
+  function pass(e){
+    if(S.off.has(sportKey(e.s))) return false;
+    if(S.cov==='bbc' && !hasBBC(e)) return false;
+    if(S.cov==='live' && !isLive(e)) return false;
+    if(S.q){ const h=(e.t+' '+(e.loc||'')+' '+(e.note||'')+' '+e.s+' '+(e.other||'')).toLowerCase(); if(!h.includes(S.q)) return false; }
+    return true;
+  }
+  const sportKey = s => SPORTS[s] ? s : 'Other';
+
+  const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  function badges(e){
+    const b=(e.bbc||[]).map(p=>`<b class="b ${p}">${PL[p]}</b>`).join('');
+    const st = (e.st==='p'?'<span class="st p">Provisional</span>':e.st==='r'?'<span class="st r">Rights TBC</span>':'') + (e.tbc&&e.st!=='p'?'<span class="st p">Date TBC</span>':'');
+    const none = !hasBBC(e) ? '<b class="b no">No BBC TV/radio</b>' : '';
+    return `<span class="pl">${b}${none}</span>${st}`;
+  }
+  function itemHTML(e, opts={}){
+    const when = e.tbc ? `${MON[+e.m.slice(5)-1]} ${e.m.slice(0,4)}, date TBC`
+      : (e.s0===e.s1 ? fmt(e.s0) : `${fmt(e.s0)} – ${fmt(e.s1)}`);
+    const meta = [opts.agenda?null:when, e.time?e.time+' UK':null, e.loc||null, e.other?('Also: '+e.other):null].filter(Boolean).map(esc).map(x=>`<span>${x}</span>`).join('');
+    const n = e.tbc ? 1 : Math.round((e.s1-e.s0)/DAY)+1;
+    const whenCol = opts.agenda ? `<div class="when">${e.tbc?'Date TBC':(n===1?`<b>${esc(fmt(e.s0))}</b>`:`<b>${esc(fmt(e.s0))}</b>to ${esc(fmt(e.s1))}<br><span class="n">${n} days</span>`)}</div>` : '';
+    const ref = opts.ref ?? TODAY;
+    let durHTML = '';
+    if(n>1){
+      const solid = n>21;
+      const segs = solid ? '<i></i>' : Array.from({length:n},(_,i)=>`<i class="${e.s0+i*DAY===ref?'on':''}"></i>`).join('');
+      const inRun = ref>=e.s0 && ref<=e.s1;
+      const pos = inRun ? ` · <b>day ${Math.round((ref-e.s0)/DAY)+1} of ${n}</b>` : '';
+      durHTML = `<div class="dur"><span class="seg${solid?' solid':''}">${segs}</span><span>${n} days, ${esc(fmt(e.s0))} – ${esc(fmt(e.s1))}${pos}</span></div>`;
+    }
+    return `<li class="item" style="--c:${col(e.s)}">${whenCol}<div class="bar4"></div><div>
+      <div class="tt">${e.k?'<span class="key" title="Headline event" aria-label="Headline event">★ </span>':''}${esc(e.t)}</div>
+      <div class="meta"><span>${esc(e.s)}</span>${meta}</div>
+      ${durHTML}
+      <div class="row">${badges(e)}</div>
+      ${e.note?`<div class="note">${esc(e.note)}</div>`:''}</div></li>`;
+  }
+
+  // summary
+  function summary(){
+    const end = TODAY+7*DAY;
+    const wk = events.filter(e=>!e.tbc && e.s0<end && e.s1>=TODAY && pass(e));
+    const live = wk.filter(isLive);
+    const nextKey = events.filter(e=>!e.tbc && e.k && isLive(e) && e.s0>=TODAY).sort((a,b)=>a.s0-b.s0)[0];
+    const sports = [...new Set(wk.map(e=>e.s))];
+    const days = nextKey ? Math.round((nextKey.s0-TODAY)/DAY) : null;
+    document.getElementById('summary').innerHTML = `
+      <div class="sum"><div class="lab">Next 7 days</div><div class="val">${wk.length}</div><div class="sub">events in the diary</div></div>
+      <div class="sum"><div class="lab">On BBC TV / iPlayer</div><div class="val">${live.length}</div><div class="sub">${live.length?esc(live.slice(0,2).map(e=>e.t).join(', ')):'none this week'}</div></div>
+      <div class="sum"><div class="lab">Sports this week</div><div class="val">${sports.length}</div><div class="sub">${esc(sports.join(', ')||'—')}</div></div>
+      <div class="sum next" style="--c:${nextKey?col(nextKey.s):'var(--muted)'}"><div class="lab">Next headline BBC event</div><div class="sport">${nextKey?esc(nextKey.s):''}</div><div class="val">${nextKey?esc(nextKey.t):'—'}</div><div class="sub">${nextKey?`${nextKey.s0===nextKey.s1?fmtY(nextKey.s0):fmt(nextKey.s0)+' – '+fmtY(nextKey.s1)}${nextKey.loc?' · '+esc(nextKey.loc):''} · in ${days} day${days===1?'':'s'}`:''}</div>${nextKey?`<div class="pl" style="margin-top:6px">${(nextKey.bbc||[]).map(p=>`<b class="b ${p}">${PL[p]}</b>`).join('')}</div>`:''}</div>`;
+  }
+
+  // chips
+  function chips(){
+    const keys=[...Object.keys(SPORTS),'Other'];
+    document.getElementById('chips').innerHTML = keys.map(k=>`<button class="chip" data-k="${esc(k)}" aria-pressed="${!S.off.has(k)}" style="--c:${col(k)}"><i></i>${esc(k)}</button>`).join('')
+      + `<button class="chip" id="allchips" aria-pressed="true">Show all</button>`;
+  }
+
+  // month grid
+  function month(){
+    const [y,m]=S.ym;
+    document.getElementById('mtitle').textContent = `${MON[m]} ${y}`;
+    const first = Date.UTC(y,m,1);
+    const lead = (new Date(first).getUTCDay()+6)%7;
+    const start = first - lead*DAY;
+    const last = Date.UTC(y,m+1,0);
+    const cells = Math.ceil((lead + new Date(last).getUTCDate())/7)*7;
+    const vis = events.filter(e=>!e.tbc && pass(e));
+    let h = DOW.map(d=>`<div class="dow">${d}</div>`).join('');
+    for(let i=0;i<cells;i++){
+      const t = start+i*DAY, d=new Date(t);
+      const out = d.getUTCMonth()!==m;
+      const on = vis.filter(e=>e.s0<=t && e.s1>=t);
+      const nd = e => Math.round((e.s1-e.s0)/DAY)+1;
+      // starting today, or a single-day event
+      const startsHere = on.filter(e=>e.s0===t).sort((a,b)=>(isLive(b)-isLive(a))||((b.k||0)-(a.k||0)));
+      // multi-day events carried over from earlier days: shown as continuation bars up to 16 days, ticks beyond
+      const cont = on.filter(e=>e.s0<t && nd(e)<=16).sort((a,b)=>a.s0-b.s0);
+      const long = on.filter(e=>e.s0<t && nd(e)>16);
+      const short = startsHere.concat(cont);
+      const shown = short.slice(0,3);
+      const label = `${fmt(t)}: ${on.length} event${on.length===1?'':'s'}`;
+      h += `<button class="cell${out?' out':''}${t===TODAY?' today':''}${t===S.sel?' sel':''}" data-t="${t}" aria-label="${esc(label)}">
+        <span class="num"><b>${d.getUTCDate()}</b></span>
+        ${shown.map(e=> e.s0<t
+            ? `<span class="ev cont" style="--c:${col(e.s)}" title="${esc(e.t)}: day ${Math.round((t-e.s0)/DAY)+1} of ${nd(e)}, ends ${esc(fmt(e.s1))}">${t===e.s1?'Ends: ':'↳ '}${esc(e.t)}</span>`
+            : `<span class="ev${isLive(e)?' tv':''}" style="--c:${col(e.s)}" title="${esc(e.t)}${nd(e)>1?` (${nd(e)} days, to ${esc(fmt(e.s1))})`:''}">${esc(e.t)}${nd(e)>1?` <span class="to">→ ${new Date(e.s1).getUTCDate()} ${MS[new Date(e.s1).getUTCMonth()]}</span>`:''}</span>`).join('')}
+        ${short.length>3?`<span class="more">+${short.length-3} more</span>`:''}
+        ${long.length?`<span class="ticks">${long.slice(0,6).map(e=>`<span style="--c:${col(e.s)}" title="${esc(e.t)} (ongoing)"></span>`).join('')}</span>`:''}
+      </button>`;
+    }
+    document.getElementById('grid').innerHTML = h;
+  }
+
+  function day(){
+    const t=S.sel;
+    const vis = events.filter(e=>!e.tbc && pass(e) && e.s0<=t && e.s1>=t);
+    const starts = vis.filter(e=>e.s0===t || e.s0===e.s1).sort((a,b)=>(a.time||'99').localeCompare(b.time||'99'));
+    const ongoing = vis.filter(e=>!starts.includes(e));
+    let h = `<h3>${fmt(t)} ${new Date(t).getUTCFullYear()}</h3><div class="hint">Click any day in the grid to see its schedule.</div>`;
+    if(!vis.length) h += `<div class="empty">Nothing in the diary for this day with the current filters.</div>`;
+    if(starts.length) h += `<div class="sub-h">On the day</div><ul class="list">${starts.map(e=>itemHTML(e,{ref:t})).join('')}</ul>`;
+    if(ongoing.length) h += `<div class="sub-h">Still running</div><ul class="list">${ongoing.map(e=>itemHTML(e,{ref:t})).join('')}</ul>`;
+    document.getElementById('day').innerHTML = h;
+  }
+
+  function running(){
+    let a,b,title;
+    const mkey = `${S.ym[0]}-${String(S.ym[1]+1).padStart(2,'0')}`;
+    if(S.view==='month'){ const [y,m]=S.ym; a=Date.UTC(y,m,1); b=Date.UTC(y,m+1,0); title=`On the radar: ${MON[m]}`; }
+    else { a=TODAY; b=Infinity; title='On the radar'; }
+    const sortKey = e => e.tbc ? pd(e.m+'-01') : e.s0;
+    const list = events.filter(e=>pass(e) && (
+        e.tbc ? (S.view==='month' ? e.m===mkey : pd(e.m+'-01')>=Date.UTC(new Date(TODAY).getUTCFullYear(),new Date(TODAY).getUTCMonth(),1))
+              : ((e.st==='p'||e.st==='r') && e.s1>=a && e.s0<=b)
+      )).sort((x,y)=>sortKey(x)-sortKey(y));
+    let h = `<h3>${title}</h3><div class="hint">Coming up, with the date, the BBC's coverage or the rights still to be confirmed.</div>`;
+    h += list.length ? `<ul class="list">${list.map(e=>itemHTML(e)).join('')}</ul>`
+                     : `<div class="empty">Nothing waiting on confirmation with the current filters.</div>`;
+    document.getElementById('running').innerHTML = h;
+  }
+
+  function agenda(){
+    const vis = events.filter(e=>!e.tbc && pass(e) && e.s1>=TODAY);
+    const wk0 = TODAY - ((new Date(TODAY).getUTCDay()+6)%7)*DAY;
+    const wkOf = d => wk0 + Math.floor((d-wk0)/(7*DAY))*7*DAY;
+    const nd = e => Math.round((e.s1-e.s0)/DAY)+1;
+    // rows: the event's first day as a full card; for events of up to 7 days, a short
+    // "day x of n" row on each following day. Longer events are listed under
+    // "Still running this week" in the week header instead.
+    const rows=[];
+    for(const e of vis){
+      const n=nd(e);
+      if(e.s0>=TODAY) rows.push({d:e.s0,kind:'start',e});
+      else rows.push({d:TODAY,kind:'start',e,late:true});
+      for(let i=1;i<n;i++){
+        const d=e.s0+i*DAY;
+        if(d<=TODAY) continue; // today is already covered by the start row
+        if(n<=7) rows.push({d,kind:'cont',e,i:i+1,n});
+      }
+    }
+    // drop a "day x of n" row when the same sport already has an entry starting that day
+    // (e.g. a finals session inside a championship), so one day reads as one thing
+    const startKey = new Set(rows.filter(r=>r.kind==='start').map(r=>r.d+'|'+r.e.s));
+    for(let i=rows.length-1;i>=0;i--) if(rows[i].kind==='cont' && startKey.has(rows[i].d+'|'+rows[i].e.s)) rows.splice(i,1);
+    rows.sort((a,b)=>a.d-b.d || (a.kind==='start'?0:1)-(b.kind==='start'?0:1) || (a.e.time||'99').localeCompare(b.e.time||'99') || (b.e.k||0)-(a.e.k||0));
+    const groups=new Map();
+    for(const r of rows){ const w=wkOf(r.d); if(!groups.has(w)) groups.set(w,[]); groups.get(w).push(r); }
+    const contRow = r => `<li class="item crow" style="--c:${col(r.e.s)}"><div class="when"><b>${esc(fmt(r.d))}</b></div><div class="bar4"></div><div>
+        <div class="tt">${r.e.k?'<span class="key" title="Headline event">★ </span>':''}${esc(r.e.t)} <span class="dayof">${'day '+r.i+' of '+r.n}</span></div>
+        <div class="meta"><span>${esc(r.e.s)}</span>${r.e.time?`<span>${esc(r.e.time)} UK</span>`:''}<span>Continues from ${esc(fmt(r.e.s0))}</span></div>
+        <div class="row">${badges(r.e)}</div></div></li>`;
+    let h='';
+    const weeks=[...groups.keys()].sort((a,b)=>a-b).slice(0,30);
+    for(const w of weeks){
+      const list=groups.get(w);
+      const lab = w===wk0?'This week':(w===wk0+7*DAY?'Next week':`Week of ${fmt(w)}`);
+      // long events (8+ days) that started before this week and are still going
+      const carry = vis.filter(e=>nd(e)>7 && Math.max(e.s0,TODAY)<w && e.s1>=w);
+      const carryHTML = carry.length ? `<div class="sub-h">Still running this week</div><ul class="cont-list">${carry.map(e=>{
+          const n=nd(e), a=Math.round((w-e.s0)/DAY)+1, b=Math.min(n,a+6);
+          return `<li style="--c:${col(e.s)}"><span>${e.k?'<span class="key">★ </span>':''}<b>${esc(e.t)}</b> · ${esc(e.s)}</span><span class="r">day ${a}${b>a?'–'+b:''} of ${n} · ends ${esc(fmt(e.s1))}</span></li>`;}).join('')}</ul>` : '';
+      h += `<div class="wk"><div class="wkh"><h3>${lab}</h3><span>${fmtY(w)} – ${fmtY(w+6*DAY)}</span></div>${carryHTML}<ul class="list">${list.map(r=>r.kind==='start'?itemHTML(r.e,{agenda:true}):contRow(r)).join('')}</ul></div>`;
+    }
+    if(!h) h = `<div class="empty">No upcoming events match these filters.</div>`;
+    document.getElementById('agenda-view').innerHTML = h;
+  }
+
+  function watch(){
+    document.getElementById('watch').innerHTML = (DATA.watch||[]).map(w=>`<div><b>${esc(w.t)}</b><p>${esc(w.b)}</p></div>`).join('');
+  }
+
+  function render(){
+    document.getElementById('v-month').setAttribute('aria-pressed',S.view==='month');
+    document.getElementById('v-agenda').setAttribute('aria-pressed',S.view==='agenda');
+    ['all','bbc','live'].forEach(k=>document.getElementById('f-'+k).setAttribute('aria-pressed',S.cov===k));
+    document.getElementById('month-view').hidden = S.view!=='month';
+    document.getElementById('agenda-view').hidden = S.view!=='agenda';
+    document.getElementById('day').hidden = S.view!=='month';
+    summary(); chips();
+    if(S.view==='month'){ month(); day(); } else agenda();
+    running();
+  }
+
+  document.getElementById('stamp').textContent = `Last checked ${fmtY(pd(DATA.updated))} · updates every Monday`;
+  watch();
+
+  document.getElementById('v-month').onclick=()=>{S.view='month';save();render();};
+  document.getElementById('v-agenda').onclick=()=>{S.view='agenda';save();render();};
+  ['all','bbc','live'].forEach(k=>document.getElementById('f-'+k).onclick=()=>{S.cov=k;save();render();});
+  document.getElementById('q').addEventListener('input',e=>{S.q=e.target.value.trim().toLowerCase();render();});
+  document.getElementById('chips').addEventListener('click',e=>{
+    const c=e.target.closest('.chip'); if(!c) return;
+    if(c.id==='allchips'){ S.off.clear(); }
+    else { const k=c.dataset.k;
+      // first click on a full set isolates that sport; later clicks toggle
+      if(S.off.size===0){ Object.keys(SPORTS).concat('Other').forEach(x=>{ if(x!==k) S.off.add(x); }); }
+      else if(S.off.has(k)) S.off.delete(k); else S.off.add(k);
+      if(S.off.size===Object.keys(SPORTS).length+1) S.off.clear();
+    }
+    save(); render();
+  });
+  document.getElementById('grid').addEventListener('click',e=>{
+    const c=e.target.closest('.cell'); if(!c) return;
+    S.sel=+c.dataset.t; const d=new Date(S.sel);
+    if(d.getUTCMonth()!==S.ym[1]) S.ym=[d.getUTCFullYear(),d.getUTCMonth()];
+    render();
+    if(window.matchMedia('(max-width:980px)').matches) document.getElementById('day').scrollIntoView({behavior:'smooth',block:'start'});
+  });
+  const shift=n=>{ let [y,m]=S.ym; m+=n; if(m<0){m=11;y--;} if(m>11){m=0;y++;} S.ym=[y,m];
+    S.sel = (y===new Date(TODAY).getUTCFullYear()&&m===new Date(TODAY).getUTCMonth())?TODAY:Date.UTC(y,m,1); render(); };
+  document.getElementById('prev').onclick=()=>shift(-1);
+  document.getElementById('next').onclick=()=>shift(1);
+  document.getElementById('todayBtn').onclick=()=>{ S.sel=TODAY; S.ym=[new Date(TODAY).getUTCFullYear(),new Date(TODAY).getUTCMonth()]; render(); };
+
+  // .ics export of the current filtered set
+  function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.hidden=false; clearTimeout(toast.h); toast.h=setTimeout(()=>t.hidden=true,2600); }
+  function ics(){
+    const d8 = t=>iso(t).replace(/-/g,'');
+    const fold = s=>s.replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n');
+    const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Sports Planning Diary//EN','CALSCALE:GREGORIAN','X-WR-CALNAME:Sports Planning Diary'];
+    events.filter(e=>!e.tbc && pass(e)).forEach(e=>{
+      const cov=(e.bbc||[]).map(p=>PL[p]).join(', ');
+      const desc=[e.s, cov?('BBC: '+cov):'', e.other?('Also: '+e.other):'', e.time?('Time: '+e.time+' UK'):'', e.note||''].filter(Boolean).join('\n');
+      lines.push('BEGIN:VEVENT',`UID:spd-${e.s0}-${e.id}@sports-diary`,`DTSTAMP:${d8(TODAY)}T000000Z`,
+        `DTSTART;VALUE=DATE:${d8(e.s0)}`,`DTEND;VALUE=DATE:${d8(e.s1+DAY)}`,
+        `SUMMARY:${fold((isLive(e)?'[BBC] ':'')+e.t)}`, e.loc?`LOCATION:${fold(e.loc)}`:null, `DESCRIPTION:${fold(desc)}`,'END:VEVENT');
+    });
+    lines.push('END:VCALENDAR');
+    return lines.filter(Boolean).join('\r\n');
+  }
+  (async()=>{
+    try{
+      const b=document.getElementById('ics');
+      if(!window.claude){
+        // ordinary website: plain browser download, plus the subscribable feed if one is published alongside
+        b.hidden=false;
+        b.onclick=()=>{
+          const url=URL.createObjectURL(new Blob([ics()],{type:'text/calendar'}));
+          const a=document.createElement('a'); a.href=url; a.download='sports-planning-diary.ics';
+          document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),1000);
+          toast('Calendar file downloaded');
+        };
+        const sub=document.getElementById('subscribe'); if(sub) sub.hidden=false;
+        return;
+      }
+      const dl = await window.claude.use('downloads');
+      if(!dl) return;
+      b.hidden=false;
+      b.onclick=async()=>{
+        try{ await dl.save({filename:'sports-planning-diary.ics',data:ics()}); toast('Calendar file saved'); }
+        catch(err){ toast('Export cancelled or unavailable'); }
+      };
+    }catch(_){}
+  })();
+
+  render();
+})();
+</script>
