@@ -331,14 +331,17 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
     const end = TODAY+7*DAY;
     const wk = events.filter(e=>!e.tbc && e.s0<end && e.s1>=TODAY && pass(e));
     const live = wk.filter(isLive);
-    const nextKey = events.filter(e=>!e.tbc && e.k && isLive(e) && e.s0>=TODAY).sort((a,b)=>a.s0-b.s0)[0];
+    // next event on BBC TV: starts today or later (today's only if its kick-off hasn't passed), any filter-visible sport
+    const nowHM = String(now.getHours()).padStart(2,'0')+':'+String(now.getMinutes()).padStart(2,'0');
+    const nextKey = events.filter(e=>!e.tbc && pass(e) && (e.bbc||[]).includes('tv') && e.s0>=TODAY && !(e.s0===TODAY && e.time && e.time<nowHM))
+      .sort((a,b)=>a.s0-b.s0 || (a.time||'99').localeCompare(b.time||'99') || (b.k||0)-(a.k||0))[0];
     const sports = [...new Set(wk.map(e=>e.s))];
     const days = nextKey ? Math.round((nextKey.s0-TODAY)/DAY) : null;
     document.getElementById('summary').innerHTML = `
       <div class="sum"><div class="lab">Next 7 days</div><div class="val">${wk.length}</div><div class="sub">events in the diary</div></div>
       <div class="sum"><div class="lab">On BBC TV / iPlayer</div><div class="val">${live.length}</div><div class="sub">${live.length?esc(live.slice(0,2).map(e=>e.t).join(', ')):'none this week'}</div></div>
       <div class="sum"><div class="lab">Sports this week</div><div class="val">${sports.length}</div><div class="sub">${esc(sports.join(', ')||'—')}</div></div>
-      <div class="sum next" style="--c:${nextKey?col(nextKey.s):'var(--muted)'}"><div class="lab">Next headline BBC event</div><div class="sport">${nextKey?esc(nextKey.s):''}</div><div class="val">${nextKey?esc(nextKey.t):'—'}</div><div class="sub">${nextKey?`${nextKey.s0===nextKey.s1?fmtY(nextKey.s0):fmt(nextKey.s0)+' – '+fmtY(nextKey.s1)}${nextKey.loc?' · '+esc(nextKey.loc):''} · in ${days} day${days===1?'':'s'}`:''}</div>${nextKey?`<div class="pl" style="margin-top:6px">${(nextKey.bbc||[]).map(p=>`<b class="b ${p}">${PL[p]}</b>`).join('')}</div>`:''}</div>`;
+      <div class="sum next" style="--c:${nextKey?col(nextKey.s):'var(--muted)'}"><div class="lab">Next on BBC TV</div><div class="sport">${nextKey?esc(nextKey.s):''}</div><div class="val">${nextKey?esc(nextKey.t):'—'}</div><div class="sub">${nextKey?`${nextKey.s0===nextKey.s1?fmtY(nextKey.s0):fmt(nextKey.s0)+' – '+fmtY(nextKey.s1)}${nextKey.time?' · '+esc(nextKey.time)+' UK':''}${nextKey.loc?' · '+esc(nextKey.loc):''} · ${days===0?'today':days===1?'tomorrow':'in '+days+' days'}`:''}</div>${nextKey?`<div class="pl" style="margin-top:6px">${(nextKey.bbc||[]).map(p=>`<b class="b ${p}">${PL[p]}</b>`).join('')}</div>`:''}</div>`;
   }
 
   // chips
