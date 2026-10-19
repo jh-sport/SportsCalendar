@@ -1,4 +1,4 @@
-# Sports Planning Diary
+# World Sports Calendar
 
 A planning calendar of world sport, marked by how BBC Sport covers each event (BBC TV, iPlayer, Red Button, 5 Live, online).
 

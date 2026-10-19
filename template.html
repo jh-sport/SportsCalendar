@@ -1,4 +1,4 @@
-<title>Sports Planning Diary</title>
+<title>World Sports Calendar</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -177,8 +177,8 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
 <div class="wrap">
   <header class="mast">
     <div>
-      <h1>Sports <span>Planning</span> Diary</h1>
-      <p>World sport for the year ahead, marked by how BBC Sport covers it: TV, iPlayer, Red Button, 5 Live and online.</p>
+      <h1>World <span>Sports</span> Calendar</h1>
+      <p>World Sport Calendar for the year ahead, with option to highlight BBC Sport coverage: TV, iPlayer, Red Button, 5Live and Online.</p>
     </div>
     <div class="stamp"><span class="dot"></span><span id="stamp"></span></div>
   </header>
@@ -500,7 +500,7 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
   function ics(){
     const d8 = t=>iso(t).replace(/-/g,'');
     const fold = s=>s.replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n');
-    const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Sports Planning Diary//EN','CALSCALE:GREGORIAN','X-WR-CALNAME:Sports Planning Diary'];
+    const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Sports Planning Diary//EN','CALSCALE:GREGORIAN','X-WR-CALNAME:World Sports Calendar'];
     events.filter(e=>!e.tbc && pass(e)).forEach(e=>{
       const cov=(e.bbc||[]).map(p=>PL[p]).join(', ');
       const desc=[e.s, cov?('BBC: '+cov):'', e.other?('Also: '+e.other):'', e.time?('Time: '+e.time+' UK'):'', e.note||''].filter(Boolean).join('\n');
@@ -519,7 +519,7 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
         b.hidden=false;
         b.onclick=()=>{
           const url=URL.createObjectURL(new Blob([ics()],{type:'text/calendar'}));
-          const a=document.createElement('a'); a.href=url; a.download='sports-planning-diary.ics';
+          const a=document.createElement('a'); a.href=url; a.download='world-sports-calendar.ics';
           document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),1000);
           toast('Calendar file downloaded');
         };
@@ -530,7 +530,7 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
       if(!dl) return;
       b.hidden=false;
       b.onclick=async()=>{
-        try{ await dl.save({filename:'sports-planning-diary.ics',data:ics()}); toast('Calendar file saved'); }
+        try{ await dl.save({filename:'world-sports-calendar.ics',data:ics()}); toast('Calendar file saved'); }
         catch(err){ toast('Export cancelled or unavailable'); }
       };
     }catch(_){}

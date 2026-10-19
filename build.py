@@ -1,4 +1,4 @@
-"""Build the Sports Planning Diary.
+"""Build the World Sports Calendar.
 
 python3 build.py            -> index.html + sports-diary.ics (the GitHub Pages site)
 python3 build.py --artifact -> artifact.html (body-only page for the Claude artifact)
@@ -47,7 +47,7 @@ def fold(line):
     out.append(b.decode()); return '\r\n'.join(out)
 stamp = dt.datetime.now(dt.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
 L = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Sports Planning Diary//EN', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH',
-     'X-WR-CALNAME:Sports Planning Diary', 'X-WR-TIMEZONE:Europe/London', 'REFRESH-INTERVAL;VALUE=DURATION:P1D',
+     'X-WR-CALNAME:World Sports Calendar', 'X-WR-TIMEZONE:Europe/London', 'REFRESH-INTERVAL;VALUE=DURATION:P1D',
      'X-PUBLISHED-TTL:P1D']
 for i, e in enumerate(data['events']):
     if 'd' not in e: continue
