@@ -2217,20 +2217,6 @@
    "note": "Fixtures for December–January rounds due to be announced this week. MOTD Sat, MOTD2 Sun."
   },
   {
-   "t": "Premier League weekend",
-   "s": "Football",
-   "d": "2026-12-12",
-   "st": "p",
-   "bbc": [
-    "tv",
-    "ip",
-    "r",
-    "on"
-   ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "MOTD Sat, MOTD2 Sun."
-  },
-  {
    "t": "Premier League final day",
    "s": "Football",
    "d": "2027-05-30",
@@ -2296,6 +2282,147 @@
    ],
    "other": "TNT Sports / Prime Video",
    "note": "Late April/May; dates to confirm. BBC One highlights."
+  },
+  {
+   "t": "Premier League midweek round",
+   "s": "Football",
+   "d": "2026-12-02",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Wed 2 Dec: Bournemouth v Brighton, Aston Villa v Everton, Brentford v Arsenal, Chelsea v Palace, Coventry v Ipswich, Hull v Forest, Liverpool v Sunderland, Man City v Leeds, Newcastle v Man Utd, Spurs v Fulham. Kick-off times and TV picks due to be confirmed this week; listed at 3pm for now. Match of the Day on BBC One that evening; 5 Live commentaries.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2026-12-05",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Bournemouth v Hull, Aston Villa v Palace, Brentford v Man City, Chelsea v Liverpool, Everton v Fulham, Leeds v Ipswich, Man Utd v Coventry, Newcastle v Sunderland, Forest v Brighton, Spurs v Arsenal (north London derby). Kick-off times and TV picks due to be confirmed this week; listed at 3pm for now. MOTD Sat, MOTD2 Sun.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2026-12-12",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Arsenal v Bournemouth, Brighton v Everton, Coventry v Aston Villa, Palace v Man Utd, Fulham v Brentford, Hull v Spurs, Ipswich v Newcastle, Liverpool v Leeds, Man City v Chelsea, Sunderland v Forest. Kick-off times and TV picks due to be confirmed this week; listed at 3pm for now. MOTD Sat, MOTD2 Sun.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League weekend",
+   "s": "Football",
+   "d": "2026-12-19",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Bournemouth v Coventry, Arsenal v Man Utd, Brentford v Newcastle, Brighton v Ipswich, Chelsea v Aston Villa, Leeds v Fulham, Liverpool v Spurs, Man City v Hull, Forest v Everton, Sunderland v Palace. Kick-off times and TV picks due to be confirmed this week; listed at 3pm for now. MOTD Sat, MOTD2 Sun.",
+   "st": "p"
+  },
+  {
+   "t": "Premier League: Boxing Day",
+   "s": "Football",
+   "d": "2026-12-26",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Sat 26 Dec: Aston Villa v Leeds 12:30 (TNT); Everton v Sunderland, Fulham v Brighton, Ipswich v Brentford, Spurs v Bournemouth 15:00; Hull v Liverpool 17:30 (Sky); Newcastle v Man City 20:00 (Sky). Sun 27 Dec: Coventry v Chelsea 14:00, Man Utd v Forest 16:30, Palace v Arsenal 19:00 (all Sky). Match of the Day on BBC One that evening; 5 Live commentaries.",
+   "e": "2026-12-27",
+   "k": 1
+  },
+  {
+   "t": "Premier League midweek round",
+   "s": "Football",
+   "d": "2026-12-29",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Tue 29 Dec: Hull v Leeds 19:30, Spurs v Brighton 19:30, Everton v Man City 20:15. Wed 30 Dec: Coventry v Brentford, Palace v Bournemouth, Fulham v Arsenal, Man Utd v Sunderland, Newcastle v Forest 19:30; Aston Villa v Liverpool, Ipswich v Chelsea 20:15. All on Sky. Match of the Day on BBC One that evening; 5 Live commentaries.",
+   "e": "2026-12-30"
+  },
+  {
+   "t": "Premier League: New Year round",
+   "s": "Football",
+   "d": "2027-01-01",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Fri 1 Jan: Leeds v Everton 20:00 (Sky). Sat 2 Jan: Brighton v Man Utd 12:30 (TNT); Arsenal v Ipswich, Brentford v Palace, Liverpool v Coventry, Forest v Fulham, Sunderland v Hull 15:00; Bournemouth v Aston Villa 17:30 (Sky). Sun 3 Jan: Chelsea v Newcastle 14:00, Man City v Spurs 16:30 (Sky). MOTD Sat, MOTD2 Sun.",
+   "e": "2027-01-03"
+  },
+  {
+   "t": "Premier League midweek round",
+   "s": "Football",
+   "d": "2027-01-05",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Tue 5 Jan: Arsenal v Brentford, Brighton v Bournemouth, Everton v Aston Villa, Forest v Hull 19:30; Sunderland v Liverpool 20:15. Wed 6 Jan: Palace v Chelsea, Fulham v Spurs, Ipswich v Coventry 19:30; Leeds v Man City 20:15. Thu 7 Jan: Man Utd v Newcastle 20:00. All on Sky. Match of the Day on BBC One that evening; 5 Live commentaries.",
+   "e": "2027-01-07"
+  },
+  {
+   "t": "Scottish Premiership: Hearts v Hibs",
+   "s": "Football",
+   "d": "2026-12-27",
+   "time": "12:00",
+   "loc": "Tynecastle",
+   "bbc": [
+    "tv",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Edinburgh derby. Highlights on BBC Scotland (Sportscene); BBC Radio Scotland commentary."
+  },
+  {
+   "t": "Scottish Premiership: Rangers v Celtic",
+   "s": "Football",
+   "d": "2027-01-03",
+   "time": "12:00",
+   "loc": "Ibrox",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Old Firm derby. Highlights on BBC Scotland (Sportscene); live 5 Live and BBC Radio Scotland commentary on Old Firm games."
   }
  ],
  "seasons": [
