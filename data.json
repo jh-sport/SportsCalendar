@@ -1437,7 +1437,7 @@
     "on"
    ],
    "other": "Channel 5 / Sky Sports",
-   "note": "Kick-off late Sunday night UK time."
+   "note": "Kick-off around 23:30 UK on Sunday 14 Feb. Live on Channel 5 and Sky; no BBC TV coverage."
   },
   {
    "t": "FIBA Basketball World Cup",
@@ -3136,6 +3136,147 @@
     "rb",
     "on"
    ]
+  },
+  {
+   "t": "MLB World Series",
+   "s": "Baseball",
+   "d": "2026-10-23",
+   "e": "2026-10-31",
+   "k": 1,
+   "bbc": [
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Brewers v Rays or Guardians. Games 1–4 on 23, 24, 26, 27 Oct; games 5–7 (28, 30, 31 Oct) only if needed. First pitch about 00:00–01:00 UK. The BBC's 2026 MLB coverage ended with the wild-card games on iPlayer (30 Sep – 1 Oct)."
+  },
+  {
+   "t": "NFL Paris Game: Steelers v Saints",
+   "s": "American football",
+   "d": "2026-10-25",
+   "time": "13:30",
+   "loc": "Stade de France",
+   "bbc": [
+    "on"
+   ],
+   "other": "Sky Sports / Channel 5"
+  },
+  {
+   "t": "NFL Madrid Game: Bengals v Falcons",
+   "s": "American football",
+   "d": "2026-11-08",
+   "time": "14:30",
+   "loc": "Bernabéu",
+   "bbc": [
+    "on"
+   ],
+   "other": "Sky Sports / Channel 5"
+  },
+  {
+   "t": "NFL Munich Game: Patriots v Lions",
+   "s": "American football",
+   "d": "2026-11-15",
+   "time": "14:30",
+   "loc": "Munich",
+   "bbc": [
+    "on"
+   ],
+   "other": "Sky Sports / Channel 5"
+  },
+  {
+   "t": "NFL Mexico City Game: Vikings v 49ers",
+   "s": "American football",
+   "d": "2026-11-23",
+   "time": "01:20",
+   "loc": "Estadio Azteca",
+   "bbc": [
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Sunday night US time, early Monday UK."
+  },
+  {
+   "t": "NFL play-offs",
+   "s": "American football",
+   "m": "2027-01",
+   "bbc": [
+    "on"
+   ],
+   "other": "Sky Sports / Channel 5",
+   "note": "Wild Card weekend through to the conference championships, before Super Bowl LXI on 14 Feb."
+  },
+  {
+   "t": "NBA Paris Game: San Antonio Spurs",
+   "s": "Basketball",
+   "d": "2027-01-14",
+   "loc": "Paris",
+   "bbc": [
+    "on"
+   ],
+   "other": "Prime Video",
+   "note": "Opponent to be confirmed."
+  },
+  {
+   "t": "NBA Manchester Game",
+   "s": "Basketball",
+   "d": "2027-01-17",
+   "loc": "Manchester",
+   "k": 1,
+   "bbc": [
+    "on"
+   ],
+   "other": "Prime Video",
+   "note": "First NBA regular-season game in Manchester; reported as Spurs v New Orleans Pelicans, confirm teams."
+  },
+  {
+   "t": "MLB 2027 season opens",
+   "s": "Baseball",
+   "d": "2027-03-24",
+   "e": "2027-03-25",
+   "bbc": [
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Opener 24 Mar (Netflix in the US); traditional Opening Day 25 Mar with 14 games."
+  },
+  {
+   "t": "MLB All-Star Game",
+   "s": "Baseball",
+   "d": "2027-07-13",
+   "loc": "Wrigley Field, Chicago",
+   "bbc": [
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Home Run Derby 12 Jul."
+  },
+  {
+   "t": "MLB on the BBC: Sunday games on iPlayer",
+   "s": "Baseball",
+   "m": "2027-07",
+   "st": "r",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "The BBC has streamed a Sunday-night MLB game on iPlayer each summer (July–September, plus wild-card games) under a five-year deal from 2022. Whether it continues in 2027 hasn't been announced."
+  },
+  {
+   "t": "NBA Finals",
+   "s": "Basketball",
+   "m": "2027-06",
+   "bbc": [
+    "on"
+   ],
+   "other": "Sky Sports / Prime Video"
+  },
+  {
+   "t": "NHL Stanley Cup Final",
+   "s": "Ice hockey",
+   "m": "2027-06",
+   "bbc": [
+    "on"
+   ],
+   "other": "Premier Sports / DAZN"
   }
  ],
  "seasons": [
@@ -3289,6 +3430,19 @@
     "on"
    ],
    "note": "One game a week on iPlayer in 2026; 2027 deal not yet confirmed."
+  },
+  {
+   "t": "MLB regular season (BBC Sunday game)",
+   "s": "Baseball",
+   "d": "2027-03-24",
+   "e": "2027-09-26",
+   "st": "r",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "BBC iPlayer has shown a live Sunday game through the summer; 2027 rights to be confirmed."
   }
  ],
  "watch": [
@@ -3315,6 +3469,10 @@
   {
    "t": "Smaller sports to keep an eye on",
    "b": "In the past year the BBC also showed gymnastics, figure skating, triathlon (WTCS London), badminton, bowls, table tennis, netball and Boxxer boxing. These deals are often event by event, so check each one."
+  },
+  {
+   "t": "Major League Baseball on the BBC",
+   "b": "The BBC's five-year MLB streaming deal began in September 2022, so 2026 may have been its last season. Watch for an announcement before the summer."
   }
  ]
 }
