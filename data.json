@@ -108,7 +108,7 @@
   {
    "t": "Euro 2028 qualifiers begin",
    "s": "Football",
-   "d": "2027-03-25",
+   "d": "2027-03-26",
    "k": 1,
    "bbc": [
     "tv",
@@ -117,7 +117,7 @@
     "on"
    ],
    "other": "ITV (England), S4C (Wales)",
-   "note": "International window (Premier League off on 27 Mar). Scotland and Northern Ireland live on BBC; Wales on S4C with BBC; England on ITV. Exact match days follow the 6 Dec draw.",
+   "note": "Matchdays 26–27 and 29–30 March. Scotland and Northern Ireland live on BBC; Wales on S4C with BBC; England on ITV. Which teams play which days follows the 6 Dec draw.",
    "e": "2027-03-30",
    "st": "p"
   },
@@ -1495,13 +1495,15 @@
   {
    "t": "Welsh Open snooker",
    "s": "Snooker",
-   "m": "2027-02",
    "bbc": [
     "tv",
     "ip",
     "on"
    ],
-   "note": "On BBC Wales."
+   "note": "On BBC Wales.",
+   "d": "2027-02-08",
+   "e": "2027-02-14",
+   "loc": "Venue Cymru, Llandudno"
   },
   {
    "t": "Super League season starts",
@@ -1870,7 +1872,7 @@
   {
    "t": "UCI Road World Championships",
    "s": "Cycling",
-   "d": "2027-08-25",
+   "d": "2027-08-24",
    "e": "2027-09-05",
    "loc": "Haute-Savoie, France",
    "st": "p",
@@ -2544,7 +2546,7 @@
   {
    "t": "Women's World Cup qualifying play-offs (final round)",
    "s": "Football",
-   "d": "2026-11-26",
+   "d": "2026-12-01",
    "e": "2026-12-05",
    "st": "p",
    "bbc": [
@@ -2553,7 +2555,7 @@
     "on"
    ],
    "other": "ITV (England)",
-   "note": "Two-legged ties decide the last European places for Brazil 2027. Scotland, Wales and Northern Ireland women's games are on the BBC if involved; England's are on ITV."
+   "note": "Two-legged ties (1 and 5 December) decide the last European places for Brazil 2027. Scotland, Wales and Northern Ireland women's games are on the BBC if involved; England's are on ITV."
   },
   {
    "t": "Scottish League Cup final",
@@ -2632,7 +2634,6 @@
   {
    "t": "Euro 2028 qualifiers: June window",
    "s": "Football",
-   "m": "2027-06",
    "st": "p",
    "bbc": [
     "tv",
@@ -2641,12 +2642,13 @@
     "on"
    ],
    "other": "ITV (England), S4C (Wales)",
-   "note": "Scotland and Northern Ireland live on BBC. Window dates to be confirmed by UEFA."
+   "note": "Matchdays 11–12 and 14–15 June. Scotland and Northern Ireland live on BBC; England on ITV. Dates from UEFA's qualifying calendar; fixtures follow the 6 Dec draw.",
+   "d": "2027-06-11",
+   "e": "2027-06-15"
   },
   {
    "t": "Euro 2028 qualifiers: September window",
    "s": "Football",
-   "m": "2027-09",
    "st": "p",
    "bbc": [
     "tv",
@@ -2655,12 +2657,13 @@
     "on"
    ],
    "other": "ITV (England), S4C (Wales)",
-   "note": "Scotland and Northern Ireland live on BBC."
+   "note": "Matchdays 23–25 and 26–28 September. Scotland and Northern Ireland live on BBC; England on ITV. Dates from UEFA's qualifying calendar; fixtures follow the 6 Dec draw.",
+   "d": "2027-09-23",
+   "e": "2027-09-28"
   },
   {
    "t": "Euro 2028 qualifiers: October window",
    "s": "Football",
-   "m": "2027-10",
    "st": "p",
    "bbc": [
     "tv",
@@ -2669,12 +2672,13 @@
     "on"
    ],
    "other": "ITV (England), S4C (Wales)",
-   "note": "Scotland and Northern Ireland live on BBC."
+   "note": "Matchdays 29 Sep–2 Oct and 3–5 October. Scotland and Northern Ireland live on BBC; England on ITV. Dates from UEFA's qualifying calendar; fixtures follow the 6 Dec draw.",
+   "d": "2027-09-29",
+   "e": "2027-10-05"
   },
   {
    "t": "Euro 2028 qualifiers: final group games",
    "s": "Football",
-   "m": "2027-11",
    "st": "p",
    "bbc": [
     "tv",
@@ -2683,7 +2687,9 @@
     "on"
    ],
    "other": "ITV (England), S4C (Wales)",
-   "note": "Group stage ends in November; play-offs March 2028."
+   "note": "Matchdays 11–13 and 14–16 November. Play-offs March 2028. Scotland and Northern Ireland live on BBC; England on ITV. Dates from UEFA's qualifying calendar; fixtures follow the 6 Dec draw.",
+   "d": "2027-11-11",
+   "e": "2027-11-16"
   },
   {
    "t": "Test cricket: South Africa v England, 1st Test",
@@ -2695,7 +2701,7 @@
     "r",
     "on"
    ],
-   "st": "p",
+   "st": "r",
    "other": "UK TV broadcaster to be confirmed",
    "note": "Three-Test series. Test Match Special commentary expected."
   },
@@ -2710,7 +2716,7 @@
     "r",
     "on"
    ],
-   "st": "p",
+   "st": "r",
    "other": "UK TV broadcaster to be confirmed",
    "note": "Test Match Special commentary expected."
   },
@@ -2724,7 +2730,7 @@
     "r",
     "on"
    ],
-   "st": "p",
+   "st": "r",
    "other": "UK TV broadcaster to be confirmed"
   },
   {
@@ -2736,7 +2742,7 @@
     "r",
     "on"
    ],
-   "st": "p",
+   "st": "r",
    "other": "UK TV broadcaster to be confirmed",
    "note": "10 Jan Paarl, 13 and 15 Jan Bloemfontein. The planned T20Is have been dropped."
   },
@@ -3089,16 +3095,16 @@
    "note": "Opponent to be confirmed."
   },
   {
-   "t": "NBA Manchester Game",
+   "t": "NBA Manchester Game: Pelicans v Spurs",
    "s": "Basketball",
    "d": "2027-01-17",
-   "loc": "Manchester",
+   "loc": "Co-op Live, Manchester",
    "k": 1,
    "bbc": [
     "on"
    ],
    "other": "Prime Video",
-   "note": "First NBA regular-season game in Manchester; reported as Spurs v New Orleans Pelicans, confirm teams."
+   "note": "First NBA regular-season game in Manchester."
   },
   {
    "t": "MLB 2027 season opens",
@@ -4647,6 +4653,110 @@
     "on"
    ],
    "note": "Basketball, hockey, rugby sevens, water polo, handball and cricket (back at the Olympics for the first time since 1900) start two days before the opening ceremony."
+  },
+  {
+   "t": "Men's Ashes: 2nd Test",
+   "s": "Cricket",
+   "d": "2027-06-30",
+   "e": "2027-07-04",
+   "loc": "Lord's",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "BBC daily TV highlights; TMS live."
+  },
+  {
+   "t": "Men's Ashes: 4th Test",
+   "s": "Cricket",
+   "d": "2027-07-21",
+   "e": "2027-07-25",
+   "loc": "Rose Bowl, Southampton",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "BBC daily TV highlights; TMS live."
+  },
+  {
+   "t": "Test cricket: England v Bangladesh",
+   "s": "Cricket",
+   "d": "2027-05-28",
+   "e": "2027-06-01",
+   "loc": "Lord's",
+   "bbc": [
+    "tv",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "One-off Test. BBC highlights; TMS live."
+  },
+  {
+   "t": "Diamond League: Doha",
+   "s": "Athletics",
+   "d": "2027-05-07",
+   "loc": "Doha",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Shanghai/Keqiao",
+   "s": "Athletics",
+   "d": "2027-05-15",
+   "loc": "Shanghai/Keqiao",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Xiamen",
+   "s": "Athletics",
+   "d": "2027-05-22",
+   "loc": "Xiamen",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Rome",
+   "s": "Athletics",
+   "d": "2027-05-27",
+   "loc": "Rome",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
+  },
+  {
+   "t": "Diamond League: Rabat",
+   "s": "Athletics",
+   "d": "2027-05-30",
+   "loc": "Rabat",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ]
   }
  ],
  "seasons": [
