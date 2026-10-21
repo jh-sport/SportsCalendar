@@ -300,8 +300,8 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
   <div class="bar">
     <div class="seg" role="group" aria-label="View">
       <button id="v-agenda" aria-pressed="true">Agenda</button>
-      <button id="v-month" aria-pressed="false">Month</button>
       <button id="v-tl" aria-pressed="false">Timeline</button>
+      <button id="v-month" aria-pressed="false">Month</button>
     </div>
     <div class="seg" role="group" aria-label="Coverage filter">
       <button id="f-all" aria-pressed="true">All sport</button>
@@ -668,7 +668,7 @@ footer{font-size:12px;color:var(--muted);max-width:90ch}
         for(let i=0;i<TLN;i++){ const t=A+i*DAY; h+=`<div class="c${li?'':' sep'}${cls(t)}" style="${at(r,i+2)}"></div>`; }
         for(const e of lane){ const t=Math.max(e.s0,A), i=Math.round((t-A)/DAY), span=Math.round((Math.min(e.s1,B)-t)/DAY)+1;
           const kind=isLive(e)?'live':(hasBBC(e)?'radio':'none'), label = span*W>=110 ? e.t : short(e.t);
-          h+=`<button type="button" class="bar ${kind}${span===1?' n1':''}${S.tlEv===e.id?' sel':''}" data-ev="${e.id}" style="${at(r,i+2,span)};--c:${col(s)}" title="${esc(e.t)} · ${esc(e.s0===e.s1?fmt(e.s0):fmt(e.s0)+' – '+fmt(e.s1))}">${e.k?'★ ':''}${esc(label)}</button>`; }
+          h+=`<button type="button" class="bar ${kind}${span===1?' n1':''}${S.tlEv===e.id?' sel':''}" data-ev="${e.id}" style="${at(r,i+2,span)};--c:${col(s)}" title="${esc(e.t)} · ${esc(e.s0===e.s1?fmt(e.s0):fmt(e.s0)+' – '+fmt(e.s1))}">${e.k&&span*W>=60?'★ ':''}${esc(label)}</button>`; }
       });
     }
     if(!sports.length){ r++; h+=`<div class="lb sep" style="${at(r,1)}">&nbsp;</div><div class="sep" style="${at(r,2,TLN)};padding:6px 10px;color:var(--muted);font-size:13px">Nothing in these six weeks with the current filters.</div>`; }

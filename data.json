@@ -4144,6 +4144,483 @@
     "on"
    ],
    "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
+  },
+  {
+   "t": "Euro 2028 final tournament draw",
+   "s": "Football",
+   "m": "2027-12",
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Group draw for the home Euros. Date to be confirmed by UEFA."
+  },
+  {
+   "t": "The Masters",
+   "s": "Snooker",
+   "d": "2028-01-09",
+   "e": "2028-01-16",
+   "loc": "Alexandra Palace",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Dates estimated."
+  },
+  {
+   "t": "Australian Open",
+   "s": "Tennis",
+   "d": "2028-01-16",
+   "e": "2028-01-30",
+   "loc": "Melbourne",
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Dates estimated. 5 Live commentary."
+  },
+  {
+   "t": "Super Bowl LXII",
+   "s": "American football",
+   "m": "2028-02",
+   "loc": "Mercedes-Benz Stadium, Atlanta",
+   "bbc": [
+    "on"
+   ],
+   "other": "Channel 5 / Sky Sports",
+   "note": "Late-night UK kick-off."
+  },
+  {
+   "t": "Men's Six Nations 2028",
+   "s": "Rugby union",
+   "m": "2028-02",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "ITV",
+   "note": "February to March. Fixtures not yet published; BBC/ITV split to be confirmed."
+  },
+  {
+   "t": "Cheltenham Festival",
+   "s": "Horse racing",
+   "d": "2028-03-14",
+   "e": "2028-03-17",
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "ITV",
+   "note": "Dates estimated. 5 Live commentary."
+  },
+  {
+   "t": "Euro 2028 qualifying play-offs",
+   "s": "Football",
+   "d": "2028-03-23",
+   "e": "2028-03-28",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "ITV (England), S4C (Wales)",
+   "note": "Semi-finals 23–25 March, finals 26–28 March. Home nations on the BBC if involved."
+  },
+  {
+   "t": "The Masters",
+   "s": "Golf",
+   "d": "2028-04-06",
+   "e": "2028-04-09",
+   "loc": "Augusta",
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Dates estimated."
+  },
+  {
+   "t": "Grand National",
+   "s": "Horse racing",
+   "m": "2028-04",
+   "loc": "Aintree",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "ITV",
+   "note": "5 Live commentary."
+  },
+  {
+   "t": "London Marathon",
+   "s": "Athletics",
+   "m": "2028-04",
+   "loc": "London",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ]
+  },
+  {
+   "t": "Women's Six Nations 2028",
+   "s": "Rugby union",
+   "m": "2028-04",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "note": "April to May."
+  },
+  {
+   "t": "World Snooker Championship",
+   "s": "Snooker",
+   "d": "2028-04-15",
+   "e": "2028-05-01",
+   "loc": "Crucible, Sheffield",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "r",
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Dates estimated (usually ends on the early May bank holiday)."
+  },
+  {
+   "t": "PGA Championship",
+   "s": "Golf",
+   "d": "2028-05-18",
+   "e": "2028-05-21",
+   "loc": "Olympic Club, San Francisco",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports"
+  },
+  {
+   "t": "FA Cup final",
+   "s": "Football",
+   "m": "2028-05",
+   "loc": "Wembley",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Likely brought forward ahead of the home Euros."
+  },
+  {
+   "t": "Champions League final",
+   "s": "Football",
+   "m": "2028-05",
+   "loc": "Allianz Arena, Munich",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "tv",
+    "r",
+    "on"
+   ],
+   "other": "TNT Sports / Prime Video",
+   "note": "Date to be confirmed. BBC has highlights; live rights sit elsewhere."
+  },
+  {
+   "t": "Women's Champions League final",
+   "s": "Football",
+   "m": "2028-05",
+   "loc": "Lyon",
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "other": "Disney+"
+  },
+  {
+   "t": "French Open",
+   "s": "Tennis",
+   "m": "2028-05",
+   "loc": "Paris",
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Late May to early June."
+  },
+  {
+   "t": "The Derby",
+   "s": "Horse racing",
+   "m": "2028-06",
+   "loc": "Epsom",
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "ITV"
+  },
+  {
+   "t": "Royal Ascot",
+   "s": "Horse racing",
+   "m": "2028-06",
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "ITV",
+   "note": "5 Live commentary."
+  },
+  {
+   "t": "Queen's Club Championships",
+   "s": "Tennis",
+   "m": "2028-06",
+   "loc": "London",
+   "st": "r",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "r",
+    "on"
+   ],
+   "note": "BBC's current deal runs to 2027."
+  },
+  {
+   "t": "Euro 2028",
+   "s": "Football",
+   "d": "2028-06-09",
+   "e": "2028-07-09",
+   "loc": "UK & Ireland",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "ITV",
+   "note": "Home Euros across England, Scotland, Wales and Ireland. BBC and ITV share every match."
+  },
+  {
+   "t": "Euro 2028: opening match",
+   "s": "Football",
+   "d": "2028-06-09",
+   "loc": "Principality Stadium, Cardiff",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "ITV"
+  },
+  {
+   "t": "Tour de France",
+   "s": "Cycling",
+   "d": "2028-06-24",
+   "e": "2028-07-16",
+   "loc": "Reims to Paris",
+   "bbc": [
+    "on"
+   ],
+   "other": "TNT Sports; Channel 5 highlights",
+   "note": "Brought forward two weeks because of the LA Olympics. Not on the BBC."
+  },
+  {
+   "t": "Wimbledon",
+   "s": "Tennis",
+   "d": "2028-07-03",
+   "e": "2028-07-16",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "r",
+    "on"
+   ],
+   "note": "Dates based on the usual pattern. Runs alongside the end of Euro 2028 and into the LA Olympics. BBC rights run to 2033."
+  },
+  {
+   "t": "Euro 2028 final",
+   "s": "Football",
+   "d": "2028-07-09",
+   "loc": "Wembley",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "ITV"
+  },
+  {
+   "t": "Wimbledon: ladies' singles final",
+   "s": "Tennis",
+   "d": "2028-07-15",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ]
+  },
+  {
+   "t": "Wimbledon: gentlemen's singles final",
+   "s": "Tennis",
+   "d": "2028-07-16",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ]
+  },
+  {
+   "t": "British GP",
+   "s": "Formula 1",
+   "m": "2028-07",
+   "loc": "Silverstone",
+   "k": 1,
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports F1",
+   "note": "2028 F1 calendar not yet published."
+  },
+  {
+   "t": "LA 2028 Olympic Games",
+   "s": "Multi-sport",
+   "d": "2028-07-14",
+   "e": "2028-07-30",
+   "loc": "Los Angeles",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "r",
+    "on"
+   ],
+   "note": "BBC holds UK rights. LA is 8 hours behind the UK, so much of the live action is overnight. Overlaps the last days of Wimbledon."
+  },
+  {
+   "t": "Olympics: opening ceremony",
+   "s": "Multi-sport",
+   "d": "2028-07-14",
+   "loc": "Los Angeles",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "note": "Evening of 14 July in LA, so the early hours of 15 July in the UK."
+  },
+  {
+   "t": "The Open",
+   "s": "Golf",
+   "d": "2028-08-03",
+   "e": "2028-08-06",
+   "loc": "Royal Lytham & St Annes",
+   "k": 1,
+   "st": "r",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Moved to August to avoid the Olympics. BBC highlights deal currently runs to 2027."
+  },
+  {
+   "t": "LA 2028 Paralympic Games",
+   "s": "Multi-sport",
+   "d": "2028-08-15",
+   "e": "2028-08-27",
+   "loc": "Los Angeles",
+   "k": 1,
+   "st": "r",
+   "bbc": [
+    "on"
+   ],
+   "note": "UK broadcaster not yet announced (Channel 4 covered 2012–2024)."
+  },
+  {
+   "t": "US Open",
+   "s": "Tennis",
+   "m": "2028-08",
+   "loc": "New York",
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Late August to mid September."
+  },
+  {
+   "t": "Premier League 2028-29 season starts",
+   "s": "Football",
+   "m": "2028-08",
+   "st": "p",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "note": "Likely a later start after the Euros."
   }
  ],
  "seasons": [
