@@ -4539,7 +4539,7 @@
   {
    "t": "LA 2028 Olympic Games",
    "s": "Multi-sport",
-   "d": "2028-07-14",
+   "d": "2028-07-10",
    "e": "2028-07-30",
    "loc": "Los Angeles",
    "k": 1,
@@ -4550,7 +4550,7 @@
     "r",
     "on"
    ],
-   "note": "BBC holds UK rights. LA is 8 hours behind the UK, so much of the live action is overnight. Overlaps the last days of Wimbledon."
+   "note": "BBC holds UK rights. Competition starts before the opening ceremony: football from 10 July, then basketball, hockey, rugby sevens, water polo, handball and cricket from 12 July. Opening ceremony 14 July; competition ends 30 July. LA is 8 hours behind the UK, so much of the live action is overnight. Overlaps the end of Euro 2028 and Wimbledon."
   },
   {
    "t": "Olympics: opening ceremony",
@@ -4621,6 +4621,32 @@
     "on"
    ],
    "note": "Likely a later start after the Euros."
+  },
+  {
+   "t": "Olympics: football tournaments begin",
+   "s": "Multi-sport",
+   "d": "2028-07-10",
+   "loc": "Various US venues",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ],
+   "note": "Men's and women's football start four days before the opening ceremony. Gold-medal matches 28–29 July at the Rose Bowl."
+  },
+  {
+   "t": "Olympics: team sports begin",
+   "s": "Multi-sport",
+   "d": "2028-07-12",
+   "loc": "Los Angeles",
+   "bbc": [
+    "tv",
+    "ip",
+    "rb",
+    "on"
+   ],
+   "note": "Basketball, hockey, rugby sevens, water polo, handball and cricket (back at the Olympics for the first time since 1900) start two days before the opening ceremony."
   }
  ],
  "seasons": [
