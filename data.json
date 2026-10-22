@@ -4697,66 +4697,6 @@
    ],
    "other": "Sky Sports",
    "note": "One-off Test. BBC highlights; TMS live."
-  },
-  {
-   "t": "Diamond League: Doha",
-   "s": "Athletics",
-   "d": "2027-05-07",
-   "loc": "Doha",
-   "bbc": [
-    "tv",
-    "ip",
-    "rb",
-    "on"
-   ]
-  },
-  {
-   "t": "Diamond League: Shanghai/Keqiao",
-   "s": "Athletics",
-   "d": "2027-05-15",
-   "loc": "Shanghai/Keqiao",
-   "bbc": [
-    "tv",
-    "ip",
-    "rb",
-    "on"
-   ]
-  },
-  {
-   "t": "Diamond League: Xiamen",
-   "s": "Athletics",
-   "d": "2027-05-22",
-   "loc": "Xiamen",
-   "bbc": [
-    "tv",
-    "ip",
-    "rb",
-    "on"
-   ]
-  },
-  {
-   "t": "Diamond League: Rome",
-   "s": "Athletics",
-   "d": "2027-05-27",
-   "loc": "Rome",
-   "bbc": [
-    "tv",
-    "ip",
-    "rb",
-    "on"
-   ]
-  },
-  {
-   "t": "Diamond League: Rabat",
-   "s": "Athletics",
-   "d": "2027-05-30",
-   "loc": "Rabat",
-   "bbc": [
-    "tv",
-    "ip",
-    "rb",
-    "on"
-   ]
   }
  ],
  "seasons": [

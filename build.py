@@ -5,7 +5,7 @@ python3 build.py --artifact -> artifact.html (body-only page for the Claude arti
 
 Edit data.json, then run this. Never edit index.html by hand.
 """
-import json, sys, datetime as dt, calendar, re
+import hashlib, json, sys, datetime as dt, calendar, re
 
 HERE = __file__.rsplit('/', 1)[0] if '/' in __file__ else '.'
 data = json.load(open(f'{HERE}/data.json'))
@@ -60,8 +60,8 @@ for i, e in enumerate(data['events']):
     if e.get('st') == 'r': desc.append('Rights TBC')
     if e.get('note'): desc.append(e['note'])
     desc.append('From World Sports Calendar')
-    uid = re.sub(r'[^a-z0-9]+', '-', (e['d'] + '-' + e['t']).lower()).strip('-')
-    L += ['BEGIN:VEVENT', f'UID:{uid}@sports-planning-diary', f'DTSTAMP:{stamp}',
+    uid = e['d'].replace('-', '') + '-' + hashlib.sha1(e['t'].encode()).hexdigest()[:12]
+    L += ['BEGIN:VEVENT', f'UID:{uid}@world-sports-calendar', f'DTSTAMP:{stamp}',
           f"DTSTART;VALUE=DATE:{s:%Y%m%d}", f"DTEND;VALUE=DATE:{en:%Y%m%d}",
           fold('SUMMARY:' + esc(('★ ' if e.get('k') else '') + ('[BBC] ' if live else '') + (e['time'] + ' ' if e.get('time') else '') + e['t'])),
           fold('DESCRIPTION:' + esc('\n'.join(desc))), 'CATEGORIES:World Sports Calendar', 'TRANSP:TRANSPARENT',
@@ -69,5 +69,10 @@ for i, e in enumerate(data['events']):
     if e.get('loc'): L.append(fold('LOCATION:' + esc(e['loc'])))
     L.append('END:VEVENT')
 L.append('END:VCALENDAR')
+_uids = [l for l in L if l.startswith('UID:')]
+if len(_uids) != len(set(_uids)):
+    import collections
+    raise SystemExit('Duplicate events in data.json: ' + ', '.join(u for u, n in collections.Counter(_uids).items() if n > 1))
+L = [fold(l) if '\r\n' not in l and len(l.encode()) > 75 else l for l in L]
 open(f'{HERE}/sports-diary.ics', 'w', newline='').write('\r\n'.join(L) + '\r\n')
 print('built index.html and sports-diary.ics')
