@@ -1923,7 +1923,7 @@
   {
    "t": "Boxing on the BBC (Boxxer)",
    "s": "Boxing",
-   "m": "2026-11",
+   "m": "2026-12",
    "st": "p",
    "bbc": [
     "tv",
@@ -4919,6 +4919,309 @@
    ],
    "st": "r",
    "note": "Outdoor world championships on home soil. UK broadcaster not yet announced."
+  },
+  {
+   "t": "Super Rygbi Cymru: Carmarthen Quins v Newport",
+   "s": "Rugby union",
+   "d": "2026-10-30",
+   "time": "19:30",
+   "bbc": [
+    "ip"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Scottish Championship: Stenhousemuir v Livingston",
+   "s": "Football",
+   "d": "2026-10-30",
+   "time": "19:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC Scotland, iPlayer and BBC Sport website."
+  },
+  {
+   "t": "NIFL Premiership: Coleraine v Glentoran",
+   "s": "Football",
+   "d": "2026-10-30",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Cymru Premier: Cardiff Met v Penybont",
+   "s": "Football",
+   "d": "2026-10-31",
+   "time": "12:30",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Cymru Premier: The New Saints v Connah's Quay Nomads",
+   "s": "Football",
+   "d": "2026-10-31",
+   "time": "17:15",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "URC: Ospreys v Cardiff Rugby",
+   "s": "Rugby union",
+   "d": "2026-10-31",
+   "time": "19:45",
+   "bbc": [
+    "ip"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Serie A: AC Milan v Inter",
+   "s": "Football",
+   "d": "2026-10-31",
+   "time": "19:45",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Milan derby live on BBC Two.",
+   "k": 1
+  },
+  {
+   "t": "Scottish Championship: Raith Rovers v Dunfermline",
+   "s": "Football",
+   "d": "2026-11-06",
+   "time": "19:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC Scotland, iPlayer and BBC Sport website."
+  },
+  {
+   "t": "Nations Championship: Wales v Japan",
+   "s": "Rugby union",
+   "d": "2026-11-07",
+   "time": "16:40",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Principality Stadium. Listed on iPlayer.",
+   "loc": "Principality Stadium, Cardiff"
+  },
+  {
+   "t": "NIFL Premiership: Linfield v Coleraine",
+   "s": "Football",
+   "d": "2026-11-07",
+   "time": "18:00",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "SWPL: Rangers v Hearts",
+   "s": "Football",
+   "d": "2026-11-08",
+   "time": "16:10",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "BBC Alba and iPlayer."
+  },
+  {
+   "t": "Nations Championship: Wales v New Zealand",
+   "s": "Rugby union",
+   "d": "2026-11-14",
+   "time": "14:10",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Listed on iPlayer.",
+   "loc": "Principality Stadium, Cardiff"
+  },
+  {
+   "t": "SWPL: Hearts v Hibernian",
+   "s": "Football",
+   "d": "2026-11-14",
+   "time": "14:10",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "BBC Alba and iPlayer."
+  },
+  {
+   "t": "Scottish League One: Hamilton v Ross County",
+   "s": "Football",
+   "d": "2026-11-14",
+   "time": "17:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "BBC Alba and iPlayer."
+  },
+  {
+   "t": "Boxing: Price v Kotaskova (IBF title fights)",
+   "s": "Boxing",
+   "d": "2026-11-20",
+   "time": "19:00",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Live on BBC Two and iPlayer."
+  },
+  {
+   "t": "Super Rygbi Cymru: Cardiff v Llandovery",
+   "s": "Rugby union",
+   "d": "2026-11-20",
+   "time": "19:15",
+   "bbc": [
+    "ip"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Premiership Women's Rugby: Loughborough Lightning v Ealing Trailfinders",
+   "s": "Rugby union",
+   "d": "2026-11-20",
+   "time": "19:30",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Scottish Championship: Inverness CT v Ayr United",
+   "s": "Football",
+   "d": "2026-11-20",
+   "time": "19:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC Scotland, iPlayer and BBC Sport website."
+  },
+  {
+   "t": "NIFL Premiership: Cliftonville v Glentoran",
+   "s": "Football",
+   "d": "2026-11-20",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Scottish League One: Montrose v Alloa",
+   "s": "Football",
+   "d": "2026-11-21",
+   "time": "17:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "BBC Alba and iPlayer."
+  },
+  {
+   "t": "Nations Championship: Wales v Australia",
+   "s": "Rugby union",
+   "d": "2026-11-21",
+   "time": "20:10",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Listed on iPlayer.",
+   "loc": "Principality Stadium, Cardiff"
+  },
+  {
+   "t": "Women's Welsh Premier League: The New Saints v Wrexham",
+   "s": "Football",
+   "d": "2026-11-22",
+   "time": "17:15",
+   "bbc": [
+    "ip"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Super Rygbi Cymru: Pontypool v Cardiff",
+   "s": "Rugby union",
+   "d": "2026-11-26",
+   "time": "19:15",
+   "bbc": [
+    "ip"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "NIFL Premiership: Glentoran v Larne",
+   "s": "Football",
+   "d": "2026-11-27",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Cymru Premier: Barry Town v Caernarfon Town",
+   "s": "Football",
+   "d": "2026-11-28",
+   "time": "12:30",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Premiership Women's Rugby: Bristol Bears v Exeter Chiefs",
+   "s": "Rugby union",
+   "d": "2026-11-28",
+   "time": "15:00",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Women's World Cup play-off: Scotland v Sweden (1st leg)",
+   "s": "Football",
+   "d": "2026-12-01",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "st": "p",
+   "note": "UEFA date; kick-off and BBC channel TBC. Return leg in Sweden on 5 Dec."
+  },
+  {
+   "t": "Women's World Cup play-off: Sweden v Scotland (2nd leg)",
+   "s": "Football",
+   "d": "2026-12-05",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "st": "p",
+   "note": "UEFA date; kick-off and BBC channel TBC."
   }
  ],
  "seasons": [
