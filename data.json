@@ -46,7 +46,7 @@
     "r",
     "on"
    ],
-   "note": "Ties spread across the weekend. BBC picks live games each round; 5 Live commentary."
+   "note": "Ties spread across 6-9 Nov; TNT Sports has eight other live games, rest at 15:00 Sat. 5 Live commentary."
   },
   {
    "t": "FA Cup second round",
@@ -673,13 +673,12 @@
    "d": "2027-01-17",
    "e": "2027-01-31",
    "loc": "Melbourne",
-   "st": "p",
    "bbc": [
     "r",
     "on"
    ],
    "other": "TNT Sports",
-   "note": "Dates estimated. 5 Live commentary."
+   "note": "Main draw; Opening Week qualifying from 11 Jan. Finals weekend 30-31 Jan. 5 Live commentary."
   },
   {
    "t": "French Open",
@@ -1464,23 +1463,26 @@
   {
    "t": "European Cross Country Championships",
    "s": "Athletics",
-   "m": "2026-12",
    "bbc": [
     "tv",
     "ip",
     "on"
    ],
-   "note": "BBC deal runs to 2027."
+   "note": "BBC deal runs to 2027.",
+   "d": "2026-12-13",
+   "loc": "Friendship Park, Belgrade"
   },
   {
    "t": "London International Horse Show",
    "s": "Equestrian",
-   "m": "2026-12",
    "bbc": [
     "tv",
     "ip",
     "on"
-   ]
+   ],
+   "d": "2026-12-17",
+   "e": "2026-12-21",
+   "loc": "ExCeL London"
   },
   {
    "t": "World Indoor Bowls Championships",
@@ -1519,13 +1521,14 @@
    "t": "Women's Champions League final",
    "s": "Football",
    "m": "2027-05",
-   "loc": "Warsaw",
+   "loc": "National Stadium (PGE Narodowy), Warsaw",
    "bbc": [
     "tv",
     "ip",
     "on"
    ],
-   "other": "Disney+"
+   "other": "Disney+",
+   "note": "Date to be fixed by UEFA: 28, 29 or 30 May."
   },
   {
    "t": "Challenge Cup final",
@@ -2172,7 +2175,6 @@
   {
    "t": "Champions League knockout play-offs",
    "s": "Football",
-   "m": "2027-02",
    "bbc": [
     "tv",
     "ip",
@@ -2180,12 +2182,13 @@
     "on"
    ],
    "other": "TNT Sports / Prime Video",
-   "note": "Two legs in February; dates to confirm. BBC One highlights each match night."
+   "note": "Two legs: 16/17 and 23/24 Feb. Draw late January. BBC One highlights each Wednesday.",
+   "d": "2027-02-16",
+   "e": "2027-02-24"
   },
   {
    "t": "Champions League round of 16",
    "s": "Football",
-   "m": "2027-03",
    "bbc": [
     "tv",
     "ip",
@@ -2193,12 +2196,13 @@
     "on"
    ],
    "other": "TNT Sports / Prime Video",
-   "note": "Dates to confirm. BBC One highlights."
+   "note": "Two legs: 9/10 and 16/17 Mar. BBC One highlights each Wednesday.",
+   "d": "2027-03-09",
+   "e": "2027-03-17"
   },
   {
    "t": "Champions League quarter-finals",
    "s": "Football",
-   "m": "2027-04",
    "bbc": [
     "tv",
     "ip",
@@ -2206,12 +2210,13 @@
     "on"
    ],
    "other": "TNT Sports / Prime Video",
-   "note": "Dates to confirm. BBC One highlights."
+   "note": "Two legs: 6/7 and 13/14 Apr. BBC One highlights each Wednesday.",
+   "d": "2027-04-06",
+   "e": "2027-04-14"
   },
   {
    "t": "Champions League semi-finals",
    "s": "Football",
-   "m": "2027-05",
    "bbc": [
     "tv",
     "ip",
@@ -2219,7 +2224,9 @@
     "on"
    ],
    "other": "TNT Sports / Prime Video",
-   "note": "Late April/May; dates to confirm. BBC One highlights."
+   "note": "Two legs: 27/28 Apr and 4/5 May. BBC One highlights each Wednesday.",
+   "d": "2027-04-27",
+   "e": "2027-05-05"
   },
   {
    "t": "Premier League midweek",
@@ -2257,9 +2264,8 @@
     "r",
     "on"
    ],
-   "other": "Sky Sports / TNT Sports",
-   "note": "Man City v Chelsea 17:30 (Sky); other kick-offs to be confirmed, listed at 15:00: Arsenal v Bournemouth, Brighton v Everton, Coventry v Aston Villa, Fulham v Brentford, Hull v Spurs, Ipswich v Newcastle, Liverpool v Leeds, Sunderland v Forest. Palace v Man Utd reported moved to Sun 13 Dec 19:00 (TNT). 5 Live commentaries.",
-   "st": "p"
+   "other": "Sky Sports",
+   "note": "Fulham v Brentford, Ipswich v Newcastle, Liverpool v Leeds 15:00; Man City v Chelsea 17:30 (Sky). 5 Live commentaries."
   },
   {
    "t": "Premier League",
@@ -2272,8 +2278,7 @@
     "on"
    ],
    "other": "Sky Sports / TNT Sports",
-   "note": "Brentford v Newcastle 12:30 (TNT); Liverpool v Spurs reported 17:30; other kick-offs to be confirmed, listed at 15:00: Bournemouth v Coventry, Brighton v Ipswich, Chelsea v Aston Villa, Leeds v Fulham, Man City v Hull, Forest v Everton, Sunderland v Palace. Arsenal v Man Utd reported Sun 20 Dec 16:30. 5 Live commentaries.",
-   "st": "p"
+   "note": "Brentford v Newcastle 12:30 (TNT); Bournemouth v Coventry, Leeds v Fulham, Man City v Hull, Forest v Everton 15:00; Liverpool v Spurs 17:30 (Sky). Chelsea v Aston Villa may move here at 20:00 depending on EFL Cup participation. 5 Live commentaries."
   },
   {
    "t": "Scottish Premiership: Hearts v Hibs",
@@ -2571,13 +2576,13 @@
    "s": "Football",
    "d": "2027-03-21",
    "loc": "Wembley",
-   "st": "p",
    "bbc": [
     "r",
     "on"
    ],
    "other": "Sky Sports / ITV",
-   "note": "5 Live commentary. Date from event listings; confirm."
+   "note": "5 Live commentary. Date confirmed by the EFL.",
+   "time": "16:30"
   },
   {
    "t": "Scottish Premiership final day",
@@ -3620,8 +3625,7 @@
     "ip",
     "on"
    ],
-   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
-   "st": "p"
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
   },
   {
    "t": "Match of the Day 2",
@@ -3632,8 +3636,7 @@
     "ip",
     "on"
    ],
-   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
-   "st": "p"
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
   },
   {
    "t": "Match of the Day",
@@ -3644,8 +3647,7 @@
     "ip",
     "on"
    ],
-   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings.",
-   "st": "p"
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
   },
   {
    "t": "Match of the Day 2",
@@ -3656,8 +3658,7 @@
     "ip",
     "on"
    ],
-   "note": "Sunday highlights on BBC One. Shown if the round has Sunday games once TV picks are made.",
-   "st": "p"
+   "note": "Highlights of the day's Premier League games on BBC One and iPlayer, usually late evening; check listings."
   },
   {
    "t": "Match of the Day",
@@ -4729,9 +4730,195 @@
     "r",
     "on"
    ],
+   "other": "Sky Sports / TNT Sports",
+   "note": "Arsenal v Bournemouth, Brighton v Everton, Sunderland v Forest 14:00 (Sky); Coventry v Aston Villa 16:30 (Sky); Palace v Man Utd 19:00 (TNT). 5 Live commentaries."
+  },
+  {
+   "t": "Premier League (Monday night)",
+   "d": "2026-12-14",
+   "other": "Sky Sports",
+   "note": "Hull v Spurs 20:00 (Sky). 5 Live commentaries.",
+   "s": "Football",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ]
+  },
+  {
+   "t": "Premier League",
+   "d": "2026-12-20",
+   "other": "Sky Sports",
+   "note": "Brighton v Ipswich, Sunderland v Palace 14:00; Arsenal v Man Utd 16:30 (all Sky). 5 Live commentaries.",
+   "s": "Football",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ]
+  },
+  {
+   "t": "Premier League (Monday night)",
+   "d": "2026-12-21",
+   "other": "Sky Sports",
+   "note": "Chelsea v Aston Villa 20:00 (Sky). Moves to Sat 19 Dec 20:00 if EFL Cup commitments require it. 5 Live commentaries.",
+   "s": "Football",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ]
+  },
+  {
+   "t": "FA Cup first round: Altrincham v Notts County",
+   "s": "Football",
+   "d": "2026-11-07",
+   "time": "17:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
    "other": "TNT Sports",
-   "note": "Crystal Palace v Man Utd 19:00 (TNT), reported by one secondary source; to be confirmed. 5 Live commentaries.",
-   "st": "p"
+   "note": "Live on BBC Two and iPlayer (coverage from 17:15)."
+  },
+  {
+   "t": "FA Cup first round: Cray Wanderers v Stockport County",
+   "s": "Football",
+   "d": "2026-11-08",
+   "time": "14:15",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "other": "TNT Sports / HBO Max",
+   "note": "Live on BBC Two and iPlayer."
+  },
+  {
+   "t": "WSL: Arsenal v West Ham",
+   "s": "Football",
+   "d": "2026-11-22",
+   "time": "14:30",
+   "loc": "Emirates Stadium",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "Live on BBC Two."
+  },
+  {
+   "t": "MOTD: Champions League highlights",
+   "s": "Football",
+   "d": "2027-02-17",
+   "time": "22:40",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC One and iPlayer, knockout play-offs. Exact time to be confirmed in listings."
+  },
+  {
+   "t": "MOTD: Champions League highlights",
+   "s": "Football",
+   "d": "2027-02-24",
+   "time": "22:40",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC One and iPlayer, knockout play-offs. Exact time to be confirmed in listings."
+  },
+  {
+   "t": "MOTD: Champions League highlights",
+   "s": "Football",
+   "d": "2027-03-10",
+   "time": "22:40",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC One and iPlayer, round of 16. Exact time to be confirmed in listings."
+  },
+  {
+   "t": "MOTD: Champions League highlights",
+   "s": "Football",
+   "d": "2027-03-17",
+   "time": "22:40",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC One and iPlayer, round of 16. Exact time to be confirmed in listings."
+  },
+  {
+   "t": "MOTD: Champions League highlights",
+   "s": "Football",
+   "d": "2027-04-07",
+   "time": "22:40",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC One and iPlayer, quarter-finals. Exact time to be confirmed in listings."
+  },
+  {
+   "t": "MOTD: Champions League highlights",
+   "s": "Football",
+   "d": "2027-04-14",
+   "time": "22:40",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC One and iPlayer, quarter-finals. Exact time to be confirmed in listings."
+  },
+  {
+   "t": "MOTD: Champions League highlights",
+   "s": "Football",
+   "d": "2027-04-28",
+   "time": "22:40",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC One and iPlayer, semi-finals. Exact time to be confirmed in listings."
+  },
+  {
+   "t": "MOTD: Champions League highlights",
+   "s": "Football",
+   "d": "2027-05-05",
+   "time": "22:40",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC One and iPlayer, semi-finals. Exact time to be confirmed in listings."
+  },
+  {
+   "t": "World Bowls Championship",
+   "s": "Bowls",
+   "d": "2027-07-20",
+   "e": "2027-08-01",
+   "loc": "Royal Leamington Spa",
+   "bbc": [
+    "on"
+   ],
+   "st": "r",
+   "note": "Outdoor world championships on home soil. UK broadcaster not yet announced."
   }
  ],
  "seasons": [
