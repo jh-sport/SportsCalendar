@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-11-02",
  "events": [
   {
    "t": "Bundesliga: Stuttgart v Borussia Mönchengladbach",
@@ -1826,13 +1826,12 @@
    "s": "Football",
    "d": "2026-11-17",
    "time": "19:45",
-   "st": "p",
    "bbc": [
     "tv",
     "ip",
     "on"
    ],
-   "note": "BBC holds Northern Ireland rights; listing not yet confirmed."
+   "note": "BBC channel to be confirmed; on iPlayer."
   },
   {
    "t": "Badminton Horse Trials",
@@ -2551,14 +2550,13 @@
    "s": "Football",
    "d": "2026-12-01",
    "e": "2026-12-05",
-   "st": "p",
    "bbc": [
     "tv",
     "ip",
     "on"
    ],
    "other": "ITV (England)",
-   "note": "Two-legged ties (1 and 5 December) decide the last European places for Brazil 2027. Scotland, Wales and Northern Ireland women's games are on the BBC if involved; England's are on ITV."
+   "note": "Two-legged ties (1 and 5 December) decide the last European places for Brazil 2027. Scotland play Sweden and Wales play Norway, both on the BBC; England's games are on ITV."
   },
   {
    "t": "Scottish League Cup final",
@@ -5206,11 +5204,13 @@
    "s": "Football",
    "d": "2026-12-01",
    "bbc": [
+    "tv",
     "ip",
     "on"
    ],
-   "st": "p",
-   "note": "UEFA date; kick-off and BBC channel TBC. Return leg in Sweden on 5 Dec."
+   "note": "Live on BBC Scotland and iPlayer. Return leg in Stockholm on 5 Dec.",
+   "time": "19:25",
+   "loc": "Marbill Coaches Stadium, Paisley"
   },
   {
    "t": "Women's World Cup play-off: Sweden v Scotland (2nd leg)",
@@ -5220,8 +5220,328 @@
     "ip",
     "on"
    ],
-   "st": "p",
-   "note": "UEFA date; kick-off and BBC channel TBC."
+   "note": "BBC Alba and iPlayer. 3pm UK time.",
+   "time": "15:00",
+   "loc": "Stockholm Arena"
+  },
+  {
+   "t": "Welsh Cup third round: Cambrian United v Bangor 1876",
+   "s": "Football",
+   "d": "2026-11-15",
+   "time": "17:35",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "Cymru Premier: Holywell Town v Llandudno",
+   "s": "Football",
+   "d": "2026-11-28",
+   "time": "17:15",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "Women's World Cup play-off: Wales v Norway (1st leg)",
+   "s": "Football",
+   "d": "2026-12-01",
+   "time": "19:15",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "loc": "Cardiff City Stadium",
+   "note": "BBC channel to be confirmed; on iPlayer. Return leg in Norway on 5 Dec."
+  },
+  {
+   "t": "Women's World Cup play-off: Norway v Wales (2nd leg)",
+   "s": "Football",
+   "d": "2026-12-05",
+   "time": "16:00",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC channel to be confirmed; on iPlayer."
+  },
+  {
+   "t": "Scottish Championship: Livingston v Raith Rovers",
+   "s": "Football",
+   "d": "2026-12-04",
+   "time": "19:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC Scotland, iPlayer and BBC Sport website."
+  },
+  {
+   "t": "NIFL Premiership: Limavady United v Coleraine",
+   "s": "Football",
+   "d": "2026-12-04",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Cymru Premier: Llandudno v Cambrian United",
+   "s": "Football",
+   "d": "2026-12-05",
+   "time": "14:30",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Scottish Championship: Arbroath v Partick Thistle",
+   "s": "Football",
+   "d": "2026-12-11",
+   "time": "19:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC Scotland, iPlayer and BBC Sport website."
+  },
+  {
+   "t": "NIFL Premiership: Bangor v Linfield",
+   "s": "Football",
+   "d": "2026-12-11",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "WSL: Chelsea v London City Lionesses",
+   "s": "Football",
+   "d": "2026-12-12",
+   "time": "12:45",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "loc": "Stamford Bridge",
+   "note": "Live on BBC One."
+  },
+  {
+   "t": "Scottish League One: East Kilbride v East Fife",
+   "s": "Football",
+   "d": "2026-12-12",
+   "time": "17:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "BBC Alba and iPlayer."
+  },
+  {
+   "t": "SWPL: Rangers v Partick Thistle",
+   "s": "Football",
+   "d": "2026-12-13",
+   "time": "14:00",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Scottish Championship: Queen's Park v Raith Rovers",
+   "s": "Football",
+   "d": "2026-12-18",
+   "time": "19:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC Scotland, iPlayer and BBC Sport website."
+  },
+  {
+   "t": "Cymru Premier: Cambrian United v Haverfordwest County",
+   "s": "Football",
+   "d": "2026-12-19",
+   "time": "12:45",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "NIFL Premiership: Linfield v Cliftonville",
+   "s": "Football",
+   "d": "2026-12-19",
+   "time": "18:00",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "SWPL: Glasgow City v Hearts",
+   "s": "Football",
+   "d": "2026-12-20",
+   "time": "13:00",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "WSL: Manchester United v Tottenham",
+   "s": "Football",
+   "d": "2026-12-20",
+   "time": "14:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Sky Sports (TBC)",
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "SWPL: Hibernian v Rangers",
+   "s": "Football",
+   "d": "2026-12-20",
+   "time": "16:10",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "BBC Alba and iPlayer."
+  },
+  {
+   "t": "Cymru Premier: Trefelin v Briton Ferry Llansawel",
+   "s": "Football",
+   "d": "2026-12-26",
+   "time": "12:45",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "NIFL Premiership: Linfield v Coleraine",
+   "s": "Football",
+   "d": "2026-12-29",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Cymru Premier: Colwyn Bay v Caernarfon Town",
+   "s": "Football",
+   "d": "2027-01-01",
+   "time": "17:15",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "NIFL Premiership: Glentoran v Cliftonville",
+   "s": "Football",
+   "d": "2027-01-02",
+   "time": "18:00",
+   "bbc": [
+    "ip",
+    "on"
+   ]
+  },
+  {
+   "t": "Women's Welsh Premier League: Wrexham v Cardiff City",
+   "s": "Football",
+   "d": "2027-01-17",
+   "time": "17:15",
+   "bbc": [
+    "ip"
+   ],
+   "other": "S4C",
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "URC: Cardiff v Dragons",
+   "s": "Rugby union",
+   "d": "2026-12-19",
+   "time": "15:00",
+   "bbc": [
+    "on"
+   ],
+   "loc": "Cardiff Arms Park",
+   "other": "Premier Sports",
+   "note": "Welsh derby. BBC Wales or S4C free-to-air pick to be confirmed.",
+   "st": "p"
+  },
+  {
+   "t": "URC: Dragons v Cardiff",
+   "s": "Rugby union",
+   "d": "2026-12-26",
+   "time": "15:00",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "loc": "Rodney Parade, Newport",
+   "other": "Premier Sports; S4C",
+   "note": "Boxing Day Welsh derby. The BBC Wales/S4C URC deal shares the festive derbies; which goes to BBC Wales (Scrum V Live) is to be confirmed.",
+   "st": "p"
+  },
+  {
+   "t": "URC: Ospreys v Scarlets",
+   "s": "Rugby union",
+   "d": "2026-12-26",
+   "time": "17:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "loc": "St Helen's, Swansea",
+   "other": "Premier Sports; S4C",
+   "note": "Boxing Day West Wales derby. The BBC Wales/S4C URC deal shares the festive derbies; which goes to BBC Wales (Scrum V Live) is to be confirmed.",
+   "st": "p"
+  },
+  {
+   "t": "URC: Scarlets v Dragons",
+   "s": "Rugby union",
+   "d": "2027-01-02",
+   "time": "15:00",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "loc": "Parc y Scarlets, Llanelli",
+   "other": "Premier Sports; S4C",
+   "note": "Welsh derby. BBC Wales or S4C pick to be confirmed.",
+   "st": "p"
   }
  ],
  "seasons": [
