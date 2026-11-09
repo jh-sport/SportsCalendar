@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-09",
  "events": [
   {
    "t": "Bundesliga: Stuttgart v Borussia Mönchengladbach",
@@ -1768,7 +1768,7 @@
     "r",
     "on"
    ],
-   "note": "BBC channel to be confirmed; on iPlayer."
+   "note": "Live on BBC Scotland, BBC Two and iPlayer."
   },
   {
    "t": "Nations League: Norway v Wales",
@@ -1781,7 +1781,7 @@
     "on"
    ],
    "other": "S4C",
-   "note": "BBC channel to be confirmed; on iPlayer."
+   "note": "Live on BBC Two and iPlayer."
   },
   {
    "t": "Nations League: Northern Ireland v Ukraine",
@@ -1793,7 +1793,7 @@
     "ip",
     "on"
    ],
-   "note": "BBC channel to be confirmed; on iPlayer."
+   "note": "Live on BBC Two and iPlayer."
   },
   {
    "t": "Nations League: Switzerland v Scotland",
@@ -1806,7 +1806,7 @@
     "r",
     "on"
    ],
-   "note": "BBC channel to be confirmed; on iPlayer."
+   "note": "Live on BBC Scotland, BBC Two and iPlayer."
   },
   {
    "t": "Nations League: Wales v Portugal",
@@ -1819,7 +1819,7 @@
     "on"
    ],
    "other": "S4C",
-   "note": "BBC channel to be confirmed; on iPlayer."
+   "note": "Live on BBC Wales, BBC Two and iPlayer."
   },
   {
    "t": "Nations League: Hungary v Northern Ireland",
@@ -1831,7 +1831,7 @@
     "ip",
     "on"
    ],
-   "note": "BBC channel to be confirmed; on iPlayer."
+   "note": "Live on BBC One Northern Ireland, BBC Three and iPlayer."
   },
   {
    "t": "Badminton Horse Trials",
@@ -4472,7 +4472,6 @@
    "d": "2028-07-03",
    "e": "2028-07-16",
    "k": 1,
-   "st": "p",
    "bbc": [
     "tv",
     "ip",
@@ -4480,7 +4479,7 @@
     "r",
     "on"
    ],
-   "note": "Dates based on the usual pattern. Runs alongside the end of Euro 2028 and into the LA Olympics. BBC rights run to 2033."
+   "note": "3–16 July per wimbledon.com's future dates. Runs alongside the end of Euro 2028 and into the LA Olympics. BBC rights run to 2033."
   },
   {
    "t": "Euro 2028 final",
@@ -4501,7 +4500,6 @@
    "s": "Tennis",
    "d": "2028-07-15",
    "k": 1,
-   "st": "p",
    "bbc": [
     "tv",
     "ip",
@@ -4514,7 +4512,6 @@
    "s": "Tennis",
    "d": "2028-07-16",
    "k": 1,
-   "st": "p",
    "bbc": [
     "tv",
     "ip",
@@ -5088,7 +5085,7 @@
    "t": "Super Rygbi Cymru: Cardiff v Llandovery",
    "s": "Rugby union",
    "d": "2026-11-20",
-   "time": "19:15",
+   "time": "19:30",
    "bbc": [
     "ip"
    ],
@@ -5101,8 +5098,10 @@
    "time": "19:30",
    "bbc": [
     "ip",
+    "rb",
     "on"
-   ]
+   ],
+   "note": "Live on iPlayer and the Red Button."
   },
   {
    "t": "Scottish Championship: Inverness CT v Ayr United",
@@ -5163,7 +5162,7 @@
    "t": "Super Rygbi Cymru: Pontypool v Cardiff",
    "s": "Rugby union",
    "d": "2026-11-26",
-   "time": "19:15",
+   "time": "19:30",
    "bbc": [
     "ip"
    ],
@@ -5259,7 +5258,7 @@
     "on"
    ],
    "loc": "Cardiff City Stadium",
-   "note": "BBC channel to be confirmed; on iPlayer. Return leg in Norway on 5 Dec."
+   "note": "Live on BBC Wales and iPlayer. Return leg in Norway on 5 Dec."
   },
   {
    "t": "Women's World Cup play-off: Norway v Wales (2nd leg)",
@@ -5271,7 +5270,7 @@
     "ip",
     "on"
    ],
-   "note": "BBC channel to be confirmed; on iPlayer."
+   "note": "Live on BBC Wales and iPlayer."
   },
   {
    "t": "Scottish Championship: Livingston v Raith Rovers",
@@ -5299,7 +5298,7 @@
    "t": "Cymru Premier: Llandudno v Cambrian United",
    "s": "Football",
    "d": "2026-12-05",
-   "time": "14:30",
+   "time": "12:30",
    "bbc": [
     "ip",
     "on"
@@ -5504,14 +5503,12 @@
    "d": "2026-12-26",
    "time": "15:00",
    "bbc": [
-    "tv",
     "ip",
     "on"
    ],
    "loc": "Rodney Parade, Newport",
    "other": "Premier Sports; S4C",
-   "note": "Boxing Day Welsh derby. The BBC Wales/S4C URC deal shares the festive derbies; which goes to BBC Wales (Scrum V Live) is to be confirmed.",
-   "st": "p"
+   "note": "Boxing Day Welsh derby. Live on S4C; also on iPlayer."
   },
   {
    "t": "URC: Ospreys v Scarlets",
@@ -5542,6 +5539,626 @@
    "other": "Premier Sports; S4C",
    "note": "Welsh derby. BBC Wales or S4C pick to be confirmed.",
    "st": "p"
+  },
+  {
+   "t": "Women's Champions League: Arsenal v OL Lyonnes",
+   "s": "Football",
+   "d": "2026-11-19",
+   "time": "20:00",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "loc": "Emirates Stadium",
+   "note": "League phase matchday 5. Live on BBC Three and iPlayer."
+  },
+  {
+   "t": "Super Rygbi Cymru: Carmarthen Quins v Bridgend",
+   "s": "Rugby union",
+   "d": "2026-12-03",
+   "time": "19:15",
+   "bbc": [
+    "ip"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Super Rygbi Cymru: Newport v Ebbw Vale",
+   "s": "Rugby union",
+   "d": "2026-12-10",
+   "time": "19:15",
+   "bbc": [
+    "ip"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Super Rygbi Cymru: Llandovery v Carmarthen Quins",
+   "s": "Rugby union",
+   "d": "2026-12-19",
+   "time": "17:00",
+   "bbc": [
+    "ip"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Super Rygbi Cymru: Swansea v Aberavon",
+   "s": "Rugby union",
+   "d": "2026-12-27",
+   "time": "15:15",
+   "bbc": [
+    "ip"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Super Rygbi Cymru: RGC 1404 v Ebbw Vale",
+   "s": "Rugby union",
+   "d": "2027-01-02",
+   "time": "15:00",
+   "bbc": [
+    "ip"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Premiership Women's Rugby: Ealing Trailfinders v Bristol Bears",
+   "s": "Rugby union",
+   "d": "2026-12-04",
+   "time": "19:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Premiership Women's Rugby: Saracens v Loughborough Lightning",
+   "s": "Rugby union",
+   "d": "2026-12-13",
+   "time": "15:00",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Premiership Women's Rugby: Saracens v Gloucester-Hartpury",
+   "s": "Rugby union",
+   "d": "2026-12-20",
+   "time": "15:00",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Premiership Women's Rugby: Ealing Trailfinders v Saracens",
+   "s": "Rugby union",
+   "d": "2027-01-02",
+   "time": "15:00",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Premiership Women's Rugby: Harlequins v Gloucester-Hartpury",
+   "s": "Rugby union",
+   "d": "2027-01-10",
+   "time": "15:00",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Premiership Women's Rugby: Ealing Trailfinders v Sale Sharks",
+   "s": "Rugby union",
+   "d": "2027-01-16",
+   "time": "17:00",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Live on iPlayer."
+  },
+  {
+   "t": "Bundesliga: Bayern Munich v SC Paderborn",
+   "s": "Football",
+   "d": "2026-12-04",
+   "time": "19:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Friday night game, live on iPlayer."
+  },
+  {
+   "t": "Bundesliga: Hamburger SV v Schalke 04",
+   "s": "Football",
+   "d": "2026-12-11",
+   "time": "19:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Friday night game, live on iPlayer."
+  },
+  {
+   "t": "Bundesliga: Bayern Munich v Werder Bremen",
+   "s": "Football",
+   "d": "2026-12-18",
+   "time": "19:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Friday night game, live on iPlayer."
+  },
+  {
+   "t": "Bundesliga: Borussia Dortmund v Mainz 05",
+   "s": "Football",
+   "d": "2027-01-08",
+   "time": "19:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Friday night game, live on iPlayer."
+  },
+  {
+   "t": "Bundesliga: VfB Stuttgart v Mainz 05",
+   "s": "Football",
+   "d": "2027-01-15",
+   "time": "19:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Friday night game, live on iPlayer."
+  },
+  {
+   "t": "Bundesliga: Werder Bremen v SC Freiburg",
+   "s": "Football",
+   "d": "2027-01-22",
+   "time": "19:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "note": "Friday night game, live on iPlayer."
+  },
+  {
+   "t": "URC: Ospreys v Leinster",
+   "s": "Rugby union",
+   "d": "2026-12-04",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Scarlets v Connacht",
+   "s": "Rugby union",
+   "d": "2026-12-05",
+   "time": "17:15",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "Champions Cup: Cardiff v Bath",
+   "s": "Rugby union",
+   "d": "2026-12-12",
+   "time": "20:00",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Munster v Scarlets",
+   "s": "Rugby union",
+   "d": "2026-12-18",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Cardiff v Ospreys",
+   "s": "Rugby union",
+   "d": "2027-01-02",
+   "time": "17:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "Challenge Cup: Dragons v Bayonne",
+   "s": "Rugby union",
+   "d": "2027-01-08",
+   "time": "20:00",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "Challenge Cup: Scarlets v Lyon",
+   "s": "Rugby union",
+   "d": "2027-01-09",
+   "time": "20:00",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "Champions Cup: Cardiff v Montpellier",
+   "s": "Rugby union",
+   "d": "2027-01-15",
+   "time": "20:00",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Glasgow Warriors v Scarlets",
+   "s": "Rugby union",
+   "d": "2027-01-22",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Dragons v Munster",
+   "s": "Rugby union",
+   "d": "2027-01-29",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Dragons v Ulster",
+   "s": "Rugby union",
+   "d": "2027-02-26",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Ospreys v Connacht",
+   "s": "Rugby union",
+   "d": "2027-02-27",
+   "time": "17:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Scarlets v Lions",
+   "s": "Rugby union",
+   "d": "2027-03-20",
+   "time": "17:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Scarlets v Leinster",
+   "s": "Rugby union",
+   "d": "2027-03-26",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Dragons v Glasgow Warriors",
+   "s": "Rugby union",
+   "d": "2027-04-16",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Ospreys v Bulls",
+   "s": "Rugby union",
+   "d": "2027-04-17",
+   "time": "17:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Cardiff v Bulls",
+   "s": "Rugby union",
+   "d": "2027-04-23",
+   "time": "20:05",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Scarlets v Ospreys",
+   "s": "Rugby union",
+   "d": "2027-05-08",
+   "time": "17:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Ospreys v Benetton",
+   "s": "Rugby union",
+   "d": "2027-05-14",
+   "time": "19:45",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "URC: Dragons v Stormers",
+   "s": "Rugby union",
+   "d": "2027-05-15",
+   "time": "17:30",
+   "bbc": [
+    "ip",
+    "on"
+   ],
+   "other": "Premier Sports; S4C",
+   "note": "Live on S4C; also on iPlayer."
+  },
+  {
+   "t": "Six Nations: Italy v Ireland",
+   "s": "Rugby union",
+   "d": "2027-02-13",
+   "time": "14:10",
+   "loc": "Stadio Olimpico",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "ITV",
+   "note": "ITV match. 5 Live commentary."
+  },
+  {
+   "t": "Six Nations: England v Italy",
+   "s": "Rugby union",
+   "d": "2027-02-20",
+   "time": "16:40",
+   "loc": "Allianz Stadium",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "ITV",
+   "note": "ITV has every England game. 5 Live commentary."
+  },
+  {
+   "t": "Six Nations: Italy v France",
+   "s": "Rugby union",
+   "d": "2027-03-06",
+   "time": "14:10",
+   "loc": "Stadio Olimpico",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "ITV",
+   "note": "ITV match. 5 Live commentary."
+  },
+  {
+   "t": "Six Nations: Wales v England",
+   "s": "Rugby union",
+   "d": "2027-03-06",
+   "time": "16:40",
+   "loc": "Principality Stadium",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "ITV",
+   "note": "ITV has every England game. 5 Live commentary."
+  },
+  {
+   "t": "Six Nations: Italy v Wales",
+   "s": "Rugby union",
+   "d": "2027-03-13",
+   "time": "14:10",
+   "loc": "Stadio Olimpico",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "note": "Super Saturday opener. Wales match, so a possible BBC TV pick. Confirm the BBC/ITV split. 5 Live commentary.",
+   "st": "p"
+  },
+  {
+   "t": "W6N: Italy v France",
+   "s": "Rugby union",
+   "d": "2027-04-10",
+   "time": "12:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC channel to be confirmed; on iPlayer."
+  },
+  {
+   "t": "W6N: Scotland v Ireland",
+   "s": "Rugby union",
+   "d": "2027-04-10",
+   "time": "17:00",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC channel to be confirmed; on iPlayer."
+  },
+  {
+   "t": "W6N: Italy v Wales",
+   "s": "Rugby union",
+   "d": "2027-04-17",
+   "time": "12:15",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC channel to be confirmed; on iPlayer."
+  },
+  {
+   "t": "W6N: Ireland v France",
+   "s": "Rugby union",
+   "d": "2027-04-17",
+   "time": "14:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC channel to be confirmed; on iPlayer."
+  },
+  {
+   "t": "W6N: Wales v Ireland",
+   "s": "Rugby union",
+   "d": "2027-04-24",
+   "time": "12:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC channel to be confirmed; on iPlayer."
+  },
+  {
+   "t": "W6N: France v Scotland",
+   "s": "Rugby union",
+   "d": "2027-04-24",
+   "time": "14:45",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC channel to be confirmed; on iPlayer."
+  },
+  {
+   "t": "W6N: France v Wales",
+   "s": "Rugby union",
+   "d": "2027-05-08",
+   "time": "12:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC channel to be confirmed; on iPlayer."
+  },
+  {
+   "t": "W6N: Scotland v Italy",
+   "s": "Rugby union",
+   "d": "2027-05-08",
+   "time": "17:00",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC channel to be confirmed; on iPlayer."
+  },
+  {
+   "t": "W6N: Italy v Ireland",
+   "s": "Rugby union",
+   "d": "2027-05-15",
+   "time": "12:15",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC channel to be confirmed; on iPlayer."
+  },
+  {
+   "t": "W6N: Scotland v Wales",
+   "s": "Rugby union",
+   "d": "2027-05-15",
+   "time": "14:30",
+   "bbc": [
+    "tv",
+    "ip",
+    "on"
+   ],
+   "note": "BBC channel to be confirmed; on iPlayer."
   }
  ],
  "seasons": [
