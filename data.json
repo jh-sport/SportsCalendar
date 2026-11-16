@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-16",
  "events": [
   {
    "t": "Bundesliga: Stuttgart v Borussia Mönchengladbach",
@@ -57,7 +57,9 @@
     "ip",
     "r",
     "on"
-   ]
+   ],
+   "e": "2026-12-07",
+   "note": "Ties 4-7 Dec. BBC Two: Dover v Leicester (Sat 17:15) and Salisbury v Blackpool (Sun 12:15). TNT has the other picks. Third-round draw Mon 7 Dec."
   },
   {
    "t": "Euro 2028 qualifying draw",
@@ -270,7 +272,7 @@
    "bbc": [
     "on"
    ],
-   "note": "BBC's 2024–26 Super League deal has ended. 2027 TV rights not yet announced."
+   "note": "Date and venue confirmed. BBC is reported to be pulling out of Super League for budget reasons; Sky (3 games a round) and DAZN (4) are reported close to 2027 deals."
   },
   {
    "t": "Nations Championship: November Tests",
@@ -340,12 +342,13 @@
    "d": "2027-02-06",
    "time": "14:10",
    "loc": "Murrayfield",
-   "st": "p",
    "bbc": [
+    "tv",
+    "ip",
     "r",
     "on"
    ],
-   "note": "Scotland match, so a likely BBC TV pick. Confirm the BBC/ITV split."
+   "note": "Live on BBC One and iPlayer: the 2026-29 deal gives the BBC Scotland and Wales home games (except against England). 5 Live commentary."
   },
   {
    "t": "Six Nations: France v Wales",
@@ -358,7 +361,7 @@
     "r",
     "on"
    ],
-   "note": "Wales match, so a possible BBC TV pick. Confirm the BBC/ITV split."
+   "note": "Kick-off confirmed. Broadcaster not yet assigned: ITV has 10 games (incl. every England match), BBC has 5, and the BBC's fifth game is not yet named. 5 Live commentary."
   },
   {
    "t": "Six Nations: Scotland v Wales",
@@ -392,12 +395,13 @@
    "d": "2027-02-20",
    "time": "14:10",
    "loc": "Principality Stadium",
-   "st": "p",
    "bbc": [
+    "tv",
+    "ip",
     "r",
     "on"
    ],
-   "note": "Wales match, so a likely BBC TV pick. Confirm the BBC/ITV split."
+   "note": "Live on BBC One and iPlayer: the 2026-29 deal gives the BBC Scotland and Wales home games (except against England). 5 Live commentary."
   },
   {
    "t": "Six Nations: France v Scotland",
@@ -410,7 +414,7 @@
     "r",
     "on"
    ],
-   "note": "Scotland match, so a possible BBC TV pick. Confirm the BBC/ITV split."
+   "note": "Kick-off confirmed. Broadcaster not yet assigned: ITV has 10 games (incl. every England match), BBC has 5, and the BBC's fifth game is not yet named. 5 Live commentary."
   },
   {
    "t": "Six Nations: Scotland v Ireland",
@@ -418,12 +422,13 @@
    "d": "2027-03-05",
    "time": "20:10",
    "loc": "Murrayfield",
-   "st": "p",
    "bbc": [
+    "tv",
+    "ip",
     "r",
     "on"
    ],
-   "note": "Friday night. Scotland match, so a possible BBC TV pick."
+   "note": "Live on BBC One and iPlayer: the 2026-29 deal gives the BBC Scotland and Wales home games (except against England). 5 Live commentary. Friday night."
   },
   {
    "t": "Six Nations Super Saturday",
@@ -620,14 +625,13 @@
    "d": "2027-07-29",
    "e": "2027-08-02",
    "loc": "The Oval",
-   "st": "p",
    "bbc": [
     "tv",
     "r",
     "on"
    ],
    "other": "Sky Sports",
-   "note": "Series ends 2 August; start date estimated."
+   "note": "Dates confirmed by the ECB. BBC daily TV highlights; TMS live."
   },
   {
    "t": "England v New Zealand white-ball series",
@@ -697,8 +701,8 @@
   {
    "t": "Nottingham Open",
    "s": "Tennis",
-   "d": "2027-06-07",
-   "e": "2027-06-13",
+   "d": "2027-06-12",
+   "e": "2027-06-20",
    "st": "p",
    "bbc": [
     "tv",
@@ -706,15 +710,14 @@
     "rb",
     "on"
    ],
-   "note": "Dates estimated. BBC deal runs to 2027."
+   "note": "Dates provisional on the LTA calendar. BBC deal runs to 2027."
   },
   {
    "t": "Queen's Club Championships",
    "s": "Tennis",
-   "d": "2027-06-14",
+   "d": "2027-06-05",
    "e": "2027-06-20",
    "loc": "London",
-   "st": "p",
    "bbc": [
     "tv",
     "ip",
@@ -722,12 +725,12 @@
     "r",
     "on"
    ],
-   "note": "Dates estimated. BBC deal runs to 2027."
+   "note": "Dates confirmed by the LTA: WTA 500 5-13 June, ATP 500 12-20 June (incl. qualifying). BBC deal runs to 2027."
   },
   {
    "t": "Eastbourne International",
    "s": "Tennis",
-   "d": "2027-06-20",
+   "d": "2027-06-19",
    "e": "2027-06-26",
    "st": "p",
    "bbc": [
@@ -736,7 +739,7 @@
     "rb",
     "on"
    ],
-   "note": "Dates estimated. BBC deal runs to 2027."
+   "note": "Dates provisional on the LTA calendar. BBC deal runs to 2027."
   },
   {
    "t": "Wimbledon",
@@ -780,7 +783,7 @@
   {
    "t": "US Open",
    "s": "Tennis",
-   "d": "2027-08-30",
+   "d": "2027-08-29",
    "e": "2027-09-12",
    "loc": "New York",
    "st": "p",
@@ -789,7 +792,7 @@
     "on"
    ],
    "other": "Sky Sports",
-   "note": "Dates estimated."
+   "note": "Sunday 29 Aug start expected; not yet confirmed by the USTA."
   },
   {
    "t": "The Masters",
@@ -1452,13 +1455,17 @@
   {
    "t": "Sports Personality of the Year 2026",
    "s": "Awards",
-   "m": "2026-12",
    "bbc": [
     "tv",
     "ip",
     "on"
    ],
-   "note": "Date and venue to be announced."
+   "note": "Reported for Sun 13 Dec, 17:45-19:15 on BBC One and iPlayer, live from Salford. Awaiting BBC confirmation.",
+   "d": "2026-12-13",
+   "time": "17:45",
+   "loc": "Salford",
+   "st": "p",
+   "k": 1
   },
   {
    "t": "European Cross Country Championships",
@@ -1470,7 +1477,7 @@
    ],
    "note": "BBC deal runs to 2027.",
    "d": "2026-12-13",
-   "loc": "Friendship Park, Belgrade"
+   "loc": "Belgrade"
   },
   {
    "t": "London International Horse Show",
@@ -1487,12 +1494,14 @@
   {
    "t": "World Indoor Bowls Championships",
    "s": "Bowls",
-   "m": "2027-01",
    "bbc": [
-    "tv",
-    "ip",
     "on"
-   ]
+   ],
+   "d": "2027-01-08",
+   "e": "2027-01-24",
+   "loc": "Potters Resort, Hopton-on-Sea",
+   "st": "p",
+   "note": "The BBC has stepped away after 47 years (budget cuts); every match streamed free on YouTube and a new fan site. Potters gives 8-20 Jan for the main event and the finals weekend from Fri 22 Jan; end date estimated."
   },
   {
    "t": "Welsh Open snooker",
@@ -1533,12 +1542,13 @@
   {
    "t": "Challenge Cup final",
    "s": "Rugby league",
-   "m": "2027-06",
    "st": "r",
    "bbc": [
     "on"
    ],
-   "note": "Broadcaster for 2027 not yet confirmed."
+   "note": "Double-header with the women's final (RFL). Broadcaster for 2027 not yet confirmed. Same day as the Champions League final.",
+   "d": "2027-06-05",
+   "loc": "Wembley"
   },
   {
    "t": "The Hundred",
@@ -1556,12 +1566,14 @@
   {
    "t": "Great North Run",
    "s": "Athletics",
-   "m": "2027-09",
    "bbc": [
     "tv",
     "ip",
     "on"
-   ]
+   ],
+   "d": "2027-09-12",
+   "st": "p",
+   "note": "Date from charity entry listings; confirm with the organisers."
   },
   {
    "t": "World Gymnastics Championships",
@@ -1838,13 +1850,12 @@
    "s": "Equestrian",
    "d": "2027-05-05",
    "e": "2027-05-09",
-   "st": "p",
    "bbc": [
     "tv",
     "ip",
     "on"
    ],
-   "note": "Dates from listings; confirm with organisers."
+   "note": "Dates confirmed by the organisers."
   },
   {
    "t": "EuroHockey Championships",
@@ -1856,7 +1867,7 @@
    "bbc": [
     "on"
    ],
-   "note": "Men's and women's Euros on home soil. BBC has shown EuroHockey before; 2027 broadcaster not yet named."
+   "note": "Men's and women's Euros on home soil; group games at Lee Valley, all finals at the Twickenham Stoop (dates per EuroHockey). Channel 4 holds the England Hockey deal; no BBC deal announced."
   },
   {
    "t": "Netball World Cup",
@@ -1901,12 +1912,14 @@
   {
    "t": "World Figure Skating Championships",
    "s": "Winter sports",
-   "m": "2027-03",
    "st": "r",
    "bbc": [
     "on"
    ],
-   "note": "BBC showed the 2026 worlds in Prague; 2027 coverage not yet announced."
+   "note": "ISU calendar: event week 15-21 March, competition from about 17 March. BBC showed the 2026 worlds; 2027 coverage not yet announced.",
+   "d": "2027-03-17",
+   "e": "2027-03-21",
+   "loc": "Nokia Arena, Tampere"
   },
   {
    "t": "All-Ireland GAA finals",
@@ -2277,7 +2290,7 @@
     "on"
    ],
    "other": "Sky Sports / TNT Sports",
-   "note": "Brentford v Newcastle 12:30 (TNT); Bournemouth v Coventry, Leeds v Fulham, Man City v Hull, Forest v Everton 15:00; Liverpool v Spurs 17:30 (Sky). Chelsea v Aston Villa may move here at 20:00 depending on EFL Cup participation. 5 Live commentaries."
+   "note": "Brentford v Newcastle 12:30 (TNT); Bournemouth v Coventry, Leeds v Fulham, Man City v Hull, Forest v Everton 15:00; Liverpool v Spurs 17:30 (Sky). 5 Live commentaries."
   },
   {
    "t": "Scottish Premiership: Hearts v Hibs",
@@ -3077,12 +3090,13 @@
   {
    "t": "NFL play-offs",
    "s": "American football",
-   "m": "2027-01",
    "bbc": [
     "on"
    ],
    "other": "Sky Sports / Channel 5",
-   "note": "Wild Card weekend through to the conference championships, before Super Bowl LXI on 14 Feb."
+   "note": "Wild Card 16-18 Jan, divisional round 23-24 Jan, conference championships Sun 31 Jan; Super Bowl LXI on 14 Feb.",
+   "d": "2027-01-16",
+   "e": "2027-01-31"
   },
   {
    "t": "NBA Paris Game: San Antonio Spurs",
@@ -4191,13 +4205,13 @@
   {
    "t": "Super Bowl LXII",
    "s": "American football",
-   "m": "2028-02",
    "loc": "Mercedes-Benz Stadium, Atlanta",
    "bbc": [
     "on"
    ],
    "other": "Channel 5 / Sky Sports",
-   "note": "Late-night UK kick-off."
+   "note": "Date set by the NFL (could move if the regular season grows to 18 games). Late-night UK kick-off.",
+   "d": "2028-02-13"
   },
   {
    "t": "Men's Six Nations 2028",
@@ -4259,7 +4273,6 @@
   {
    "t": "Grand National",
    "s": "Horse racing",
-   "m": "2028-04",
    "loc": "Aintree",
    "k": 1,
    "st": "p",
@@ -4268,12 +4281,12 @@
     "on"
    ],
    "other": "ITV",
-   "note": "5 Live commentary."
+   "note": "5 Live commentary. Dates estimated from the usual pattern.",
+   "d": "2028-04-08"
   },
   {
    "t": "London Marathon",
    "s": "Athletics",
-   "m": "2028-04",
    "loc": "London",
    "k": 1,
    "st": "p",
@@ -4282,7 +4295,9 @@
     "ip",
     "r",
     "on"
-   ]
+   ],
+   "d": "2028-04-23",
+   "note": "Dates estimated from the usual pattern."
   },
   {
    "t": "Women's Six Nations 2028",
@@ -4347,30 +4362,30 @@
   {
    "t": "Champions League final",
    "s": "Football",
-   "m": "2028-05",
-   "loc": "Allianz Arena, Munich",
+   "loc": "Munich Football Arena",
    "k": 1,
-   "st": "p",
    "bbc": [
     "tv",
     "r",
     "on"
    ],
    "other": "TNT Sports / Prime Video",
-   "note": "Date to be confirmed. BBC has highlights; live rights sit elsewhere."
+   "note": "Venue confirmed by UEFA (Sep 2026); date per the 2027-28 calendar. BBC has highlights; live rights sit elsewhere.",
+   "d": "2028-05-27"
   },
   {
    "t": "Women's Champions League final",
    "s": "Football",
    "m": "2028-05",
-   "loc": "Lyon",
+   "loc": "OL Stadium, Lyon-Décines",
    "st": "p",
    "bbc": [
     "tv",
     "ip",
     "on"
    ],
-   "other": "Disney+"
+   "other": "Disney+",
+   "note": "Venue confirmed by UEFA; final on 19, 20 or 21 May 2028."
   },
   {
    "t": "French Open",
@@ -4400,14 +4415,15 @@
   {
    "t": "Royal Ascot",
    "s": "Horse racing",
-   "m": "2028-06",
    "st": "p",
    "bbc": [
     "r",
     "on"
    ],
    "other": "ITV",
-   "note": "5 Live commentary."
+   "note": "5 Live commentary. Dates estimated from the usual pattern.",
+   "d": "2028-06-20",
+   "e": "2028-06-24"
   },
   {
    "t": "Queen's Club Championships",
@@ -4591,7 +4607,7 @@
    "bbc": [
     "on"
    ],
-   "note": "UK broadcaster not yet announced (Channel 4 covered 2012–2024)."
+   "note": "Dates confirmed by the IPC. UK rights not yet awarded (the IPC's European rights process closed 9 Oct 2026); Channel 4 has held them since 2012."
   },
   {
    "t": "US Open",
@@ -4758,7 +4774,7 @@
    "t": "Premier League (Monday night)",
    "d": "2026-12-21",
    "other": "Sky Sports",
-   "note": "Chelsea v Aston Villa 20:00 (Sky). Moves to Sat 19 Dec 20:00 if EFL Cup commitments require it. 5 Live commentaries.",
+   "note": "Chelsea v Aston Villa 20:00 (Sky). Stays on Monday: both clubs are out of the EFL Cup. 5 Live commentaries.",
    "s": "Football",
    "bbc": [
     "tv",
@@ -6037,7 +6053,7 @@
     "r",
     "on"
    ],
-   "note": "Super Saturday opener. Wales match, so a possible BBC TV pick. Confirm the BBC/ITV split. 5 Live commentary.",
+   "note": "Kick-off confirmed. Broadcaster not yet assigned: ITV has 10 games (incl. every England match), BBC has 5, and the BBC's fifth game is not yet named. 5 Live commentary.",
    "st": "p"
   },
   {
@@ -6159,6 +6175,187 @@
     "on"
    ],
    "note": "BBC channel to be confirmed; on iPlayer."
+  },
+  {
+   "t": "Premier League (Tuesday night)",
+   "s": "Football",
+   "d": "2026-12-01",
+   "time": "20:00",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "note": "Coventry v Ipswich 20:00 (Sky). Highlights in the midweek Match of the Day on Wed 2 Dec. 5 Live commentaries."
+  },
+  {
+   "t": "Carabao Cup quarter-final",
+   "s": "Football",
+   "d": "2026-12-15",
+   "time": "20:00",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Man City v Bradford City (Sky Sports). 5 Live commentary."
+  },
+  {
+   "t": "Carabao Cup quarter-final",
+   "s": "Football",
+   "d": "2026-12-16",
+   "time": "19:30",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Crystal Palace v Sunderland 19:30 (Sky Sports); Liverpool v Bournemouth 20:00. 5 Live commentary."
+  },
+  {
+   "t": "Carabao Cup quarter-final",
+   "s": "Football",
+   "d": "2026-12-17",
+   "time": "20:00",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Fleetwood Town v Everton (Highbury Stadium). 5 Live commentary."
+  },
+  {
+   "t": "Carabao Cup semi-finals (1st legs)",
+   "s": "Football",
+   "d": "2027-01-12",
+   "e": "2027-01-13",
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Week of 11 Jan; exact nights set after the quarter-finals."
+  },
+  {
+   "t": "Carabao Cup semi-finals (2nd legs)",
+   "s": "Football",
+   "d": "2027-02-02",
+   "e": "2027-02-03",
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Week of 1 Feb; exact nights set after the quarter-finals."
+  },
+  {
+   "t": "FA Cup third round draw",
+   "s": "Football",
+   "d": "2026-12-07",
+   "time": "18:30",
+   "bbc": [
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Live on TNT Sports before Guiseley v Notts County. BBC third-round picks follow the draw."
+  },
+  {
+   "t": "Scottish Cup final",
+   "s": "Football",
+   "d": "2027-05-22",
+   "loc": "Hampden Park, Glasgow",
+   "k": 1,
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "Premier Sports",
+   "note": "Date set by the Scottish FA. Live on BBC Scotland and Premier Sports; BBC Radio Scotland commentary."
+  },
+  {
+   "t": "Europa League final",
+   "s": "Football",
+   "d": "2027-05-26",
+   "loc": "Frankfurt Stadium",
+   "time": "20:00",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Date and venue per UEFA."
+  },
+  {
+   "t": "Conference League final",
+   "s": "Football",
+   "d": "2027-06-02",
+   "loc": "Beşiktaş Stadium, Istanbul",
+   "time": "20:00",
+   "bbc": [
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Date and venue per UEFA."
+  },
+  {
+   "t": "EFL play-off finals",
+   "s": "Football",
+   "d": "2027-05-29",
+   "e": "2027-05-31",
+   "loc": "Wembley",
+   "st": "p",
+   "bbc": [
+    "r",
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Late-May bank holiday weekend; Championship final expected Sat 29 May. Dates not yet confirmed by the EFL."
+  },
+  {
+   "t": "FA Cup second round: Dover Athletic v Leicester City",
+   "s": "Football",
+   "d": "2026-12-05",
+   "time": "17:15",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Live on BBC Two and iPlayer (coverage from 17:00). BBC pick confirmed by The FA."
+  },
+  {
+   "t": "FA Cup second round: Salisbury v Blackpool",
+   "s": "Football",
+   "d": "2026-12-06",
+   "time": "12:15",
+   "bbc": [
+    "tv",
+    "ip",
+    "r",
+    "on"
+   ],
+   "other": "TNT Sports",
+   "note": "Live on BBC Two and iPlayer. BBC pick confirmed by The FA."
+  },
+  {
+   "t": "Solheim Cup",
+   "s": "Golf",
+   "d": "2028-09-08",
+   "e": "2028-09-10",
+   "loc": "Valhalla, Kentucky",
+   "k": 1,
+   "bbc": [
+    "on"
+   ],
+   "other": "Sky Sports",
+   "note": "Dates confirmed by the organisers."
   }
  ],
  "seasons": [
@@ -6330,7 +6527,7 @@
  "watch": [
   {
    "t": "Super League rights for 2027",
-   "b": "The BBC's three-year deal (2024–26) has ended and no new free-to-air deal has been announced."
+   "b": "The BBC's 2024–26 deal has ended. Reports (Oct 2026) say the BBC is pulling out for budget reasons, with Sky (3 games a round) and DAZN (4) close to 2027 deals; the BBC says no final decision has been made."
   },
   {
    "t": "Rugby League World Cup on Premier Sports",
@@ -6350,11 +6547,15 @@
   },
   {
    "t": "Smaller sports to keep an eye on",
-   "b": "In the past year the BBC also showed gymnastics, figure skating, triathlon (WTCS London), badminton, bowls, table tennis, netball and Boxxer boxing. These deals are often event by event, so check each one."
+   "b": "The BBC has dropped the World Indoor Bowls Championships after 47 years (now on YouTube from Jan 2027). It has also shown gymnastics, figure skating, triathlon (WTCS London), badminton, table tennis, netball and Boxxer boxing; these deals are often event by event, so check each one."
   },
   {
    "t": "Major League Baseball on the BBC",
    "b": "The BBC's five-year MLB streaming deal began in September 2022, so 2026 may have been its last season. Watch for an announcement before the summer."
+  },
+  {
+   "t": "LA28 Paralympics UK rights",
+   "b": "Not yet awarded. The IPC's European rights process closed on 9 October 2026; Channel 4 has held UK Paralympic rights since 2012."
   }
  ]
 }
